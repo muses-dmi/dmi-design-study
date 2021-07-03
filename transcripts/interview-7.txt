@@ -1,0 +1,119 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 7
+role: CEO
+experience(years): 8
+instrument_count: ~100
+
+instruments:
+ - Eurorack Modular
+ - Desktop Synth
+ - Effects Pedals
+ - Audio Dev board
+
+langugaes:
+ - c++ (arduino)
+ - python
+ - csound
+
+---
+
+> Note: This interview was conducted as an email interview.
+
+# Why do you use your chosen programming language(s) and how did you come to use them?
+
+ We chose C++ for a number of reasons:
+- It forms the perfect compromise between processing efficiency and high level design. 
+It is close enough to the metal to perform the required DSP, while also facilitating portable, and easy to read code.
+- There is a vast universe of open source codebases which already use C++, allowing us to pull from them as necessary
+- Most programmers are already familiar with C++, which allows for quick onboarding of new programmers 
+ 
+# Why do you use your chosen tools for instrument design?  and how did you come to use them?
+
+(You may consider both physical and software tools.)
+ It mostly comes down to accessibility, familiarity, and cost. We look for tools that would be considered the "standard" for that task, within our specific industry.
+We operate in the boutique audio world, which usually means we are using many tools which would be considered "hobbyist" compared to the tools that large corporations are using. 
+One key example of this would be EAGLE CAD, our PCB sch/Layout software. This is not considered a "pro" level tool by large companies, however it is ubiquitous in the boutique audio world, and medium sized business in general.
+ 
+Key components that we look for:
+- Commonly used in our industry
+- Strong user community
+- Learning materials available online
+- Relatively affordable multi-seat license
+ 
+# Why did you chose STM32 as a platform to build your instrument on? 
+
+ 1. STM32 forms a fantastic compromise between a general purpose MCU and DSP core. This means we have onboard ADC inputs, GPIO, easy USB, etc. while also being able to take advantage of an FPU and DSP instruction set for performing audio processing routines. 
+2. The STM32 platform is very open, which means there are plenty of free toolchains and dev environments for writing code, flashing it to the hardware, and debugging. In contrast to the SHARC or other DSPs, this is a huge cost advantage during the dev phase. 
+3. Due to the above mentioned options, STM32 has become somewhat of an industry standard for DMI, further perpetuating itself as the ideal solution due to devs familiarity with the platform, and the plethora of example projects.
+ 
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process? 
+ Yes, and it is very important to mention them. There are many tools which I consider to be just as essential as C++ or EAGLE CAD, but hardly get the credit they deserve in the process.
+ 
+- GitHub - Competence with GitHub is just as important as C++ programming IMHO. Being able to use version control, fork projects, and properly submit pull requests are essential skills in a developer's toolkit
+- Python - Any scripting language is acceptable here but it is paramount that the DMI designer be comfortable with creating scripts. Whether it's to generate tables, automate tasks, or even mockup DSP in a desktop denvironment, scripting is immensely powerful and another crucial skillset
+- CLI - Any DMI will eventually need to use the command line for one reason or another. It is important they become familiar with it as early as possible.
+- Oscilloscope - Familiarity with an oscilloscope is absolutely critical for debugging, and fixing DSP algorithms. Due to the nature of embedded programming, debugging is not always 100% effective on the desktop.
+ 
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI? 
+
+Seamless integration between our various tools would be the biggest improvement.
+ 
+Being able to export CAD from art mockups, move codebase freely between desktop and embedded environments etc are some of the things I'm talking about here. 
+We use scripts to automate this as much as possible but it is still clunky in its current state. 
+___
+ 
+# How do you approach the design of a new instrument? 
+
+ This usually follows the path of:
+1. Choose concept based on gap in market, competitors product, innovative idea etc.
+2. Find example implementations for inspiration
+3. Create mockup of front panel
+4. Peer review mockup
+5. Design / build hardware / write firmware
+6. Test prototypes
+7. Repeat steps 5-6 until instrument is done or shipping deadline has arrived.
+ 
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation? 
+
+This is an open ended question so I will interpret it from my commercial perspective. 
+There are four primary departments that need to work together in order to bring a product to fruition. 
+1. Financial - The product being designed needs to have customers who will buy it when finished, money needs to be spent to build the hardware, and payroll needs to be allocated to the design time and testing
+2. Technical - An Engineer(s) need to be technically competent to finish the design within the scheduled time frame, build cost, available toolset, and work as a team player while doing so. 
+3. Testing - Users that are familiar with the deployment environment need to test the prototypes and provide feedback according to 1) if the product meets the spec, and 2) if the product needs other changes not initially anticipated. Users that are both technically and creatively adept are ideal for this role
+4. Marketing - The product needs to be marketed and sold when finished. This includes, product photos, copy, description, artist relations, etc. 
+ 
+# What do you consider as the biggest challenge when designing an instrument? 
+
+(Feel free to refer to specific problems from your experience or more generally from you opinion)
+ Generally the biggest challenge is where to draw the line on feature set. And since this is a subjective question with no right or wrong answer, this is where you will most often create the success or failure of a product.
+ 
+For example, you are designing a looper Eurorack module. It is 10HP wide and will sell for $299.
+ 
+What features do you put on it? (This is an easy question which most people on the dev team can answer quickly)
+ 
+What features do you NOT put on it (This is the important question)
+ 
+Any one can make a looper that is 10HP wide that is completely full of stuff.
+Only a talented designer can make a musical instrument that people want to use, within the given constraints of size, cost, dev time, etc.
+ 
+# What tools do (or could) play the biggest part in helping with these challenges?  
+
+ These challenges together comprise the project management aspect of designing something.
+Tools vary, but it is important to use some sort of task management system(Trello, Asana, etc.) and a calendar. 
+ We use Trello and Google Calendar. 
+
+ 
+# How would you define a DMI? 
+
+ 1. Any instrument that uses a CPU to generate or process sound. 
+I'm using CPU as a general concept here, but essentially a DMI needs to run instructions written in some sort of language or logic construct to generate or process sound.
+2. In order for something that processes sound to be considered an instrument, it would need to be something that changes the input signal enough to be considered an instrument, rather than a modifier. 
+This is also a use case dependent definition, rather than an instrument based definition. 
+For example, running an electric guitar through a digital distortion pedal does not quality as a DMI. 
+However, patching a digital distortion pedal into a feedback setup to create sound, or running contact mics through a digital distortion pedal to create an entirely new sound would count.
+ 
+# What concepts do you consider a DMI to be made up from? 
+
+Essentially, DMI are delineated by their ability to be created in the abstract via algorithms, in contrast to analog technology using resistors, capacitors, and transistors to generate, and process sound. 

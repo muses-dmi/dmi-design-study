@@ -1,0 +1,367 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 4
+role: Artist
+experience(years): 30 
+instrument_count: 3
+
+instruments:
+ - Personal ones 
+ - the lady's glove
+ - the Spring spare
+
+langugaes:
+ - max
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+yeah, so I used max MSP because it was one of the first software that musicians used. You know, it started with the first version, which I can't remember exactly when it was it was a cracked copy from someone at the time. And so just to get back to your questions, do I do I use I do not, I do not have other people programme for me. But I did not write software from scratch. I use max MSP and I use that for creating interfacing the hardware to the music to the software. So people's idea of like writing software, yeah, I do write my own programmes, but they're all in max MSP, except in the case of like knitter, which I started using two years ago, no more six years ago, what connaitre also was not written by me, obviously, but Rebecca Sebring. And we did work together for like user interface and how to develop it for herself and for myself. So yeah, so I programmed myself but I did not write the software, what I call writing the software, I do not write objects, and I do not write C plus plus Java
+
+stuff.
+
+> And so what are the main motivations for choosing max msp, was it to avoid writting code?
+ 
+And now Well, I don't really have that much, I only have that much time in their in their 70s. In the 80s. I did learn for Tom and cook, whatever there was then at the time, but Max was max before PD. And I think before we before
+
+sound, supercollider
+
+max came up as a very nice, easy interface for controlling, you know, instruments at the time, it was before synthesis before MSP. So it's just, it was not a choice, like, you know, that's what I use. And I don't have enough time. And again, because I'm not, instrument design is just something I need for my performance, it's not my essence, or it's not my function, I'm not going to, I can only spend that much time going to the root of it, I'd love to do my own programming and learn C, you know, or whatever I need to learn or, but, you know, I I'm still an artist that needs to use this to, you know, to make music and performance. So it's really hard because you have to really focus on what you want to do. You know, I cannot, you know, I have to really be very careful. Do I spend more time in design and writing software? Or do I spend more time in actually applications of the software for performance?
+
+> Is that because you redesign instruments for each performance?
+ 
+No, I designed
+
+Use the ladies glove, which I started in 91 for 25 years. So I designed very few instruments and maybe only design, you know, three, only two are really instruments that I use. And it's so and so it's the same instrument, but the mapping and its application in the performance and the sounds that the sentence is actually making a piece, it would be like saying, you know, do you want to design the brush every time you paint? Or do you kind of like, this is what I'm going to use and stick with that, and what can I do with it? So the lady's glove, I kind of, for instance, did 25 years, and it was just like, this was an instrument, and a software had to be adapted with the mapping to reflect the different pieces. But again, it was not, I could not really think of redesigning every time, a new glove, you know, and I think that's one of the things that that, again, like a bit off track, that I think disassociates artists maybe from,
+
+or maybe not, it's like, you know, this idea of like having a new instrument for every piece, I'm more interested in having, I guess I was more interested in it, because I'm lazy, but I was more interested in seeing what can instrument do and how can I evolve? How can that evolve, you know, in expression.
+
+So that is Max, maximum, Max in the 90s, I was pretty much the only, you know, high level software, you know, for people who just wanted to, you know, have some kind of system.
+
+# Why do you use your chosen tools for instrument design?
+
+Yeah, I wasn't sure what kind of hardware if you were thinking?
+
+> Thats open to what you think is relevant of course for some that means oscillascopes and others little more than a computer.
+
+I think, right, I think that the computer is just like, the kind of like a meeting point between the hardware and the software. I mean, obviously, software in the computer, but
+
+so, yeah, it's just like, whatever there is, you know, I don't,
+
+again, I did not create my own circuits, my own hardware, I just use what's there. And, um,
+
+and again, it's kind of like goes around max MSP as just a way of like interfacing. I mean, at the time, in the 90s, there was very few A to Ds, what actually slowed us down a lot in instrument design, you know, it was only like, specific institution had EDS, they were very expensive. And then Stein had the sensor lab, which was kind of like the first easily available ad system. And I think that at the time, that's what I used was the Mac, stamp sensor lab. And then eventually, the Arduinos, and raspberries and all these things. But that came much, much later. So for a lot of a lot of us.
+
+How many eight in the 80s, I used, I had a friend Paul de merriness. Right,
+
+some kind of forth, a forth box that would do some a to ds. I could not build my own forth box, you know, because I don't know. Forth, and I don't even know if four still exist, actually. But anyway.
+
+That's so just to get back to you.
+
+I've always used other people's ad DS, or, you know, just kind of like adapted. I can't spend too much time as think rethinking
+
+everything.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Yeah, yeah. And I think again, like I think that that just to stress again, which might not be
+
+what the purpose of this conversation, but just to really stress like this kind of like complexity of trying to design and use instruments. And that, you know, it's kind of like a, I guess, designing engines, you know, you could spend your time designing the engine, but never drive the car kind of thing. And I think more interested in driving the car. So at some point, it doesn't work well, but I'm just gonna, like adapt to the fact that it doesn't work well and see what can I do with it, you know, so the platform is very standard.
+
+You know, now, it used to be less standard, you know, we didn't have access to those
+
+standardised tools, like I said this Steim sensor lab stuff like that. I
+
+> woudld you say that the general purpose computer has standardised your platform? 
+
+think so i think so. I think like for instance again this kind of the fact that you don't have to build your own a to ds and you can build a park you know by a vote to box that does it and and the fact that you can do synthesis right on the, you know, it says definitely standardised where we don't have to have, you know, try to fish for this hardware. And
+
+yeah, I mean, even the Arduino I mean, I don't use Arduino, those mats have shoes, but it's limited, obviously, is very limited. I mean, for me, it's a bit limited, you know, or the P or the Raspberry Pi. But even that's very standardised. Everybody now uses Arduino or raspberry or some other things, but it's not like you have to build your own A to Ds anymore.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+Well, I think in the last five years, the whole machine learning has definitely greatly changed how I think about our instrument,
+
+and our usability and interfacing. So
+
+that had a very large impact I had, I hadn't looked into machine learning in the 90s with David West sigmat, we had started looking into it, but it was so complex, and you needed, you know, SGI machines, and you needed, I mean, it was just like, you know, so not that it's, you know, not not, and it's pretty easily accessible, that has very much had a big impact in how I think,
+
+> specifically how do you use it?
+
+well, I use it for mappings, you know, so for instance, I did not use it for the gloss because the glove, I had a particular way of mapping.
+
+And mapping, for me, that's maybe off again for later, but mapping for me is is the most essential part of instrument design. So
+
+and that's the part that's that where all the work goes and all the you know, the various pieces though, and, and, and with a glove, which has about 30 sensors, it was very, very tedious with machine learning. And this particular work in this case, it's very flexible and very fast. So it's changing the fact that I can kind of like, do a lot more tests in the application of the instruments to synthesis. So
+
+and, and also, it allows for a different behaviour which I was not able to really get to with traditional mapping. So I think it has become
+
+much more of an exploration of what the instrument can do than before for me because it's so fast it's fast and it's like you know, yeah, it's fast and it's it's it's much more flexible I think, at least with what I use
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I'm confused with how you separate tools and and and digital music instruments what how do you for me they're not that separate so what how do you say to from that
+
+> the tools that you use to create your instrument
+
+okay
+
+yeah
+
+yeah, no, I think I think tools I think the machine learning mmm I have a lot of issues with tools that need to be improved, but I'm not sure that totally related to InDesign for instance, I have a big issues right now with citizen synthesis being available and things being way too compartmentalise between
+
+visual data, Sonic data, and I kind of wish I could just kind of be much more, you know, flexible with how I extract data
+
+Prior to synthesis, but there hasn't metalforming because instrument design is so related to synthesis gesture, hard, I cannot I don't really separate things because the instrument that I create implies certain gestures are the gestures that I do imply certain synthesis. So for me all the issues I have with synthesis with
+
+mapping, it's all kind of big bundles, you know, I don't have it so compartmentalised.
+
+> so would you say, are there any things about your tools that could be improved to help with that?
+
+Oh,
+
+no, I guess I'm just used to, I think, I think that the neural net thing is, is a great improvement for me, I can heal. I feel like I was react to what is there? And the news, it covers scavenger, you know, like, what Oh, is that I'm gonna do this, or there's this piece of metal, I'm going to do this. I don't really have that much forward thinking. I think as to if only I had this, I could do that. I think I'm much more just, yeah, like,
+
+kind of not even hacker, but kind of scavenger of like, what's out there? And what can I do with it? So I can't really think of anything.
+
+You know, that I would like to at this point, you know, I'm just pretty satisfied with what I have. I mean, I could complain for hours with how are you using it? But I think
+
+I think it's kind of okay, I'm having philosophically, I have a lot of questions about improving again, this crossing between materials and, and
+
+hardware, and, you know, synthesis, I mean, I have a lot of issues with with that, but I don't think I can think how we deal with it, you know?
+
+# How do you approach the design of a new instrument?
+
+Well, again, it's very,
+
+you know, I never think I'm going to design a new instrument, you know, it came out of necessity. And again, just to to, you know, I've created very few instruments, because at this point, for me, it's not, you know, I'm not making it for other people. So I can only refer to the instruments have designed with just, like I said, like, officially three of them, you know, without counting. So it's not like I decide, I'm going to be doing this, you know. So it's more like, what is out there, and then ideas springs forth, and then I just start building on it. So the glove for instance, and 25 years has changed from like, five, you know, Hall Effect sensor to whole instrument, or spring spire, which I use now, I had some ideas of what I wanted, but I have no real plan. I guess I tried to try. I tried to not know what I want, you know. So it's very different. I actually try very hard not to know, because I don't find what I know, very interesting. And I don't think my desires are very interesting. So I'm always looking, what can I do that something will happen, that I haven't even thought about? So? I don't really I try not to know, or I try not to have a plan.
+
+Because that's, you know, I wish
+
+I find that materials and instruments will inform me much more than I can inform them. So in that sense, I have to kind of allow for a system that will
+
+hopefully, allow me to to envision a different applications. So does that make sense?
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Again, um,
+
+again, it's kind of a different, a difficult question for me to answer. Because
+
+this thing's aspects you're talking about aspects are in the,
+
+I'm not sure what you refer to as aspects to be realised that design and implement, I'm talking about like money, much money, you know, they are required to realise the design, our institutional support? Or are you talking about like, you know, a workbench with a nice soldering iron? Or I'm not totally sure what you're referring to?
+
+> I think any of those things would be valid. All of these points could be valid, I think you did talk previously about a number of distinct ideas that are somehow related but your open to interpret this how you see fit.
+
+Yeah.
+
+I'm a bit at a loss how to answer that.
+
+So distinct aspects.
+
+I mean, for me,
+
+so much is like just an invest investigation and a slow growth process from some attraction to material to, you know,
+
+I mean, obviously, there's things I don't have, which I wish I had, which is, again, maybe being part of a lab, and having like, you know, engineers that I can say, Can you do this? Or can you do that, so, but I don't have them. And maybe it's also an advantage, because then what I do is very, very kind of low, and kind of, like, you know,
+
+> maybe then we could consider what things the engineer would handle and what distinct aspects do you handle?
+
+yeah, if I had an engineer, I mean, if I had access to engineers, which I don't, I probably would just, you know, be much more interested in using different materials, the materials I use are just things that I find in, you know, either that I find, like surplus shops, you know, so my ability to adapt new materials, new textiles, new, whatever, is totally limited, because I don't have access to engineers. And I do not really want to have access to engineers in the sense that I do not want to be part of a plan.
+
+So the aspects are require, for me,
+
+is mostly we have a community, I guess, in California, of
+
+builders in California has a tradition of builders and their Silicon Valley and that so the things that I need is I need access to people who will give me ideas, you know,
+
+but as far as, for me, the aspects that are required for the design is just time and, and money. That's all I need. I need to you know, have the time to two, because I did not design. Again, like I said, I do not know what I'm going to do. If I knew what I was going to do. I could just maybe send you know, some person the plan and say here, Bill, me, dad, but and I guess I could do that once I have built the first prototype. But then once I finished with the first prototype, I'm most interested in how to develop it and how to use it. So.
+
+So again, it's a very slow growth process. I'm not sure I'm answering your question correctly. But
+
+to realise the design and implementation is mostly just give me a space, give me money, give me time and then you can give me a pile of garbage and I'll make
+
+instrument, you know, but
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+yeah,
+
+I guess the challenge is, is is a?
+
+Again, I'm not sure man string I'm I think I'm taking things sideways for maybe a more formal
+
+answer. But
+
+the challenge is that that i don't know what i what I'm doing so
+
+and the challenge is this kind of incredible pressure between wanting the instrument to do something, and yet wanting the instrument not to behave as I intended, and to feedback so I can adapt. So there's a big pressure between wanting things to work and actually wanting things not to work because it's not working, that I will be able to make the instrument grow. So and then big challenge is actually against I don't know if I'm totally answering what you're asking. But the big challenge for me is
+
+somehow being able to see what kind of things are possible in my first prototype like, you know, just being me This is more like a almost like a psychological issue where I have to be very open to things not doing what I thought they should do, right. So for instance, the instrument.
+
+Let's talk about why Melnick should talk about now. But let's just give an example the spring spire. I knew I wanted chaotic behaviour. I knew I wanted to have larvan improv. improv is a tree aspect. I knew I was interested in magnets. I knew I wanted to use machine learning. So let's say this as a recipe, that's all I knew. So then the problem is kind of like trying to do it, and what I knew of magnets, so machine learning and chaotic behaviour
+
+was just some kind of like a desire, but I actually didn't really know how that would apply and had that would formalise and at the end, I have this thing that does something that's slightly different. And then I have to decide, do I keep going? Do I stop there and start really adapting this? Or do I keep on going further? You know, so it's my, I guess, when to stop? is a big challenge. When do I stop and say, this is going to be it? I'm going to just have five faders three audio inputs. And that's it. I have to stop and and Mike because I could always go Yeah, if only I could use a little more manufacturer to have another input. Maybe if I had this, you know, but so I have to make a big effort to stop myself and say, This is the box you're gonna live in. Just that's it. So when to stop I think when to stop is probably the biggest challenge.
+
+> do you think the quality of the prototype feeds into that at all?
+
+By quality What do you mean quality of what?
+
+> That perhaps when making the prototype it isnt quite what you want - and I get what you're saying that at some point you have to stop and begin to explore the instrument. Does how effective the prototype is, impact the final form?
+
+Yeah.
+
+Yeah.
+
+Wait,
+
+I think I think totally I think totally because, again, I'm trying I'm being informed by the material. So the prototype
+
+is like an essential
+
+path. You know, like for instance, I start with a, you know,
+
+in this case with like a flat surface with nails and you know, and make my own pickups and
+
+Then the flatness is issue and then, but then something comes out to each prototype. It was different with the ladies club because the ladies club started as a glove. And I just belt built a much more fancy glove, but it already had some kind of a structure. But in the case of the spring spire, yes, the prototype informs me. So it's not only the quality of the prototype is that I have to allow to just make the prototype not allow, again,
+
+allow it to inform me on how to go ahead. So the prototype is essential in that case, you know, because again, I don't know what I'm doing.
+
+So I can only hope that the prototype is gonna like, give me some clues.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+> this one can be hypothetical or based on a tool you have used
+ 
+No Brain implants, I guess, would be quite nice. I
+
+think,
+
+> in what sense? to feedback into knowing when to stop prototyping and starting to learn the instrument?
+
+oh, as far as I was thinking for the design, or for knowing when to stop.
+
+I went up, yeah, yeah, when to stop. I mean, I still think brain implants would be nice, but maybe not for knowing how to start, but maybe for knowing how to
+
+draw on different materials, you know, and again, this kind of fluidity that we're talking about between like, synthesis and hardware, gestures, you know, but when to stop.
+
+I don't know if there was more money for the arts, and we could perform more, and we could actually do what we want to do. It would be nice. But obviously, there's so little money for this kind of like saying, I feel like if I was able to really perform much more with it and have maybe I would kind of more quickly.
+
+You know, but I think so, but much more of a support, community support, and, you know, again, time and money, you know, but as far as knowing when to stop, I think there's nothing that helps me. And I'm not looking for help, because actually, that's part of the instrument design is knowing when to stop. So some tool that would facilitate me knowing that instrument is done would actually be probably counterproductive.
+
+> It seems like you are talking about the human element there which I unerstand. What about if we changed the idea and said instead of telling you when to stop it helped you arrive at that point yourself more quickly?
+
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Yeah, I think I think again, I think not being an engineer and not being
+
+not knowing very much, but just being like just skimming the surface, I think what would be really amazing, and Stein kind of worked a bit like that. But I think what would be amazing is to have more of a collaboration between engineers and artists. So I could kind of come up with an idea. And, like, I would just say, this is what I want. And I wouldn't want engineers to tell me what I need to do, which has always been a problem. Also, as a woman, you know, let me tell you how you should do that. I'm like, now, I don't need you to tell me how I should do that. I need you to help me find another way to do it. You know, and if I had that, even from the beginning, I mean, that would have changed my life, you know, because I could go and say, Look, I have this great idea. Can you just prototype it and maybe there's some places and that's really frustrating. It's like, you know, so now that you get me going, yes, I am really kind of like, I could really easily get upset about how if you're not part of a big institution that has this kind of like, very, you know, we're gonna use this we're gonna use that for people like
+
+To us, I think that, you know, it would be amazing to have like this, how do you call it this labs, you know, where you could just bring ideas. And, and, and then quickly, you know, like somebody would say, hey, maybe you should use extract, you know, the gestures that way or extract that way. And that would be amazing, you know, you spend a week, and you kind of go,
+
+you know, really cross, which he happened a bit like in the 60s with the Bell Labs, you know, they had this, like engineer artists kind of like meetings. And I think that interesting thing with Rebecca Sebring with connaitre, is that we've had a bit that relationship where I will say, you know, I really needed that to work like that. And she would go Yeah, that's a good idea. or not, maybe this is how you have to think about it. So that relationship with, you know, engineers, would be amazing, you know, it would be amazing, I mean, it would have probably shorten, you know, my,
+
+you know, I just want it because again, I want to get to a point where I understand what the instrument is doing. And I want to be able to, like, kind of, like, get maybe many different things. So what I do is like such a hack in as a stupid, kind of like pickups and metal wheels, and it's cool, people think it's cool, you know, it's like piece of junk that makes, you know, interesting music. But part of me if I could just kind of have access to engineers who are creative, and say, Hey, instead of metal, why don't you think of, you know, kind of like this particular material that could bend and you know, to your gestures, whatever it is, right?
+
+So yes, I'm very frustrated, actually, that I don't have access to,
+
+you know, this kind of think tank, fermenting lab, you know,
+
+a lot after a long answer, that's fine. I finally got to the point?
+
+# How would you define a DMI?
+
+Well,
+
+that's a big question. And I really want to, and I think I have to really make sure, because people have different ideas, there's a controller, there's an interface, there's an instrument. And I think people need to make a much more clear distinction, not that the borders are super tight. But a controller is very different from an interface, and the instrument actually becomes much more a bit of a more of an autonomous system. And for me, the big issue is control. I mean, are you building something to control? Or are you building something that has a particular behaviour, that that that will control, obviously, because we're dealing with digital instruments, but also that will actually exhibit behaviours that are not controlling something outside of it. So
+
+for me, and if you talk about different musical instrument is not a controller, it's not an interface. It's a system that will exhibit particular behaviour based on it. It could be software, or, again, hardware. So not that it's autonomous, because we don't live in and we don't make anything very, I mean, you couldn't make an autonomous system, you know, that kind of lives on its own, and like, you know, a built in software,
+
+whatever it is, I think it has to have
+
+a behaviour. It has to exhibit a behaviour that comes from its programming, or its hardware. So if I'm answering things correctly, but I think people often call instruments, you know, I don't call I mean, it's a tricky question. If you have, like, you know, and surface with 50 buttons, because that's my instrument, unlike, that's not your fucking instrument that was controlling synthetic programming into your machine. But you could say, Well, yeah, but the fact that I have 50 buttons, obviously implies that I'm going to control things a certain way that I would not if I didn't have 50 buttons. So there's always going to be an impact, obviously, the input system that you're using, but
+
+I think it's not really for me, I would kind of like have a hard time defining it as an instrument unless you can show me that the system that you built is really intrinsically dependent on the architecture. If this grid is part of the architecture,
+
+Your software, your music now the thing Yeah, that's, that's maybe an instrument. But if otherwise, if it's just being applied to an outside system, I don't believe it's an instrument.
+
+> Do you see that this interface can work with an instrument, but they are separate?
+
+It can work, it can. Well, let's see if we're talking about music. I love it. I think we're talking about music, right? So
+
+the idea of the interface if it's, if it's being adapted to software to control software.
+
+And, but again, it's kind of like the architecture of the hardware is not does not have so much of an impact on on the software that it controls. I don't think it's an instrument. So for instance, in the case of 50 buttons, if you say what a 50 buttons are controlling 50
+
+algorithms, and you can say, Well, yeah, but the music I made is very dependent on the fact that I'm using 50 buttons as a kind of go, Yeah, but instead of 50 buttons, you could have used something else, that's 50 keys or a 50. So I guess for me, because for me, digital music instrument does not is really based on on particular gestures and hardware permitted to not exist outside of
+
+the body, and the actual usage. So if for some people, digital music interface instruments are purely software, I'm not talking about that. But that's a valid point. But even then, for instance, if you say, a camp all over the map here, but if let's talk, okay, it should say, Well, now, it's only digital, it's just software. Let's talk about like,
+
+you know, software that's been designed to be here. Yes. If you say, the software is really some kind of tightly linked to the architecture of the, of the, of the system. So for instance, people in the 70s, the first computer music, you know, hack, like people who the hub are people who are using the Kim one, with a bit, you know, I think was two kilobytes of memory I forgot. So that was all software. But the music they made was tightly linked to this architecture buckets. And you know, how you kind of have to keep on making no available memory, that
+
+hardware was linked to the music they made, because that they explored the limitation of the system. And the music they made was, was it was everything was digital, but it was so tied to the architecture of the system. So I would say, yeah, that little Kim one was an instrument, what it did, and the music it made was completely some kind of,
+
+you know, mesh to the hardware, the hardware, inform the software and software
+
+made particular music. So I'm not sure if I'm clear. 
+
+> it seems a philosophical perspective here - so the instruments from one end to the next needs to be deeply coupled and engrained? 
+
+Yeah, yeah, I think so. Because, again, I'm not used, I'm not thinking about interface. I'm thinking of instrument in this, like piano, you know, for instance, the sound that you get, everything is linked to the system. Sometimes nothing is really always like, that's how I think in a very traditional way of a digital music instrument with a gesture
+
+to use it, the software and the hardware. It's all very much linked.
+
+# What concepts do you consider a DMI to be made up from?
+
+I'm not sure what you mean by concept.
+
+> Again it's quite vague so that you can impose your own interpretation.
+> Do you see any aspects of a digital musical isntrument that generalize to all DMI?
+> Any distinct concepts that form a DMI as a whole?
+
+Yeah.
+
+Again, I don't I don't divide things. So, so much, you know,
+
+they helped me there, you got to help me because it's like, not a way I think. I don't think that helped me.
+
+Yeah.
+
+Now obviously, it has to have interface. Yeah, whether it's an interface to, you know, the physical world or interface. Now, it's a bridge, you know, it's a bridge. In that case, that musical instrument is kind of more like a bridge, maybe between gestures and such, you know, and, and, and what is being produced?
+
+Not that not that, not that. It's not at all a question you asked, but I'll go there anyway. I think that I just want to bring up again, this idea of control. I think that one of the issue with digital musical instruments is that people kind of have people me included, I think we have this idea of certainty and precision. And I think that it's a big problem. Because
+
+I think that, again, I think, to go back to this idea of
+
+letting instrument talk and letting the instrument some kind of, like, bring you somewhere, that you have to allow for a lot of uncertainty. And I think that we have been trained with more and more with the software on this kind of like, you know, instruments, I think it's all started with the piano actually, is like, you know, certainty, you press one thing, and you get one thing. So obviously, you can play it, you know, as an virtuoso. But I think that this idea of certainty is a big issue. In musical in, in digital musical interface. So, instrument, so I'm not answering your question at all. But I want to bring this idea of certainty as a big as a big issue. So what w as your question? Okay.
+
+> What concepts do you consider a DMI to be made up from?
+
+Well, uncertainty, then
+
+you hope? You hope, you know.
+
+> What about the idea you were talking about in the previous question - with the relationship of componets feeding back to the user. Is that something an instrument should have?
+
+
+Yes, yes, I think that again, I think that this kind of like, again, because we're not talking about a controller, we're talking about an instrument. So it has to have, again, feedback, constantly, there has to be some kind of a feedback system, where the instrument is
+
+some kind of like informing.
+
+It's the use. And it's a very tricky thing. Because
+
+you pretty much design the parameters of what this playing field is, and you actually design in a way somehow what kind of feedback you're willing to do. It's not like you're banging on a piece of wood and the wood is resonating a certain way. And depending on how you hit it, you're going to change how you play with digital instruments. You kind of like, you know, pretty much saying hit did that way, get that headed that way? Get that he did that? Wait, get that. So the feedback is much more limited. But I think that
+
+it's essential to allow for that feedback. So again, I'm not sure I'm totally answering your question. But I think that
+
+that that concept of leaving somehow the system to inform its use is really the biggest, hardest thing, I think, and I think it's something we don't pay enough attention because we're so intent on controlling efficiently systems, and an instrument is not an efficient system.
+
+I'm totally for inefficiency.

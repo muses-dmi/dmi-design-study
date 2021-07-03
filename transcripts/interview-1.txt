@@ -1,0 +1,149 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 1
+role: Music Technology researcher and professor. 
+experience(years): 30
+instrument_count: 10
+
+instruments:
+ - FMOL
+ - Reactable
+ - Many more
+
+langugaes:
+ - c++
+ - puredata
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Why do I use my chosen programming languages? Well, first, I have to say I'm not permanently an instrument designer, and I don't do it. I don't consider that myself anymore. So, the answer would be in the past, why have I chosen and and the reason is depending on on the age, I mean in the 80s it was not not the same was available that that in 2000. So, the limitations are always what you can get and what what you can get with with different languages? And what can I do with them, or the team that I have led can do with them. For example, in the 90s, I started doing real time audio. And that was really before Maximus p or PE was available were available. So I had to do c++ or C, I mean, you cannot do it otherwise. But however, in the 80s I in in, in the 80s I was using C because that's the only computer I had. And the only compiler I had was a floppy of the C language. And it was an I couldn't do real time by them. So I would say I'm very pragmatic with that. If the question is why, I mean, it depends on on so many things on what's available and what you can do.
+
+> Do you think the reasons would be motivated by the same pragmatic approach today?
+
+I would say that today there are many options and there are a few restrictions. But my So my main I think I would say that with three tools I could do anything. I would choose PD because I prefer pd towards max for prototyping audio. I would choose Python for dealing with more with with data, and I would choose c++ for going beyond prototypes. 
+
+# Why do you use your chosen tools for instrument design?
+
+So, while the software is related to my previous question, and the hard work, that depends totally on on the instrument, I mean, as some, sometimes one thing comes before the other, and that depends on the conditions. One instrument I'm very keen of, it was called f mol I did in in the mid in the 97- 98. The was the condition that it had to be on the software. So I mean, not no hardware could be used, because it had to be available to everyone for a collective composition. So then the restriction was, okay, we have to do something that should be available for every for everyone. And it was, you don't, you will only require windows 95 and a soundcard. Sound Blaster and the mouse. And with these restrictions, I designed that which I'm really quite happy of how it went. In other cases, it's the opposite. It's okay, what would be the ideal What? And that's the case of react table, which in fact, is, is the son of F mole. But they say what would be my ideal today. And then the design to conceptual design came much before the hardware, and then the hardware was found based on what we needed to solve. I mean, what we what we wanted to do, and not the other way around. And I was always saying at this time, I mean, it came from from it didn't I mean, the opposite is often the case, where you have a technology and you think what can I do with that? And that was not the case. The case was I want something that, that that or behaves that way, how can I solve it? And we start, I mean, tangible interfaces, and tabletops were not fashionable. I mean, there had been some attempts, but there was no like, a way to do it. And we kind of did quite advanced in this direction. And we even released the library reputation, which for many years was kind of the standard for doing tangible interfaces. So in that case, it came from an idea or a concept and the tools and the hardware. And under developments were guided by these concepts.
+
+> In terms of realising instruments, were you steered toward typical manufacture for components like screens and tables or was there some other process?
+
+I don't understand the question. I'm not sure I understand that. 
+
+> For the physical manufacture, did you use typical manufacture tools or was there another..
+
+Oh, oh, I mean, the first the first prototypes were done with with IKEA tables, and, and with an even though the earlier ones were done with wood, and, and sewing and saws.
+
+So of course, I mean, we knew that if you're going to make a table, you need to build furniture, and we were not furniture makers. And at the beginning we had to do it. That's why the first one was making wood. The second was metal. I mean, we use different things with what we had available. It was not until later that we were able to kind of
+
+get third party companies to doing that for us. 
+
+> So again, largely a pragmatic motivation?
+
+Yes
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Okay, so for operating systems, operating systems, again, in F Mol, the reason was it had to be has to be windows 95. Because it was a public thing. If and it was meant for as much people as possible, and that was the choice in 97.
+
+For react table, the first versions run on Linux because we thought that that was the best choice. Then one day, Bjork had a problem with the the laptop in Peru and and, and they call us and say, Well, you know, we have plenty of, of MacBooks we just change them every day. Why, but, but we only have your your Linux laptop, couldn't you make it for Mac? And we said, okay, yes, we understand that's an issue. So we made it for Mac. And, and after that, it was obvious that if you want to distribute that, well, you have two choices, either you include some embedded computer that can be run can run on Linux or us people to put their computer and then use us for for for a MacBook, for example. So I would say this is also pragmatic choice.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+I like,
+
+but also because I have used it for many, many years for teaching. I like PD. Because it, it's very good not only for prototyping, but for brainstorming, or for just trying something I mean for Yeah, just have an idea. And I can make it in five minutes. And so I think that's an inspiring tool. I wouldn't, I would never call c++ and inspiring tool. Okay.
+
+So
+
+yeah, I would say, PD and Max, look for the ones who prepared would be a clear choice here. But that only relates to software. And then for hardware. I mean, I'm not. I have never been kind of an Arduino power user so that I wouldn't include it. But I understand that many people could be tempted to I mean, I would understand many people would include it, but it's it was not hasn't been my case.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I don't have a question for that. I mean, I don't I don't believe in ideas. So, and I believe that tools conditioned the way you work with them and that they impose their own restrictions and that these are as valid as they are on affordances
+
+# How do you approach the design of a new instrument?
+
+depends. It depends. And it varies a lot. Originally, it was out of curiosity. So I mean, I have an idea, and I want to test it.
+
+Sometime at the beginning testing something would take months, or years even. So, I'm not saying necessarily easy or, or silly things are other times it comes from. I require an external requirement. I mean, the case of that mall, there was a theatre company that told me the conditions, I mean, it's so it was like, I mean, we want that and that want software programme for making noisy stuff. That should be available to everyone has a computer and for collaborative work. And that was enough to start working. In the case of, of rejectable, it was kind of a more a tabula rasa, in the sense that in that case,
+
+I said, Okay, what would be the, the best I can, I can imagine, and without any limitation, without any restriction. In other cases, like in apps, in commercial apps, it's different I mean, then time is, you don't have infinite time. You don't have infinite resources. And you have to make something in a given amount of time and with some given resources, and it's based on not necessarily what you think, would sell more, which is something that we are always very bad at. But what you the knowledge you have, and how could it be packed and may make it appealing to, to some people on in other in other time, in the case of, for example, rotor, which is the app, I'm more happy. It's an iPad app that we made maybe four or five years ago. And from a software perspective is the app I'm more happy and more proud. It was, okay, we we made react table we made a table insert into for mobiles. And we made a better version specifically adapted for for the iPad Pro, which was coming them and we even made tangible controllers, and we designed we redesigned that for what could be done then. And in that sense, probably from a interaction point of view, not from the physical part, but from the logic behind. It's the I would say it's the incarnation of react table, which are more, I'm more happy about it. I mean, it's how it should have been, it could have been at the beginning. But so in this line of of evolution, of course, it's not physical, it's small. But from how the software worked for the user. I'm not talking about the programming, or the designer part. I'm talking about from the user perspective. It was for us, or at least for me, the best incarnation of this family. 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Why distinct aspects are required. I don't know if I understand, then this question.
+
+> in order to realise an intial design, what ditinct tasks are invloved in realising that?
+
+Whoo.
+
+I, I don't know what to answer.
+
+> I imagine there might be both technical and non technical aspects to instrument design?
+
+I?
+
+Well, yeah, I
+
+don't know what to answer, I would say other related things. As I have said, depending, I mean, at least for what I've been done, each instrument poses a different process because it comes from a different requirement. So I don't have a global answer for what these things aspects are required. Because the design comes from different things. And the implementation has different restrictions. I would start answering that question more holistically, and in a more abstract way, which which is what does a new instrument? What should a new instrument what these things aspects should an instrument have? And for these young? I mean, it's a different question, but it uses the same words, I think. 
+
+> we perhaps actually address that question in the last section
+
+Okay. So then I wont explain about that.
+
+> lets move on and we'll come back to it.
+
+Okay. 
+ 
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Depends on on where you put the weight on. And what you consider a challenge. I guess the biggest challenge is to make something good. And the technical challenges, they might be relevant. They might make things impossible, but I mean, that hasn't never happened to me. On the other side, I have never struggled too much with design. I mean, I don't do 100 iterations. I only do iterations because if things keep going, they get better. But it's not that they get better by that by being used not before. So I don't have quite don't have special a part that was more challenging. Also, what I have to say is that seems for the last 25 years, I have worked in teams. It was only before that I did everything myself and then the challenge is of course your limitations. If you work alone, you know what you can do and you can learn and the time you have but I yeah, I don't have the challenge.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Okay, okay, um, I'm going to shift a little from being a designer to being a professor, I mean, I have done, or I have, get along the years, I have done many, many, many instrument design courses. So I can see the challenges and the tools, I mean, I can see it from a student perspective. And they have used platforms and, and tools to support that. I mean, to support people doing things, I don't think there is the would be something like, like, open enough to allow for whatever you can think about
+
+money, but I. But I would think that that set of tools can be sufficient for doing many things. I mean, I would say that using PD and Arduino on giving the students a bunch of sensors is quite open. But it will also condition what you, you can obtain with that. While teaching, for example, we had some weeks project for developing a musical tabletop And for that, we were giving a very well developed SDK, in which all the problems that we had to face before were kind of solved. So we gave an SDK for tabletop music development. And it was enough so that person that knew how to programme a little bit could do something in two weeks. On the other side, I have the convenient, I mean, I'm totally convinced that the tools are never natural. They are natural in the sense that you can do terrible and terribly good, but they condition very much what you can do with them. And the more specialised they are, that is the the easier they make it to for you to make things. The more they condition, what you will get from them. And I'm saying that not necessarily from a designer, but also from the professor perspective. So there's always a trade off.
+
+# How would you define a DMI?
+
+How would I define it? And I would, I think there's no need to define it. But okay, I mean, I think the word says that everything. It's a musical instrument which might have, which has the detail component in it. So I would think that programmes can be considered that and they don't need to have external controllers. They can and that doesn't mean they are good or bad. So however, I mean, I would define a digital instrument, it's something to make music I would say, the only distinction would be an instrument needs to be real time otherwise, it's not an instrument or at least not a music instrument. So it should allow it to be played in real time.
+
+But
+
+I wouldn't restricted to any type of controller I think a mouse touchscreen,
+
+no interface, anything doesn't make it more or less instrument. I think since you, you mentioned that you were doing this interview to digital Mateus. I think I invented or I mean, I was the first to use this word, but I'm not sure. But when I
+
+put these two words together, I think no one had done it. Because I thought it was, but I didn't. I mean, I thought it was what it meant. I mean, a person that makes digital music instruments. And since there was already this word for digital instrument for music instrument maker, I, I I call it that way. But I wouldn't be restricted here. Anything can be an digital music instrument.
+
+And
+
+anything that has at least some digital part.
+
+> the previous point you were startign to make I think fits this question better.
+# What concepts do you consider a DMI to be made up from?
+
+Yes. So can you repeat the last question made up from? 
+> the previous question was When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+> you were starting to perhaps look from a more wholistic approach?
+
+Okay, well,
+
+yeah, I don't know.
+
+If there's something I even answered. I even mentioned in the previous question. I don't know if it should come here, which is I don't think that connecting engine digital engines and existing controllers makes necessary new digital instruments. I mean, the combination is infinite. This is an approach that I personally not very interested in. But that doesn't answer the question. I, it is true, I tend to have a holistic approach to that. So I cannot imagine of a successful design that mixes a controller that just comes up with plugging two things. That's more related to design. What concepts I think that when you plug two things, there's probably little concept behind that. I might be wrong.
+
+> sorry was that little concept behind that?
+
+Yes. Okay. Yes. Apart from plugging two things. 
+
+> so you are saying that joining two things does not make an instrument?
+
+I wouldn't argue about definitions. I would argue that in 99% of the cases, not an interesting one.
+
+

@@ -1,0 +1,516 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 6
+role: Software Engineering Manager
+experience(years): 11
+instrument_count: 8+
+
+instruments:
+ - Eigenharp
+ - LinnStrument
+ - GECO
+ - Animoog
+ - Model 15 App
+ - Minimoog Model D App
+ - Moog One
+ - Claravox
+
+langugaes:
+ - objective c
+ - c++
+ - swift
+ - c
+ - bash
+ - python
+
+---
+
+# Why do you use your chosen programming language(s)?
+There's various reasons,
+
+I've gravitated towards
+
+maintainability.
+
+Because whenever you create any type of product that is software based, you will spend way more time dealing with the lifecycle of the product and with the initial creation spike.
+
+So
+
+even though I have a natural affinity to cool stuff, and like emerging languages and new new ideas,
+
+I've been bitten quite a bit in my early career by choosing tools that weren't completely safe, stabilised, and then having to spend a lot of time dealing with
+
+problems that are introduced just to to evolve in programming languages or programming platforms.
+
+That's one main concern.
+
+Not a big concern is performance. It's very, from the beginning, very important decision for me to decide
+
+which programming language will run on which target, if the target is resource constrained, like if it's an embedded platform, then it will go for programming languages that have a little less overhead or to provide like lower level access.
+
+It's
+
+running on a more general computer platform, then the concern becomes different because
+
+the most important part there,
+
+in my opinion, is to make it feel at home in the existing environment so that it doesn't feel like the odd duck out, like, Oh, look at that weird UI that doesn't fit in with anything that we're using. And oh, none of the mouse interactions, or any kind of interactions are behaving the way I expect it to. And the reason why I think that is very important is that we're building a musical instrument, people should not get hung up or distracted by common interactions that they've taken for granted like to do way widgets signals specific functionalities to users or the way. Next, Windows behave miles, navigates.
+
+Like, all those interaction paradigms, I think, that are part of their existing interaction model should just get out of the way.
+
+Another critical part there, and that's sort of a recent concern of mine is Africa, I'm very passionate about accessibility, which is a big
+
+issue with a lot of digital products in that people tend to focus on a subset of the population that is fully abled.
+
+And going to words,
+
+platforms or solutions that don't leverage the native capabilities of the operating system usually also prevents any accessibility integration to happen
+
+in a predictive way.
+
+Things like force over things like Assistive Touch.
+
+Like all those functionalities, I think, are very important and often overlooked.
+
+And not a key part of that as that's a little bit less overlooked. But still, I think there's a lot of
+
+musical instruments designed without localization into account.
+
+That's also usually much easier to properly integrate when you use the native development, toolkits of the platform you're working on.
+
+And then, sort of third pillar of things I evaluate is how fast do we need to get results? What is the timeframe we have to develop the products and
+
+And might pick, it actually happened very recently, a big swift UI for a product we're still working on.
+
+Because some some of the things align that finally Swift is in Swift version five, which it has stabilised into, would never have picked swift in version two because of that maintainability aspects. But with Swift, in version five and swift UI in its second year, it seems just mature enough to leverage all of the productivity gains of swift UI.
+
+I'm still feeling with the knock, the whole team is feeling that
+
+it might have been a little bit premature, but just on the cuff, like, okay, we need to work around a few things, but it's not too much.
+
+But yet that choosing their swift UI as
+
+very emergent technology. But in order to get very quick results on Apple platform,
+
+that was very appropriate as a choice.
+
+> So just to clarify are you talking about (in terms of maintainability) stability in that it will last, not end up depracted or a set of features that allow you to do everything you want to be able to?
+
+Both.
+
+There is this thing, like when you work on embedded software, it might be a little bit easier, because you're usually fully in control over
+
+lat form that it's running on. And the hardware, even though these have become increasingly complex, that you might have to pull in libraries that also have bugs. All software has bugs, and
+
+getting things to behave over a longer lifecycle like Like, for instance, MIDI 2.0 was announced, like how, even though you've got your embedded software that has been written and your digital instrument has worked perfectly, perfectly like, it means that people haven't discovered the obvious bugs, like has worked perfectly.
+
+There might be this huge big industry feature that never was anticipated, like a VB mini to, like, give you all of a sudden, like, well, you should use this and then
+
+that feature set creeps back into the platform language that you've chosen. And if you've chosen something that prevents you from moving forward, because it would break things. What if they haven't taken maintainability into account or it hasn't been mature enough in terms of language, library frameworks, stabilisation, then you, you risk introducing additional bugs that you weren't even aware of.
+
+So that's a big part. Now, if you're not in control over your platform, like on general computer platform, it's the worst is a mobile platform, where people don't even realise that their operating system has updated.
+
+Like, just happens all of a sudden, they're running a new version.
+
+And so you basically, in order for your instrument, even if you don't add any features, in order for your instrument to be able to continue to provide the same experience to the user, you continually have to play catch up. Otherwise, there's something that I've been calling software rot, where it just just letting it sit there the rot sets in, and you it it creeps into everything and all of a sudden, like after a few years, it becomes dysfunctional, even though the code is exactly the same.
+
+# Why do you use your chosen tools for instrument design?
+
+There's two aspects here like
+
+I create musical instruments by myself, but also as part of teams or collaborations.
+
+I usually tend to pick
+
+it actually ties partly into the previous question. I usually tend to pick languages or platforms or frameworks that are pretty ubiquitous
+
+and
+
+I'm a big fan of allowing myself. And that's very selfish by nature. But by extension, anyone that I work with, even like if it's a peer or someone that I'm managing, I'm a firm believer of allowing everyone to choose the tools they feel more most comfortable with.
+
+So I think there's a more philosophical discussion there were, before I was doing digital music instruments design, I'd been in companies where I had to battle for the tools that I want to use. Just bring that up as a contrast in that. If you don't, if you feel like the tools you're using, hamper your creativity, as software gardener, I don't like engineer, as a software gardener, then you will not want to do your best possible work because your work is frustrating.
+
+So in that sense, I think the tools that anyone should be able to choose is just the tools that feel like the most comfortable and most logical extension of yourself. And inherently, the languages and frameworks chosen should support the broadest variety of tools. Now for myself,
+
+I've really, over the years gravitated towards Xcode as a main ID.
+
+with Visual Studio, if I have to port something to a Windows platform.
+
+Xcode
+
+has started to fly wasn't like this in the beginning, but has started to find this very fine balance between offering intelligence features without them being invasive.
+
+And even though it is by no means perfect, like none of the tools are, it is the best compromise in that sense that I found.
+
+I used to do a lot of work in the Java world. And there's this company JetBrains, that makes a whole bunch of IDs.
+
+And they they they created a C, A C ID and an objective c ID.
+
+And I've been at keep trying them out.
+
+But it never works, right? Because it tries to be too intelligent for its own good. And then you just end up fighting the tool instead of being able to write your code.
+
+So that's a big part of it.
+
+In terms of other tools, like if it's not coding,
+
+always sorry, I'm sorry, I have to switch around to different topics here. But
+
+I always want to write code in a way that I could do it on a command line. So that's that's also a big choice. I want to be able to SSH into a machine. Again, I'm working here on a new instrument, new instrument with Roger that is based on a Raspberry Pi.
+
+I just Secure Shell into it over an Ethernet connection and make changes on there. If I want to experiment, I don't want to necessarily have to bring up a whole environment. So in that sense, there's sort of two choices of all these components should allow me to strip down and scale up and be flexible. So that again, I'm not hampered by the infrastructure.
+
+In terms of hardware tools,
+
+since it's mostly digital and controllers,
+
+I don't do any of the electronics design, even though I would love to, but I just don't have the skills and never find the time to study up.
+
+I basically use very good audio interface, which is the metric Halo ul and eight
+
+that can capture audio and even DC coupled signals in a way that allows me to visualise it in software that runs on a computer like electroacoustics toolbox if I really want to look at waveforms.
+
+But also in general, I use some of the DSP primitives that come with the metric Halo platform.
+
+And it's a very low impact.
+
+extremely capable audio interface with onboard DSP processing that operate a little bit like Maximus p, where you can easily simulate and isolate things. So I can create simulators, simulations, environments through there that are very decoupled and then also they have
+
+Recording functionality that is directly tied to their driver. So I don't, obviously I use the AWS use sometimes when I have to test out how MIDI and audio in interoperates, and stuff like that, but
+
+if it's really to analyse audio or to analyse signals,
+
+the metric Halo console application has a built in recorder that has that gets the sample data straight from the driver without anything interfering in between.
+
+Which First of all, it gives me confidence in that I know nothing is interfering in between. And also it is very, very convenient to work with because it's just right there in their console application, which is basically like a mixer console. It's right there. And I can record and capture everything super easily. So that sort of
+
+quick overview.
+
+But yeah, it's, it's mostly, the rest of the tools are also mostly stemming from like the software tools from a Unix mindset, which Mac was is very much driven by, like, you have this whole underpinning of being able to just write a command line instruction and get things done,
+
+parse things out, automate certain processing, just simulate things very easily through the command line. And there's like, hundreds of tools there to come into play.
+
+And not only maybe to mention, due to the embedded like I do quite a bit of embedded development, mostly on ARM platforms
+
+is containerized virtualization infrastructure like Docker, where it's very easy to set up known images of, for instance, stripped down versions of an operating system or just particular functionalities. And use that either to run tests, when I write my code, I try to write as many tests as possible for important functionalities, like to run tests, but also to cross compile very easily without having to compile and target.
+
+So that's, that's more and more in use, also.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+why I chose them.
+
+Okay, well, that's also still it's also preference, again, like what I feel most comfortable with.
+
+It have a long history of Linux.
+
+But Mac OS is like, still, to me the best compromise where you don't have to mess around with making things work in order to be able to do work.
+
+And it provides a bunch of nice features that are just very useful to have like,
+
+mature tools to do graphics design, mature tools to do even audio editing. Like there's there's alternatives for those on Linux. But they always have some little thing that miss that is missing. And you can get a lot done. But then you spend a lot of time trying to figure out how to do something that would otherwise just be a click of a button.
+
+But you also get immediate access to all of the Unix underpinnings like I said.
+
+So that's that platform, like the other platforms, the embedded platform.
+
+Over the last six years have been gravitating towards Atmel yet Arduino and Raspberry Pi. Just because they're so commonplace, they're so easy to find. They're supported in like, whenever you build an instrument, you know that you get like long term support on the availability of those processor in the exact same form factor.
+
+And they're open source. So you can, you can actually drill down to the
+
+the lowest level in order to figure out why something behaves the way it behaves.
+
+And that's sort of a common theme across any other tools that I would say platforms that I would select, is try to have open source being a big component, so that I can always understand what is going on, even if it means reading a kernel driver. But at least I can find it and I don't have to like just throw my arms up in the air and say well, then guys, that's it like no idea that that doesn't work well with me. I have to be able, I have to be able to either either prove that
+
+That I made a mistake or that I'm not doing something right. Or did I know why something else is behaving a different way?
+
+So yeah.
+> You mentioned arm in that sense as well - do you use arm as an alternative to Atmel?
+Yes.
+
+Mostly, like we, in the, in my personal projects has mostly been arm and arm Raspberry Pi, obviously arm on mobile iOS mobile devices. But that sort of that comes with it. I don't it's not a conscious choice,
+
+though.
+
+> Ah so generally not MCU level arm chips more the more complex chips?
+
+Yes, yes, yes, yes.
+
+> and so for embedded you prefer to use atmel?
+
+Yes.
+
+But it's just due to, that actually comes from,
+
+like, I have very, very little history with embedded programming. It started when I was doing an instrument with Roger. And he had prototyped it with an Arduino to a and then sort of picked it up from there. And then just like, Okay, well, that's it. I've done quite a bit of xmos. So. But that is,
+
+I mean, it's just part of a project that Moog and I would never pick it. Like, it's just something that I had to deal with.
+
+I would not consciously choose for an X mos platform, if it's, if it has to do anything else than what they provide as existing functionality. Because it's,
+
+it's very complicated. And it requires such a big understanding of the infrastructure behind it, and how the pipes behave and how the whole
+
+back timer infrastructure works. And on a handoff happens between the different
+
+execution threads, it's very, very complicated.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+I would, I would say, and that is not specifically to digital instrument design.
+
+But I think it makes the process so much better.
+
+Like real time chat tools, like Slack,
+
+I feel make a world of difference when it was IRC in the old days, used to be only geeks on there. And like, people were very hesitant to sort of connect to an IRC server.
+
+Now with slack and teams, and whatever of these tools, like I have a preference for slack.
+
+It makes collaboration so much easier.
+
+So I do think that that is that makes for a better process and inherently for better instrument design. So
+
+and then maybe as an extension of that, which is something we're doing now is the vast availability of video conferencing and, and high speed internet. Like, it would absolutely not be possible to do any of the work I do without those functionalities. high speed internet, it's like we're looking, I know this is recorded, but whatever. We're looking to buy a house here in the XXXX area. And me and my partner are like always debating like, which house like what is what are options, and I'm just like, I'm not budging. It's like high speed internet is the number one necessity, otherwise, I can't do any work. It's just nothing happens anymore. So maybe that's often overlooked, but I think it is very, very important.
+
+And then just an extension of that, and maybe that's also often overlooked is how easy it is nowadays and fast to send physical objects across the planet.
+
+If we wanted the next day, we can send an object across the United States, if we can be a little bit more patient than its two or three days, which is it's mind blowing. It allows people across the world to collaborate on physical projects, and be very, very creative and iterative. So all of that infrastructure also consider an important tool of the creation process.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+It's a good question.
+
+Well, actually, it just happened.
+
+So I don't have any pressing ones right now. But I will bring up one that just happened, which is the apple m one processor.
+
+Having a really powerful computer that doesn't heat up, and that has no fans blowing all the time. If you're working on sound,
+
+it's just like, I, it's been a frustration of mine, ever since I've been working on this. And now not having to deal with fan noise, not having to deal with the laptop, burning your thighs, when you decide to work on the couch
+
+is a huge quality of life improvement. So, I mean, yeah, I guess my life just dramatically improved recently.
+
+# How do you approach the design of a new instrument?
+
+That's such a loaded question.
+
+Because it really, it really depends on who you're designing with.
+
+Like I have, I have so many very different examples in mind, like my team in Moke, it is basically whole of Mogees designed with the instrument in a way, which is such a different approach than when I just like, hey, let's create an instrument with the Apple Watch. And that just code for a few weeks, and then it's there.
+
+So
+
+I'll just talk from my own perspective, if I would be doing something by myself,
+
+what I tried to do is to find something that would
+
+allow people to be creative in a different way than they used to be creative, like find a way for them to
+
+reach into their artistry in a very intuitive but surprising and inspiring way that no other instrument provides. So that's usually my first onset.
+
+My gateway into this is that I've mostly designed controllers, but then with extension, all the rest that comes with it.
+
+One of the things I've realised that and that sort of comes from working on
+
+the iOS apps from Moog
+
+is the sound engine is super important, of course, but an instrument makes or breaks it on the interface.
+
+You
+
+know, and that's why like guitar players will try to lower the action of their strings, and why they might switch out the frets for different frets or why they will be tweaking the bridge, or they like so many ways that people tweak their interface in order to feel more creative. And that all boils down to
+
+just
+
+the very basic building block of instrument design is to create a feedback loop where you interact with the instruments that generate something that you consume, which usually is audio
+
+that feeds back into yourself to inspire yourself in order to create further if there's anything blocking in that feedback loop or taking too long or is frustrating or distracting. That catalysing feedback circle will not happen. And people will not feel inspired. So that's always what I tried to look for is like how does
+
+the idea that I have for an instruments create a unique feedback loop that still triggers that creative process
+
+> Briefly, if you could recontextualise that in a team enivronment...
+
+in a team environment
+
+it's
+
+it's really hard
+
+team environment usually, you
+
+have to take into account business goals,
+
+sort of approaches from the completely opposite way where what is what is necessary in terms of revenue in order to keep the company running.
+
+So
+
+that, by the onset often restricts certain technologies restrict certain choices, timelines,
+
+demographics,
+
+user segments,
+
+then what the team starts designing around this.
+
+And,
+
+and that's just my point of view.
+
+I haven't, I've only been able to prove it on a couple of projects, I've not been able to do with all of them, I still think that even if it's the team, there should be an owner, there should be someone that is the person that gives the instrument it's so that even though it gathers the inputs from all the people in the team that they think it's necessary, they are the ones that have the opinionated decision making rights.
+
+If that is not the case, then
+
+more often than not, you end up with a design by Committee,
+
+which is not opinionated, most of the case. And which often tends to become bland, and just general purpose
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+What distinct aspects are required?
+
+Because it's very vague.
+
+Mm hmm.
+
+*pause*
+ 
+I think I covered on a covered this in part in the previous question.
+
+I think it doesn't really matter what
+
+external, specific aspects or implementation details are used in order to further instrument to be successful?
+
+I think it is that whole full philosophical approach of creating that feed feedback cycle, and that sort of drives everything.
+
+So yeah.
+
+Also think that this question might actually be a little bit loaded in trying to come with a positive answer. While I think there's actually the answer is a negative answer, in that.
+
+alongside with 
+
+in order to very proudly talk to certain people and very proudly exclude a number of other people. So in that sense, I don't think there is a single set of requirements that cover all instruments. I think, for each individual instrument, you have to figure out what the opinionated choice is gonna be.
+
+Like, some of them, you might very purposefully create really complicated and complex
+
+and deep and overwhelming, because there's a huge subset of the population that just thrives on that where they're like, yeah, I'm digging into this and look at what I'm doing. Like, there's people that love that and they get their creativity out of that. While there's other people they're like, Don't show me anything that is complicated. I just want to be inspired by my own interaction and whatever is being thrown at me.
+
+And then like, those are just just examples. It might be anything else. It might be visuals, it might be form factor, it might be personal space, like what is your decision in terms of how far and how near does the instrument interact with the user? Are there any acoustic vibrations that transit through it is there any tactile feedback is there
+
+at all of these, I think are very specific to each individual instrument. Now if you
+
+try to find a common ground and generalise those, you basically don't create the differences that would talk to the different affinities of people.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Well, to find that feedback loop without making it your own, because you're the one that's evaluating that thing, and while you're working on it like did,
+
+the danger is of falling into the trap of just making it for yourself.
+
+That might be fine, if that's what you're designing. But if your aim is to design an instrument for
+
+some kind of commercial purposes, then you need the you needed to sell. And then you need to be able to put on different hats, and you need to be able to Okay, um, even though I know all of the things that are going on, like, what if I'm this user want to move on that particular archetype? What if I use it in different environments? Does it work? Doesn't it work? If it doesn't work? Is it okay for it not to work? It's also one of the things I've seen a lot of people do as a mistake is,
+
+like, very typical example. And that's just like an after the fact of beta test, for example, where people write in and say, Hey, I wanted to do this. And they're like, Oh, shit, it doesn't do that. Let's add it. Usually, I'm the opposite. And it's like, well, sorry, it doesn't do that. And there's reasons why it doesn't. And I understand that you might want to use it that way. But that's just not the way it works.
+
+And while you're designing it, being cognizant of that, and not trying to have to do everything, because with a digital instruments,
+
+sky's the limit. So
+
+you can just add feature upon feature and functionality about functionality, and kind of lose track of what the soul is that you were going for.
+
+So I think that's one of the most challenging things.
+
+> to clarify on a couple of on a couple of points, you mention someone needs to own the instrument and to guide it to a very taste directed place - yet at teh same time they shoudln't overly design for their own taste, they must find a niche... is that fair to say?
+
+Right?
+
+I would characterise it a little bit as
+
+I'm gonna try to use an image, which I've used for other reasons in the past, when I think it might suit this one.
+
+Do you know, the Hobbit, as a story, like when they're in, in the woods with the spiders and
+
+Bilbo climbs to the top of the trees in order to find where they are. And he sees the Lonely Mountain. Like far in the distance, he doesn't see the paths towards that he has to take to get to the Lonely Mountain. But it gives him a direction it gives him where he needs to broadly go in order to get closer to that mountain. And that's sort of like I've applied that to other factors in life, but also apply it for instrument design, and try to emotionally craft that lonely, lonely mountain, like, there's not really words for it. It's not really like a set of features, or it's more like an abstract, imaginary sculpture in my mind. Like I'm blown the mountain that just sits there and I tried to go to words, it's very emotionally driven.
+
+Where does this particular action that I want to undertake gets me closer or further away from the Lonely Mountain? If it gets me closer, it's good. If it gets me further away. I don't know why, but it just might feel wrong and like no, like, that's not it. Like the advantage of doing that is that I'm not as a person evaluating what is happening, but I've made it an external entity, and I travelled towards it and it's not me that his decision maker, which I think makes it easier to make such decisions
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Maybe I'm like, I'm usually the odd one out and in those kinds of things, but I think we're living in an amazing, an amazing age. So I'm every day amazed at the tools that we have at our disposal. So
+
+they, I'm pretty sure that there might be better tools. There's always something better. But it's like someone that is waiting for the next guitar effect pedal in order to have his killer sound, because then he'll become a good musician.
+
+I think we've got an amazing and marvellous set of tools, you buy $1,000 computer, and you can create anything in the world.
+
+And it's gone such a long way.
+
+In making it
+
+so easy to get started, like, I know how it was 30 years ago, I know where it is now, like, I can whip up a project in 30 minutes. And just like, Oh, hey, let's try this out. And like, Yeah, it does something cool. And there you go. Like it's a thing.
+
+So, I mean,
+
+I can't really come up with what better tools I could be. There's always bigger, faster, better, cheaper.
+
+But to be fair, I mean, we're living in the most amazing age for this. So
+
+I don't know that answers your question. But
+
+# How would you define a DMI?
+
+an instrument that allows you to enter that creative feedback loop while interacting with the digital world.
+
+That's it!
+
+# What concepts do you consider a DMI to be made up from?
+
+Well, there's been there's been the typical separation of controller versus sound generator.
+
+Once they're brought into one thing together, people consider them and instruments. Now, I think that has eroded.
+
+Another concept that might be under the hood is jitter, and latency.
+
+If
+
+and I think that that actually is one of the technical underpinnings of what turns something into an instrument or not.
+
+In order to reach that feedback loop, you have to have to have an innate understanding of what is happening. It doesn't mean like, be able to reason about it. But you have to as a human being be able to appropriate and internalise what is happening.
+
+jitter is the most difficult thing to deal with. Because long latencies are annoying, but there's church organ players that learn how to deal with it. Like it's not awesome, but like,
+
+in order for the most people to be able to deal with it, you want to have low latency, of course jitter is the killer, because the human brain can't innately handle time discontinuities. So even though you won't perceive it, there will be these tiny little fluctuations that make it impossible for you as a human being to grab on to it on on to what is happening in a way.
+
+Now, if you can reduce that shitter sufficiently, I think, well
+
+I haven't looked it up recently. Everything
+
+Have a look at it or look it up.
+
+I think it's beneath nine milliseconds or something like that.
+
+jitter is less than that a jitter might be six or something like that. I don't remember the exact number, I can look it up,
+
+I have done a document somewhere to refer to every time I need it.
+
+If you can stay below that, then
+
+it is perceived as continuous time.
+
+So I think that that is one of the reasons why some controllers fee like instruments and why some don't.
+
+Because
+
+maybe the the abstract concepts here,
+
+tie into removing
+
+roadblocks,
+
+right, to ensure that that feedback loop keep getting back to that happens as fluidly as possible. And any part of what you're designing can make or break that. Now if you design an instrument that is self contained and has everything, hopefully you have full control over that sometimes you don't. But hopefully you have full control over that. If you decide if you decide decide to just
+
+create one port part of it like the controller, then you sort of hope that the user will figure out the other part. But some don't. And then that does play into the perception of what you created. And like people might be connecting it in a way that is very suboptimal or they might be using low power computers and then get erratic behaviour.
+
+So yeah.
+
+

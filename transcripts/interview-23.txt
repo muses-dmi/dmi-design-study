@@ -1,0 +1,107 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 23
+role: Professor of Media Computing
+experience(years): 35
+instrument_count: 5
+
+instruments:
+ - EMG instruments 
+ - BioMuse 
+ - EAVI EMG
+ - made musical instruments out of consumer devices like the Thalmic Labs Myo
+
+langugaes:
+ - c
+ - c++
+ - python
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+These days, I'm not much of a coder, you know, I know that some of the languages and I work in them for research purposes.
+
+But for my digital musical instrument, work performance, I'm really using high level environments, notably Max, and sometimes pure data. And the reason I do that is because I'm really trying to work at a musical level. And so the act of programming and the act of composing music are basically merged. Now, there are some underlying tasks, lower level tasks, signal processing, feature extraction, maybe some machine learning. But I try to, in the DMI work access, these low level processes exposed in within these higher level environments. So in that sense, as much as I'm quite knowledgeable about feature extraction, signal processing, and and somewhat operational in machine learning, I'm not Yes, I'm using, we're working with people who create tools, and we try to design those tools that they're so that they're available to the musician in the high level environments. And so that might, so those may be developed in Java. Game, maybe. See. But for me, it's not the language that's important. So much is but the manner in which it's exposed at a higher level environment. 
+
+> You mentioned that it doesn't really matter what language that is, do, what would you say is the informing aspect of what language is chosen? When it when it is required? Is it simply what the engineer requires? Or?
+
+No, I think, my choice of language at that moment, I must say, it's very pragmatic. And it's, it perhaps isn't for the elegance of the coding act, but for interoperate, interoperability, platform independence. And so there's a natural tendency to go towards just tried and true languages like C c++, it's been very interesting to see how a slightly higher level language like Python has really evolved in the past few years to become a kind of standard for signal processing. And yeah, so I suppose compilable languages, low enough level languages that are efficient at runtime and generic enough to be able to be deployed on a range of different environments will have forms sort of requirements here.
+
+# Why do you use your chosen tools for instrument design?
+
+Okay, yeah. Now,
+
+sure, and then and then all these words, the boundaries between these words becoming fuzzy, platform, we can pool between what comprises an instrument and in fact, that's whether it's semantic or conceptual. A real grey area of interest for me in my research and my thinking about these things. But so why do I choose the platform's I choose? Well? To tools, Yes, okay. Okay. So in a sense, the tools would be a computer, you know, and it's computer music that I'm producing live on stage in a kind of gestural interaction with the performer. It is something, as a musician, I've, I've sought to have a long standing relationship, or a kind of longevity in my work, that means that old pieces need to be performed decades later. That means creating new pieces that will have potential to be reproduced later, in another era by other people. And there's this very simple fact that I've been doing this. Since before I had grey hair. So for the better part of 35 years. And so interestingly, it's to see what tools were available then. And how they evolved to be more powerful and to remain available in evolved form today. And so the I don't think I had that any vision in mind when I set out 35 years ago, but the tools that I did choose did stick in the community. And they are. And but I was thinking about longevity already. back then. So if then today, it's a computer based system that's doing signal processing, taking live gestural input, the actual device may have changed quite a bit, but surprisingly little about the way the signal is. Acquired, processed and mapped to sound. So yeah. So if that's a why the tools Yeah, I suppose that would be. Why is that? That they're nice guys, I can describe the kind of interoperability over time, in that I have to perform a concert programme, sometimes with works that are over a decade old, alongside a piece that I've just written the other day, and they and they have to load up and don't have accounts to work with more than one system. I can't have much downtime on stage in between pieces. And so that kind of interoperability within myself as a single composer performer. Yeah, it's very important. 
+
+> And you've also mentioned in your tools, quite a set of different types of sensors. What's the motivation for choosing the these?
+
+Yeah, I suppose. I mean, it's in the answer to that question. It was.
+
+I was trying to, since the questionnaire was a lot about digital musical instrument design, and we'll talk about the roles. You know, we might get to a part of the interview where my answer will be that I don't really consider myself an instrument builder. But the lists of hardware I listed are more the things that I'm interested in, that I might look at, in my research that I might use in my teaching. However, in my life, as a musician, and performer, that list is much much smaller. In fact, I've made a career out of performing with muscle signals, that is my musical nerve. I've had other major projects along the way. So I'm using networks, others using computer vision, others using mobile and GPS technologies. However, the system that I come back to as my instrument is the electromyogram system. Now there are many devices on which they like my grandma has been captured over time, but I would say I am a performance electromyogram music
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Well for reliability, availability and ease of use, I would say. And so if the platform was the Macintosh computer, and its various operating systems over time, the Mac's programming environment. Back in the day, when I started with this 30 years ago, that was what was reliable. Reliable means not just it doesn't break down. But the Motorola 60,000 based Macintosh, and diversion of the Apple Macintosh operating system, back then was far more advanced for for dealing with time and sound than other operating systems and platforms at the time later was surpassed. And the max itself was very interesting for its real time polling Scheduler. So dealing with time was really interesting. I kind of regret in fact that these very important matters seem to be overlooked these days, even in these very platforms that I've decided and continue to use. So, today, the computer platform has changed chipsets several times, I've taken on the possibility to do real time, audio signal processing. That's all very good, I could probably run it on another kind of computer, another operating system. There's nothing holding me back now. Max has evolved. I don't think I use the complexity of its current offer. And to the point where a lot of what I could do could be done in pure data. So there's a family of these data flow programming environments that I like, for their for their ability to kind of support, quick, rapid prototyping, and sort of sketching as a way of working, but are nonetheless robust enough to then use as finished physical work. 
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+Any other tools that contribute significantly? But, yeah. Well, for me, I think of myself, yeah, as a digital artist, in the sense that I use the tool set available in my act as a musician, so some of the needs that I would have might be to record sound, to process sound, some of the more recent things that I might have to do have to do with setting up machine learning algorithms and so forth. So I'm quite comfortable with what we might consider to be the palette of the digital musician today. So but that palette doesn't really extend to the standard production tools so I don't prepare my new musical works on a DA w for example. However, I might go capture sound on a recorder and that could be a high quality portable recorder. It could be a mobile phone. It could be using a nice microphone, what have you would use audio editing software, the sound materials into a form that that I can use in my compositional environment and performance environment. In terms of machine learning. Yes, tool like Rebecca Stevens work inator is very useful way of setting up regression models and classifiers and today, I've been involved with colleagues in making the
+
+There's sort of the underlying code of tools like that exposed, as I said before in the max environment. So we have a max object that runs the regression models in the same way that like inator doesn't, in fact, import models from working.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Okay. Well, yeah, so we could try to wrap this up quickly. But that's the kind of question. And it's not to say that I have a huge laundry list. But I find as much as I say, I'm a digital artist, I find the computer based process of musical creation, very laborious. And and there's a lack of spontaneity in, especially in a situation where I'm, what part of my musical mission is to keep real visceral energy. And so the preoperative act of creating music, and instrument systems is hugely laborious. The fact that they're computer based means we're able to reproduce things. The fact that they are computer based means or perhaps the way the 30 year old way I'm using them means that every little thing has to be noted, specified, saved. And so, in terms of quality of life, what would I imagine to improve that? I, I would in a kind of brainstorming way, imagine systems that might be able to track the history of what I'm doing, to better recover where I was, or set up kind of an abstraction or pattern based on something that I'm doing, then I can replicate,
+
+again, at a higher level. And in doing so, still allow musical components, musical modules, and elements that are created to be
+
+recombined in different ways. So I know that's fairly vague sounding, but I'm trying not to be too specific, or try not to limit myself to when I deal with the constraints of reality.
+
+# How do you approach the design of a new instrument?
+
+Okay, well, so that this is where I get to say, I don't design instruments. And that being said, I don't like to think of myself as creating a new system for every piece. And so there's this sort of spectrum in which we try to situate ourselves, there is not a new instrument for every project or every piece.
+
+And that being said, I don't think I built the instrument that I use
+
+today, in the sense that I took part as as one of the first users of an early electromyogram instrument called the bio muse. But I was not its developer. Now, but to find a musical use for it and some of the basic max patches that were made around that device were some of the contributions that I made. Here, between the EMG instrument and then some of the other projects that I've done the right instrument, like there's a project called Global string that I did with the bass player, Caspar toeplitz, which is a well, it's an early Network music piece. Whereas a single string spans two cities, and its physical steel cable gallery on both hands, and goes across from one city to the other on the network between something like that. Another instrument system might be this project net dourif, where I took mobile phones and GPS in a claim to turn the city and the geography of a city into a musical instrument. Or even non instrument like installation works. Like what the computer vision when I mentioned called bondage. When I'm looking, I think there's a theme in all those systems and instruments is that I'm really looking for the visceral aspect of the engagement of the human body. And in that sense, they are physical systems. But they're not it's just not it's not just a question of like, I'm sensing the body or not, but it is the reactivity and the responsiveness of the instrument that I seek to have where the feel of performing and has a satisfaction that is palpable, that's physical. And so, therefore, can can function and operate somehow in a very intuitive, almost subconscious way when we're the response of the instrument has a certain fluidness a certain analogue ness and a certain risk of breaking down and, and so, I looked for a system I tried to create systems that have a potential energy somehow in their in their response, this may be a non linearity this may be instability, this may be simply unknown or unmapped areas together at a certain feel which for me in a digital system, I would like to have approach an analogue system okay. 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Aspects. So, can I ask you what you might mean by distinct aspects. It seems within the instrument not distinct with respect to other instruments.
+
+> such that it would generalise to instrument design. Yeah.
+
+Well for me though, what I mentioned in the answer to the previous question is this sort of responsiveness and reactivity.
+
+So, latency is very very important. And certain limitlessness I suppose, in in kind of the interactive range, this is a kind of a hard one to
+
+to describe. But yeah, so, so there's something like almost an asymptotic response curve so you can weaken squeeze as more and more other aspects? Yeah, I would, I guess the holy grail is to find what I know, we'll probably ask to strike that from your transcripts, because that's not there's no Holy Grail. But an important aspect would be the relationship between the gesture and the sound, the gesture input and the sound output. One that is very organic and very intuitive. And, and then, and then purely on the sonic side. Similar, I'd like to have something that feels limitless in its output or Sonic possibility, something that has the possibility to saturate gracefully.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Well, the biggest challenge in designing an instrument is getting an interaction that is kind of not robust in the in the sense that you have to get to the field to find a satisfying feel is one of the biggest dangers and I realised this is very difficult to kind of
+
+characterise. But one of the biggest dangerous is doing a lot of work for us to create complexity. That is that somehow isn't fulfilled and in some way, not in complexity, but in simplicity.
+
+So yeah, I feel like the danger is arriving at an interaction. That doesn't reflect
+
+a pure corporate sensation. 
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Well, I'm not sure a tool could actually solve the problem. I think this is a musical problem. And I suppose we could imagine a future tool that would naturally inclined one to make viscerally satisfying, musical interactions of the form that I champion. And so what qualities would those tools? Have? Yeah, I think those tools would, um, yeah, have something in the mapping space. That is very rich. And so, if if we, in my case, mapping of human input to sentences output is the crux of the problem mapping can be thought of as a very direct thing, or a very indirect thing. And, Curiously, the most satisfying experiences, in fact come from direct mapping, but then they limit you ultimately, somehow get to more sophisticated forms of mapping that have the same satisfaction as direct mapping, but that that offer more in the asymptotic response or the instability. For the nonlinear, it would be kind of imaginary tool that I would welcome. 
+
+> Just going back to what you originally said, that it's generally a very human problem. Do you see that there's any other supporting roles that tools can play? Not necessarily in in solving that but in improving the ability of the human to solve that?
+
+Maybe, yeah. So I think that I think in what can tools do to help solve this musical question, it may have to do with the way the tool is presented to the musician, and so then we're dealing with interference. And if we take the task of mapping, as an example, and nothing is presented, in an interface as a bunch of sources, and a bunch of destinations, that reduces it to this rather straightforward and limited linear task. On the other end of the spectrum, by using things like machine learning, we might make the process more intuitive, creating what we call mapping by demonstration. But then what does person demonstrate to demonstrate the end points, some things that I've called anchor points in a regression model that have become points in a regression model. Even there, we found in our research, that workflow is an interface interfaces. Very, very important in this and we've thought about identifying points, collected points that become the examples from which regression model is built. We've dealt with reinforcement learning workflows, where an agent proposes mappings, and the user, the musician enters into kind of conversational reward dynamic with with an intelligent agent. But even there, the legibility of process is non trivial want to get in the user and to get any tool to aid the user than in getting to their musical goal. Has is, is tricky. One because musician doesn't know the goal that they're going for, but they know what they're not going for. And so to imagine a tool or technology that can support that exploratory, but nonetheless focused process is is a real delicate, active both tool building an interface design. 
+
+# How would you define a DMI?
+
+So the definition of a digital musical instrument has been a long running debate in that field and the definition of a musical instruments door digital are not part of that, and, and so that the long version of this answer I can point you to a text that I've written on that. So, but as the story goes in the field of nine there was a question What the I should stand for in the nine acronym, should it be instrumented interface. And today its interface. And in the chapter that I'll point you to think about systems, musical instruments as extended systems where, whilst a traditional musical instrument was self enclosed as a physical object, today, the hardware and software systems that we use mean that the instrument is no longer contained in a single device. But then as soon as things bleed out in this direction, it's a question of whether we're building an instrument or a system, or whether it's this configuration of technologies then becomes a project where the piece and so then to avoid all this just becoming a semantic exercise, I think an instrument I come back to a traditional musical instrument and in fact, distinguish the word instrument from the word tool and, and think about an instrument, not just that it's self contained in one object, but think about the musical uses of the instrument that it can be used in different contexts in different works. And have a kind of what I call idiomatic musical voice that then leads to a riding of music for that instrument. So idiom metallicity, is something quite important for me. And it's it's an instruments use and reuse and changes of context that become important for me.
+
+# What concepts do you consider a DMI to be made up from?
+
+Concept So, yeah, so, for me, the main concept is one of live-ness and real time performance. So performance is very important word. And that's another word that I unwrap in certain lectures that I give artistic performance, engineering performance, social performance. But I think an instrument is something that on which we perform music live and then very, very old concepts coming from traditional musical instruments that me are the kind of gold standard for digital musical instruments. That is clutch Did you say I missed the word. Did you say that it's caught him? Cool? Well, what I do for my interest, which has to do with the engagement of the human body with digital musical performance, then yes, the live aspect is primordial. I could imagine many other kinds of musical instruments that are made out of digital technologies that might not take on different concepts. So it's I don't think it's limited to that. But for the sake of what I do, I think it's quite important to kind of have a working definition kind of Yeah, zone with which one operates. And it's by pushing and cast those songs. And that might find interesting interactions. But some of the other concepts besides live in real time for me would have to do with interaction and sensation. 
+

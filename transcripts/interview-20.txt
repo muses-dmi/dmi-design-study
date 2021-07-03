@@ -1,0 +1,98 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 20
+role: Software Engineer
+experience(years): 1
+instrument_count: 3
+
+instruments:
+ - SeqPal
+ - DrumBud
+ - Winterbloom Sol
+
+langugaes:
+ - python
+ - rust
+
+---
+
+# Why do you use your chosen programming language(s) and how did you come to use them?
+
+I actually started programming with Lua, but it's a quite limited language. Its main goal is to be easily embedded in other software, which makes it extremely useful but also extremely small and simple; as such, I quickly moved on to Python as a main "scripting"-style language - so when I saw that a Eurorack module could be programmed in Python, I was quite excited.
+
+Python is great, and especially in the case of Sol, which neither has to run extremely complex computations nor process events very quickly, but does have the be approachable and easy to use, it's pretty much the only choice. The work Stargirl and the Adafruit community have put in to making CircuitPython, the variant of Python designed for embedded computing, a welcoming and beginner-friendly environment really motivated me to get into the world of Eurorack.
+
+Rust, on the other hand, is all about correctness. It has a robust and very strict type system - where in Python it's easy to get code to run, but might require a lot of testing to get it right, in Rust the type system constrains which programs are valid to a large extent. This means that one must put in a lot more thought up front, but the program that comes out the other side of the design and development process is much less likely to be buggy, and is almost certainly really fast. I've been working with Rust for about 5 years, and this summer, a textbook on the language that I co-authored will be released.
+
+
+# Why do you use your chosen tools for instrument design?  and how did you come to use them?
+
+As I mentioned before, Sol is a really fantastic platform because of its inherent approach-ability. Assuming you have a Eurorack synthesizer, it's relatively inexpensive, and once you have one it's very easy to use just about any code anyone's written for it, and even to modify that code on the fly. For instance, SeqPal requires modifying a small section of the code to set it up, but I think it's reasonable to expect even non-techies to do so; it's just like editing a text file on a USB flash drive.
+
+As for software, I use Vim because I'm used to it, largely. It's a great text editor but if I were starting my career over from scratch I'd probably learn Emacs first, just because it's so customizable.
+
+
+# Why did you chose your chosen platforms? 
+
+Eurorack has always fascinated me, so developing on the SAMD51 is just an outgrowth of that; it's the processor that was out there when I got access to the format, in the form of Sol and, soon, another module coming from Winterbloom.
+
+Linux, on the other hand, is a platform that I firmly believe in. I've been a Windows user in the past, and I have an Apple MacBook Pro which I use for work, but I've always hated the "f*** you got mine" approach those platforms take to digital tools. For instance, it's basically impossible to use an Apple iPad as a USB MIDI device without some special software which runs only on Mac OS, while Android devices have always had a little drop-down menu where you can say "please be a MIDI device right now". On Linux, there's a spirit of cooperation and openness that makes it so much easier to build the kind of systems I need.
+
+As an example, I use JACK to route all my MIDI and audio around my studio on a GPD MicroPC. JACK is great, and has a lot of great work going into it, but even more importantly there is a huge ecosystem of tiny software tools - what might be plugins for a DAW in other ecosystems - that work seamlessly with it. I tune using a JACK-based tuner, for instance, and loop MIDI with a JACK application. It's kind of like a little modular synth inside the machine.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+Python, certainly, as I mentioned above. I also really love trackers, from SunVox and PixiTracker to Renoise and the Polyend Tracker, a hardware instrument running a very sophisticated applications software that mimics the old Amiga tracker interface with modern processing power and synthesis modes. SeqPal and DrumBud are definitely optimized to work with those kind of interfaces.
+
+I greatly respect and often use ORCA, from the hundred rabbits collective, and it was my initial inspiration for getting into synthesis at all. VCVRack has some issues with licensing, but it's a great tool as well.
+
+
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing digital musical instrument? 
+
+Feedback is key. CircuitPython does a great job of this, but in an environment like VCVRack, it's a gigantic pain in the butt! For Fives, my 555-timer-alike VCV module, I had to compile and test the code dozens of times without eager reloading or anything of the sort. Of course, reloading object code on the fly is no easy task, but it would certainly help.
+
+Beyond that, well-typed and well-documented APIs are really important. That's one reason I love Rust; it has great documentation tooling and a culture of aggressive documentation, though sometimes to the exclusion of good tests.
+
+
+
+# How do you approach the design of a new instrument? 
+
+I'm an engineer at heart, so I start with requirements. What do I want this to enable people to do? With SeqPal, that problem statement is something like, "easily configure a modular synthesizer to play multiple incoming sequences over MIDI". With something like Fives, it's more like "reproduce sounds that are otherwise limited to physically impossible configurations of the 555 chip".
+
+Once that's established, I just sort of play - I write small examples, like SeqPal 0.1, that implement only the core of what I want, and extend them until they become unwieldy. Then I reorient with the new context and goals that I've come into. For instance, with SeqPal, I eventually wanted it to optionally play Plaits' model input like a drum machine, which required a lot of rethinking.
+
+
+# What do you consider as the biggest challenge when designing an instrument? 
+
+A lack of community consensus on common issues and a general unwillingness to share. There are many parts of the community that share within themselves, and Emilie Gillet's work in creating free software, open hardware modules has absolutely transformed the ecosystem - but that's only because it's so incredibly uncommon. A great example is the Lines founding community itself. monome has some open source work, like the Norns shield and the 16n, but most things, like Grid, the Norns hardware itself, and Arc, aren't open source at all. I actually brought this up on Lines a while back [1] and got a pretty clear negative response; it's just not something people are interested in.
+
+One of the greatest things about the Rust community is that, because of Cargo's reliance on crates.io, everything is open source by default; publishing a closed-source package is just a gigantic pain, and nobody really does it. It's easy, then, to learn from others' work, and the whole community prospers because of it. For instance, the compiler team can verify that fixing bugs doesn't break people's code by running their test suite against pretty much all the Rust code that's out there, in a process called "crater"; because of this, even "backwards-incompatible" bugfixes very rarely break anything.
+
+
+
+# What tools do (or could) play the biggest part in helping with these challenges?  
+
+Frankly, I'm not sure. Replicating hardware is just more expensive than replicating software; that's pretty much the definition of the term.  There are some great tools out there, like kitspace, that make this a lot easier, but they are centralized and anyway haven't seen a lot of adoption.
+
+I would love to see more work done on discrete-transistor designs, because the supply chain for chips like VCOs and BBDs are precarious. On the software side, I think having more projects like CircuitPython, and having those projects explicitly focus on audio DSP, would be wonderful. Unfortunately, running on non-desktop hardware just sucks; "hardware vendors bad" is pretty much the constant refrain of the electronics enthusiast. I'm not sure there's much we can do about that.
+
+On the desktop side, anything that makes cross-platform development easier is good. This is another reason I love Rust; cross-compilation is a snap.
+
+
+
+# How would you define a digital musical instrument?
+
+Well, this is where we get into philosophy. What even is "digital"? In an "analog" synthesizer, "digital" events (gates and triggers) happen all the time; quantization (e.g. of pitch CV to a scale) is an inherently digitizing process, taking an analog signal and sorting it into buckets.
+
+But "digital" is about replication. As I said, hardware is "hard" to replicate, software is easy; hardware is hard to change, too, and expensive as hell in comparison. So, to me, a "digital" musical instrument is one that is, for lack of an unused term, mutable, without interference from its creator. Once you bake the software in, with closed source applications or chips that are under NDA, you've left the realm of what's interesting to me in a digital instrument. The tracker, for instance, is one such - digital, for sure, but immutable except by Polyend. I love it, but it's not _interesting_ in that way.
+
+
+# What concepts do you consider a digital musical instrument to be made up from?
+
+I think the core concept of any digital system is copying; copying into and out of the ALU, copying from one register to another, copying between buffers ("blitting"), copying between formats, copying between time/frequency domain.
+
+The most interesting ideas in digital instruments come from considering how we connect things - through MIDI, as with SeqPal, or in terms of moving code around. Innovating in that space has made CircuitPython incredibly attractive. 
+
+1: https://llllllll.co/t/are-the-monome-arc-grid-etc-open-source/38640

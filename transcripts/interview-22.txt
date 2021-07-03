@@ -1,0 +1,109 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 22
+role: DSP Engineer
+experience(years): 4
+instrument_count: 5
+
+instruments:
+ - The Da√Øs
+ - Magrittophone
+ - several unpublished
+
+langugaes:
+ - c++
+ - c
+ - python
+ - matlab
+ - faust
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+So most of my instruments are implemented in c++. And the reason why I use that is because it's the language I have always used. Very, very comfortable with c++. It's like, my main way of expressing my ideas. Some other environments like say, C, pure data, or Faust, maybe are more, or they're kind of made to be prototyping languages, right? So a lot of the time, it would make sense to use those. But like, every time I have a new idea, I just want to get the idea into the world quickly, and then I just use what I know. And that is c++. 
+
+> So  Faust has got the capacity to be used in the non prototyping sense as well, by generating c++? Have you exploited that at all? Or do you just you're much more comfortable using exactly the entire sort of stack of what you know?
+
+Yeah, so so the thing with Faust, like of course, you can compile it to like production level performance. But while I'm prototyping, that is not really a concern. It's more about the high level interface, like how I express my ideas. And I think that Faust is very cool, but it still has kind of a ways to go before it's everyday nice interface, compared to like, a c++ compiler, which is a very powerful tool. I get these last time, I used files that have lots of problems with like a proper error message messaging and stuff like that. So the back doesn't really matter. It's more like the high level interface, which matters when I'm doing prototyping. And I think I have found a way to use c++ so that it's, it's pretty good at that as well.
+
+# Why do you use your chosen tools for instrument design?
+
+So most of my instruments I made while I was was at uni, and there, I just kind of used the tools that were available to me. So it's not like there was a long selection process in what tools I was going to use. I just, oh, we have a we have a bailout. So I guess I'm going to use a bailout. Now we have a Teensy. So okay, now I'm gonna use a Teensy. So yeah, and all of those hardware tools usually come with pretty dedicated software tools. So that's kind of what Yes, that's kind of a natural choice to use the Arduino ID with the Arduino. One thing where, like, for example, it used to be like quite a lot, quite a lot. But I really don't like the Billa whip interface. So they are usually code in another editor like VS code. And then I just transfer my code to the beta so that I avoid using the web interface.
+
+> And then you also mentioned in your survey, things like typical electronics tools, laser cutters, CNC machines and woodworking machines.
+
+Yeah, so I will fight for the woodworking. I really love working with my hands and making things. And also I think that a lot of instrument prototypes are made from this Cockney laser cutter stuff. And one focus of all of my instruments has been that I want to feel them, I want them to feel like an actual instrument, which would be nice to touch. And that would be nice to look at. Just as like most classical instruments are automate. So that is why I've used to woodworking things that is kind of to do something else. Then the laser cutting because that's kind of what everybody's doing. But then again, the laser cutting is super good for like quick prototyping if you just want to make like some small thing last and that's definitely what I would be going for. For the electronics tools. Yeah, that would just be like regular soldering iron. multimeter maybe an oscilloscope like, so when you're dealing with baileigh and Arduino and stuff, you have to do a little bit of electronics, but it's not too bad. But you do need to solve stuff every once in a while. So those are kind of the tools you need for that.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+So of course the the Bela is an obvious choice because you just get so much like in the box, like it's, it's a platform made for audio interaction, and it's super well made, like they did an amazing job on the Bela. So, and rather than, like reinvent the wheel and make my own circuit with my own, like real time code, and digital to analogue converters and such, then, like, let's just use use this, it's perfect for prototyping, at least in an academic context, if I wanted to go more, like in a commercial direction, then I would probably spend the time making my own platform and such because if at some point, I might want to sell these instruments on how they would write the beta would would not be usable. And the baileigh is also it's a very complex little devices, and then the next computer, so it's, with my electronic skills, it would pretty much be would be very hard for me to reproduce something like that. Well, short answer, Bella is is very nice to meet to for the job. So that's why I choose it.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+So I have this, this library that I use, which is actually my own prototyping library that I made in c++. And what it does is that it's just gives you like, real time audio, in would like one line of code pretty much, and then a super simple UI library, so that I can quickly prototype my audio algorithms. And I will usually spend quite a lot of time in the box figuring out like the audio algorithms, and then once I'm happy with those, then I will transfer to the Bela or Teensy, or whatever. Because there's kind of dealing with the audio algorithm. And then there's dealing like with the weirdness of doing electronics that always needs a lot of troubleshooting. So it's nice to if I have stuff in the box, I know this this is working, then I can focus on the electronics problems afterwards. 
+
+> And did you say they are they built on JUCE?
+
+No, no, that library is not building juice. It is using portaudio for audio IO and then it's called using something that is called dearImGui for quick UI stuff. 
+
+> Right so yeah, using open source, c++ tools.
+
+Yeah, pretty much. And then I just like kind of have fused them together into my own little library. So that is just always ready to go.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Biggest quality of life improvement. That's, that's a hard one. Sorry, there's a lot of people talking in this office right now. I'm having a hard time with that question. It's been a little while since I since I did some peanut stuff. I think it's been almost a year. But yeah, my main annoyance while doing that stuff was the web editor like that it would crash and it didn't have like proper debugging support. And I think the idea is very good. But I think I would like to use some more conventional programming tools rather than us. They're kind of very nice to me, but in comparison to other programming environments kind of weak.
+
+Id so yes, So okay, so like concise answer is that I would like to be able to use these programming prototyping platforms, but would like professional level programming tools?
+
+# How do you approach the design of a new instrument?
+
+So I will usually be inspired by have to get an inspiration somewhere, I think that will usually be either an existing instrument, or like a specific sort of interaction, or maybe like a specific sort of audio algorithm that kind of affords a specific type of interface. For example, I made an instrument that kind of mimics the otamatone, it has this specific volume control. So I was inspired by that. And then what if I had an instrument that is just like the volume control and the knob? You can play that. So that was my approach, in that case was inspiration from an existing instrument. And then I had, I did a project last year, which was my master's thesis, where I had an approach that where I tried to identify the different roles, like that one might partake in with the instrument, like, performer, composer or a conductor. And then what are the different interactions that these different roles can can afford? So yeah, this this is a very open ended questions, I think it's more just like, maybe it's more like kind of divine intervention here in inspiration. And then then you try to formalise it somehow, and you research, what other instruments are out there that kind of looks like this, and what have other people done? and stuff like that? Yeah.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+So that's tough one as well. 
+
+I'm not sure what, what is meant by distinct aspects. So would that be like, what kind of thoughts or what kind of processes?
+
+> So all parts anything's relevant here really it's open to interpretation.
+
+Yeah.
+
+So um, right. Okay. So I guess, like, if I were to talk about the process, then there's like, the sound design process with the DSP and effects and whatnot. And then there is the electronics design process, where you select the platform and the sensors figure out, how should they like, how does all the electronics come together? And I think especially its selection of sensors is a very big part of it, because that is kind of like the foundation of your instrument, like an instrument can pretty much just be one sensor with like, some sound attached. And if it's an interesting sensor, then you will get an interesting interaction outside. And then there is like the mechanical design part of the process where you kind of try and figure out like, how does how is this instrument going to be played? And how should I lay out my, my sensors and my electronics and, and for instrument design that is very important part of the process because it needs to, if you want to use it as an actual instrument, it needs to be very sturdy, and very reliable and very nice to play. 
+
+That's it, there was one more thing I thought about and I was like when you select sensors, there's also like a very big question. About mapping, like, how do you map this census range to your audio thing, and that I think that is kind of the core of electronic instrument design, like range mapping. And parameter mapping like that is that is, you will, you can spend a lot of time just doing that. And you can have some very simple audio and some very simple sensors. But if you have nailed your range and parameter mapping, then it's going to, to be, it's going to work realise,
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+like, and therefore, in the biggest challenge is usually time you have a lot of ideas, but then when you need to, like big make both mechanics and electronics and software, all that stuff takes a long time, and you usually don't have enough of it. So the main challenge is actually to limit yourself, like, what are the most important parts of this instrument? And how can I make these components as all these parts as simple as possible. And that is, that is something I found myself doing again, and again, I tried to limit myself, but then in the end, I figured out that I, I was trying to do too much in too little time. And then either you need to cut some parts and say, these are not going to get done, or you just are everything just kind of gets kind of crummy. Yeah, and I think that happens with a lot of instrument prototypes. 
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Just Oh, I think I think that would be just, I've done it, of course, you can, like use a lot of software tools and stuff like that to plan your time and, and like, plan out the entire process. But the problem with designing an instrument is that it's a highly iterative process. And you might have an idea. But like most design tasks, like there's no way of knowing how long it's going to take people to try and estimate how long stuff is going to take. But I don't really believe that you can't know, I work.
+
+> And from another angle, what about in in terms of things that can save you large amounts of time, therefore buy you more time.
+
+So things that save you a lot of time is like good debugging tools and good development tools and like the audio platforms that we use, and then also actually being thorough from the beginning. Like, if you write your code, then instead of writing crumbly bad code, and actually spend a bit more time writing good code, because that is going to save you a lot of time on the other end. And the same goes with like electronics, instead of just like putting together like a jumble of wires, then actually take your time make a PCB, make sure it works. Because otherwise in the end, you're going to spend a lot of time dealing with, oh, this wire broke, but I don't remember where it went. So actually being thorough and documenting your design process. I think that actually is going to and being systematic about it actually will will help you a lot in that aspect.
+
+# How would you define a DMI?
+
+So I yeah, that's that's a that's a very philosophical question. So I would say a digital musical instrument would be any device that will take some user input and then output a sound. Like if it has that then you can then you can play music or play sound on it. Whatever you want. So yeah, so that that is kind of the broadest instruments, like
+
+interaction goes in sound come out, commerce comes out.
+
+# What concepts do you consider a DMI to be made up from?
+
+concepts So I guess there would be well, just like going on the top of my head, I would say like, the first thing that comes to mind is this interaction.
+
+Like, you have to have some thought about how are you going to interact with the instrument? And then second is this sound, I guess, what the what sort of sound Do you want to get out of the instrument. And I think, in my experience, people spend a lot of time thinking about the interaction, and then not a lot of time thinking about the sound. Because what I think is kind of nice about acoustical instrument is that you spend a lot of time getting to know the sound of the instrument and mastered that sound. Whereas a lot of digital instrument designers are tempted by the fact that, oh, we have this interface, and now we can have any sound. But but it actually, it's actually quite hard to find, like, what sound matches the interface? And and vice versa?
+
+# Any other comments?
+
+Well, there was one thing that I didn't mention that was about the tools I use, are there because whenever I've been doing my mechanical drawings, and 3d modelling, I have been using something called Open s cap. And which is Do you know it? Yeah, so that is kind of, I think it comes from my love of, I'm really comfortable with writing code as text. And it has kind of looks kind of like Python, or C. So it's like a very familiar syntax and stuff. So rather than burning some like really advanced 3d CAD programme, I can just write code. And I can use all of the concepts and all of my like, my like patterns or thought patterns while doing my 3d design, just the same as when I write my code. 
+
+And and then, one more thing, like if that was on the topic of what can help you in, in this process with designing instruments? I don't remember the exact question. So. But I was just thinking that something you're often dealing with is like flaky hardware, like sensors, that break and other stuff that it doesn't matter, because now general stuff breaking is a huge hassle. So I think, like access to nice hardware would definitely also help quite a bit. Rather than like the cheapest stuff. You get off Alibaba, which I think is what most universities have got.
+
+

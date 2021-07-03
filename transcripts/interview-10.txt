@@ -1,0 +1,339 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 10
+role: CEO & Founder
+experience(years): 10
+instrument_count: 5
+
+instruments:
+ - Artiphon INSTRUMENT 1
+ - Artiphon Orba
+ - Projects in development
+
+langugaes:
+ - c
+ - c++
+ - metal
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+So we have, we make connected
+
+hardware and software, you know, instruments. So basically,
+
+we want the hardware to operate independently,
+
+as well as be configured by and interact with software. If, if the player wants to do that, so I'll probably especially talk about orba. Since that's our newest product, although I can go into some some of the instrument one as well, they're there, they're different because the instrument one was a, a MIDI controller and audio interface, but not a synth. And then orba adds both a synth and looper to that. So different use cases but but basically the the programming languages were based on our needs on the firmware, to have a
+
+pretty specific set of requirements we had to go we had to write in, in C, you know, just straight.
+
+We didn't we at the time, especially for the instrument one and even with orba we did not know of a programming languages language that was
+
+sort of capable of the efficiency that we needed, especially at our price point for orba. At $99. We had to design the
+
+the synth, the looper, just all the basic firmware really from scratch and most most sort of other
+
+languages or, you know, frameworks kind of require more processing power than we were going to put in it. So So yeah, it really, it really was for both instruments kind of a starting fresh thing and we we also brought
+
+In
+
+members of the team who were used to, you know, who are doing aerospace or, or other even industrial kind of firmware, and so see was a shared language there on the
+
+on the app side, because we're cross platform, we've been doing c++ and
+
+and also using juice more recently for that, so.
+
+So that that was just sort of a default, but wasn't. Yeah. Does that make sense?
+
+> Did you default to C++ as an extension of that common language? The fact that you had people familair to C and therefore C++ was ore familiar than moving to something different for the desktop?
+
+
+Yeah, yeah. And also it was, it was honestly just about the personnel, the people in our network or on the team and their familiarity.
+
+We, we have not done web apps, for instance. So we didn't necessarily need a cloud solution, we did need portability, as much as possible between platforms. But, you know, for the instrument, one desktop editor, it was I should have put this in a survey, we use Python, as well, and,
+
+and was electron I think, originally, but that was, that was kind of a faster project for us, just to make sure we had an editor for the desktop, compared to the more elaborate stuff that we're doing now.
+
+Yeah.
+
+So the Yeah, I guess it's a pretty similar question. I think. I want to talk about the hardware design process as well, beyond just the software's that are applicable here. Do you want to get to that later?
+
+Like SolidWorks? And, and, you know, industrial design and?
+
+> That's appropriate here as a software tool, yeah.
+
+Right.
+
+Good. Yeah, actually, with our, with our hardware design process, we start, we start with hand drawings, we then go to 2d outlines, and then 3d and then the full mechanical build, and then we head into for mass manufacturing. DFM are designed for manufacturing with our,
+
+with our manufacturing partner.
+
+And at each of those stages, we're often kind of redesigning all the details.
+
+SolidWorks has been good, we've done AutoCAD as well, but
+
+you know, basically good in those transitions.
+
+And we've had to switch them up based on the contract manufacturer, or in some cases, our prototyping partners, just for ease of use, but most of that stuff is portable, you know, we we haven't gotten caught. And again, it's it's basically mainly based on the familiarity, but our for orba, we brought in some
+
+mechanical engineer, mechanical and electrical engineers from SpaceX and Blue Origin, just I mean, x SpaceX, but
+
+the
+
+you know, coming from that kind of demanding field into music actually was,
+
+was really helpful for us because they weren't, they weren't necessary, it's not any less demanding, building a musical instrument, that the tolerances that we need and sort of the, you know, at the, at the ergonomic level, because of how much you're touching this object was similar to what they were doing maybe at a macro level
+
+in aerospace design, so
+
+So yeah, we find ourselves doing a lot of material properties analysis and, and figuring out as we're going to scale up,
+
+manufacturing, making sure that say rigidity or durability or, or
+
+even, you know, the the type of plastics or polymers that we're choosing, we do a lot of software modelling to make sure that they're going to work at scale. So anyway, and all the software really helps with that in addition to all the, you know, the prototyping and CNC and 3d printing and all that
+
+> You kind of brought it up but, would you say is notable about this kind of design for DMI when compared to other things.
+
+Yeah, well, um, so the first thing is that so we design instruments really based on the, the ergonomics of the human body and gestures. And rather than the physics of resonance, I mean we have speakers built in. So we think about acoustic cavities a little bit, but,
+
+but through through kind of blunt force,
+
+the real design is based on how we can have the simplest possible object that fits with the human body, not only in a static way, but in a way that you can move with. And there are, there are plenty of other objects in the world that have the same requirements.
+
+You know, cameras are a good example of something that you hold a lot, any kind of utensils, kitchen appliances.
+
+But, but it's so that those are, those are kind of the some of the design cues, like some of the
+
+> and so how do you pick tools that compliment that process?
+
+well, what are the first mechanical engineer we worked with actually did a lot with vacuum cleaners. And, and so he was bringing in what he'd learned with those kinds of designs and like long plastic parts and things and again, the kind of modelling that we had to do to make sure in the instrument one case, it was about two feet long. And,
+
+and, and yet pretty thin. And so the material properties had to be rigid enough to not bend or Creek when you're playing.
+
+So, so yeah, the the tools were mainly the CAD software, and then the material analysis and off top my head, I don't know what what we used for, you know, that analysis, but then just getting into as many prototypes as we could, as we can, which we started actually, with wood
+
+was the early instrument one stuff and then moved into plastic
+
+> Maybe that's a good chance to introduce the next question.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Yeah, yeah, it's, um, so with early in, so that 10 years ago, when I started
+
+the instrument, one project, we originally thought that we would do wooden instruments that had, you know, all these digital capabilities, partly to play into the tradition of instruments. And also, I mean, what just feels good and, and, you know, there's a lot of good reasons, sustainability. So, we went pretty far down that road, the challenge became,
+
+we really had to choose between the ergonomics that we wanted to have for the design, which were pretty kind of spelt and, and small, which meant that there became really thin walls on the, on the wood form. And we did a lot of prototyping and tried to figure out how to solve this and we were going to have to significantly increase the size of the instrument and the weight, which threw off all the, the kind of the point of the design itself. So we went to plastic, partly because of that, and then mostly because of price, the the ability to scale up to mass manufacturing and have it come out the same every single time and low breakage and all that
+
+meant that we we went you know, injection moulded plastic. So that transition happened a couple years into the project, but there was four years of r&d before launching the instrument one
+
+and yet that was basically the process for orba we then and actually I can send you or you can look it up.
+
+There's a recent profile by this company, Solvay sLl VA why they did a feature on us recently because we used some of their their glass infused plastic for orba. And that let us do really
+
+thin walls but super rigid, and it also has this nice like warmth to it. That was that just feels really good in your hands.
+
+So well it's like a, I don't know, if it's not warm, it just has different
+
+thermo properties when you're holding it that you can tell. And then so yeah, for orba we kind of upgraded the plastic itself.
+
+Foot because of the feel of it.
+
+> Are you open to share the embedded platforms you use to build the instruments on?
+
+Yeah.
+
+Sure. So we, for the instrument, one, we use microchip processors, and then we switched to arm
+
+for orba. And, and the switch to arm is really about going more,
+
+you know, more universal, and, and just more compatible. It we still kind of developed everything from the ground up on it, but it was it was a little more predictable in doing so. But But both of them, you know, were the it was really just timing. I mean, we started with the microchip stuff. In 2012, we we initially prototyped on Arduino, and then we switched over and then you know, back to arm for orbit. So is that is that the kind of thing you
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+I mean, from a project management standpoint, we're pretty small team. But we do use JIRA, and you know, the Atlassian, suite, obviously, slack and all this sort of productivity tools.
+
+I really like mind mapping, and we use an app, a web app called mural, which is like sticking up kind of virtual statements. And, and obviously, Google Docs, all this, but we we are a remote team were distributed. So
+
+we are pretty much always on video, and in collaborative documents as we're doing the design. So it is a very real time design and development process for the team. Compared to just handing over documents,
+
+you know, as has explicit files, these are usually collaborative real time documents. I think it makes a big difference.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+*laughs*
+That's a huge question.
+
+I
+
+i think
+
+i'll get back into app design stuff.
+
+We, you know, not not just for instrument design, but app design in general, I think we're there's there's a, there's a moment that feels like it's about to happen, where these tools are gonna get much simpler. And it's it's like it's almost been there every year where people who aren't hardcore coders can get in and do even like Adobe XD, like doing UX and UI kind of workflows.
+
+And, and I've seen a few things pop up that are going to make that easier, but we haven't yet. We haven't yet use them. We've kind of still been doing it the hard way. I do think that that's gonna really change.
+
+On the on the app side, I don't know of tools on the hardware side that are gonna make it too much easier. I mean, there's the
+
+there's the elk audio stuff, there's baileigh You know, there's a few of those but, but they still they're still difficult. You know, it's not it's not like a weekend Project For the uninitiated. So I think hardware is probably going to stay difficult if you want to do new,
+
+you know, like this kind of new thing form factors, price points, all that if, if your goal is just to sort of make sounds from triggers, then yeah, I mean, get an Arduino or or Raspberry Pi and
+
+Anybody can can do that. So, but as far as mass manufactured commercialised products, I still think
+
+it still requires
+
+that kind of learned skill. As far as I know, please tell me otherwise.
+
+# How do you approach the design of a new instrument?
+
+Yeah, I mentioned it a little earlier, but I'll pick up that thread, the sort of, you know, inspired by the human body kind of stuff, we, we really don't want to, well, what we do want to do is, is kind of toe the line between the tradition of instruments, because these gestures are pretty, pretty universal. I mean, humans have been doing them for 1000s of years, things like strumming, tapping, sliding, you know, but, but so many of them were based on based on physics of resonance. And so we're constantly trying to push toward more accessible ways of touching and interacting with instruments.
+
+And, and yet, that can go way too far into kind of like a squishy, you know, like, you can't tell what you're even doing, it just makes sound. And so if you abstract too much, then then you as the musician, or the audience doesn't even know where the sounds coming from. And so finding that that balance of intentionality, and ergonomics that you can trace, rather than just push a button or like move your hands around, and things happen, we're trying to kind of have a one to one relationship there. So the otherwise I'd say, we, we work with concepts, you know, orba was really about taking this concept of a handheld device, similar to a phone similar to a gaming controller,
+
+similar to a cup of tea, and say, How far can we push this, this concept?
+
+And, and what what can we jam in there to make it as approachable and immediate as possible. So we do work on a kind of a minimalist concept, and try to try to pack as much as we can get into that, rather than, say, a grid. You know, something like, I mean, I'm friends with Roger Lynn and, and love the instrument, and it's like, totally, you know, amazing, and fully an abstract grid. That that is, is really,
+
+really useful has a lot of utility. But it it's just a very different approach than the sort of consumer focused product that needs to sort of sit on your,
+
+I don't know, sit on your desk or your your coffee table. So
+
+yeah, we don't want instruments to be caught in studios, we want them to be part of everyday life. Those are kind of three themes I think we tend to use
+
+okay.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+So
+
+the prototyping process not for us normally has taken a couple years. And and so as we're going from this initial idea, through the conceptualization, you know, really
+
+teasing out what I think of as the internal contradictions. So I used to be a philosophy and sociology professor and, like, a lot of a lot of the my academic work was about
+
+critical theory or just propositional logic. And, and I think I've, I've kind of applied that to instrument design, like At what point is that
+
+going to break the experience. And that could be because of a user's familiarity with, with things like, you know, how much software to knowledge is required, how much sound design knowledge is required, how much skill or I'd rather put it as like,
+
+you know,
+
+muscle memory. You know, I don't, I'm not a big proponent of musical scale.
+
+I think it's more about the, the our familiarity with certain technologies than any kind of, I don't know,
+
+predisposition. But so we, we tend to ignore skill, or do our do our best to go beyond it. And so then it becomes, then it becomes about what, what people want to do, and we think they want to one of our taglines is touch sound, we think that the feeling the phenomenological feeling is to,
+
+to have a musical intention and get there not just as quickly as possible, but as sort of thoroughly as possible, can my body do something that feels good, that makes a sound that feels good, and if those things match up with minimal friction, that's the best, that's the best feeling.
+
+And, and sometimes that's turning a knob, like on a mug. You know, the the filter knob feels great. But for most people, it's not that abstract. For most people, it's more of a direct and mechanical kind of thing. So yeah, we we, for orba. For instance, we
+
+we kind of we close our eyes, head out our hands and said, like what fits in the human hands? And what do your thumbs do? And like how do our thumbs work with touchscreens now? Like, we have crazy dexterity with our thumbs? How can we really reward that. And so we designed this custom capacitive touch sensor
+
+that we call musical touch, but it's it's just like, we know you're approaching before you get there. So it's super fast, like zero latency, negative latency if you really want to calculate it, but we, we just time that so we have true velocity, and you even the smallest touch is going to get sound. And so we found that people responded to that, and this visceral way, because the intention they had plus their own
+
+their own
+
+timidity or, you know, anxiety, even around music making, if you can make a nice sound, even if they're super gentle with it, they're like, well, I did that. And then they'll then they'll start to play more. So finding those access points through the psychology, this is a very theoretical answer to your question, but it's actually what we do.
+
+And then to realise that it's Yeah, like we said, Is this going to be CapSense, or force sensing resistors, or mechanical switches? And it's just what, what technology is right there?
+
+> So if you could conrner out a distinct component would you say that one is the psychology of the interaction?
+
+Yeah, so my, my research was in phenomenology of technology, and so I think about it as intention, which is a complicated word in that field, but, but even its colloquial, meaning,
+
+you know, to have a musical intention is to sort of desire something, and then, and then wheel yourself to do it, and then have a relationship with it in a sort of immediate way. So that that's like the incentive on like, what's the person's incentive to do that? And how can how can we design instruments that give people an incentive to touch it or to interact with it? And where that intention is realised in the sound as quickly, you know, as directly as possible? And so, yeah, we start with the psychology of, of not even just creativity, which assumes the word creativity can assume a lot of a lot of intention, a big intention. That's, that's not actually where we come from. This is this is maybe expression, or maybe just play in a in a more basic sense. And so
+
+it's about what, what feels good to us ways to make sound. So if we can start there, and then all the technologies need to match up to that to that goal, then
+
+We, we ended up cutting out a lot of the normal things that instruments have, which are mostly there for technological flexibility, you know, all the different connections, you can have all the switches, all the options. But if that was that wasn't our goal to begin with. And so we, we ended up making these pretty minimalist instruments by reducing the goal down to a more immediate experience.
+
+> I wonder if you've covered this to an extent but feel free to top it up as you see fit.
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Yeah,
+
+I think I have touched on, so but I'll reiterate the, the balance between the expectations from the musical tradition, or musical traditions around the world. So people have so many different ways they perceive what it means to be musical to be a musician, what a musical instrument should look and feel like the sound it should make. balancing that with all of the amazing possibilities we have now with digital technology, which are, you know, limitless in, in various ways.
+
+And yet really intimidating or meaningless. You know, all of these options mean that nothing, no sound is meaningful anymore, it doesn't carry that weight. So can we reinstate
+
+the kind of direct contact and intentionality by
+
+referencing history.
+
+And then and then sort of empowering the simplest forms of the abstractions of that to become whatever say sound you want or to be tuned automatically. So that maybe you don't need to worry about that every time.
+
+He we, we restrict ourselves in both directions quite a bit. We don't want to get too referential to the past and we don't want to get way far in the abstract future. We're trying to design instruments for right now at that precipice, you know, at that sort of paradigm shift between these moments.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Well, I haven't said MIDI yet somehow have I. So that would, that is definitely the biggest tool that has enabled this. I mean, I, I started, I started artiphys on 10 years ago, partly because GarageBand had hit the iPad. And I was living in Nashville, and seeing all my friends who had had worked in studios for years, you know, build their own home Studios on their MacBooks and then get iPads and be able to go anywhere and do field recordings and things. So it was like, and seeing that even the people who hadn't worked in studios were recording like songwriters, we're now recording demos on their phones and iPads and, and it just felt like this huge shift so that the mobile revolution was one thing but none of that would have been possible without MIDI tying all this stuff together. And that's, that's really the foundation that we've used this whole time is MIDI at this pretty universal musical language
+
+means that we can design new ways to translate human gestures into MIDI, and then allow for the 1000s of applications, you know, that people can do with that.
+
+mp has been has been helpful the past couple years, because our instruments are NP and and we get a lot of expression from that. But um, but yeah, it's still just middie
+
+> You mentioned Orba having minimal connections, is that then influenced by midi or does it have midi?
+
+it does so it doesn't have CV outputs or inputs. It doesn't have a MIDI din jack, but it does have bluetooth MIDI and USB MIDI. And so and we have multiple MIDI configurations, single channel, part per channel, or channel per part, and, and then full MP. And so as you're as you're switching
+
+the different
+
+*plays orba to screen*
+
+parts. I don't know if you knew that
+
+we're doing the programme
+
+and a different channel for each part. So that you can just set up a whole song in a
+
+10 and just like the built in synth and looper on here, you could have any sound playing there. So
+
+yeah, I think I was I was being a little,
+
+little misleading of the lack of connectivity. This was our instruments are designed as connected through MIDI. It's just not obvious compared to looking at the back of the keyboard or a modular, and thing. You know, you need direct access to everything. Most of that happens automatically or through the software.
+
+# How would you define a DMI?
+
+Yeah, I looked at that question and didn't
+
+didn't find a an absolute answer yet.
+
+Obviously, we could point to the technology first and say, well, anything that uses, you know, binary code would be digital, we could be cheeky, and say that it has to use your fingers. But I don't think that's the point.
+
+No, I think for me,
+
+a digital musical instrument is in some way, harnessing the abstraction, that that digital technology is, so that it's not tied to any particular.
+
+It's not limited to just the physics of making sound, but it's augmenting, maybe it's augmenting the physics, or maybe it's fully abstract. But the the idea that
+
+that did digital tech is, is a way to extend beyond just the linear approach to instrumentation that defined most of human history.
+
+And now it's sort of like multiple eight, we're now able to multiply human inputs into musical outputs. That's, I think, the biggest advance that digital instrumentation has even compared to say, electric, or, or electronic, which are still still rather linear.
+
+You know, pressing a keyboard on a on an analogue synth gives you a sound that is much more versatile than a than a than a physical resonating instrument, but you're still limited by the circuits. And and so sort of the exponential possibilities of digital mean that we can fully abstract from human input into
+
+Sonic output. So do really breaks the, the, the direct signal chain that we used to have. That was a long answer, I don't know if that's useful for you.
+
+# What concepts do you consider a DMI to be made up from?
+
+I think instruments in general,
+
+need to have an interface and some sort of translation
+
+into, I mean, obviously, eventually into sound. But there needs to be some design that translates that interface into a, it can be musical data, or it could just be a signal. And even a finger on a string is
+
+in the most abstract sense, an interface that that translates the human intention into a signal, that signal being the energy that vibrates the string. If we, with with digital instrument,
+
+we can use those same principles, but then we can, we can use that signal as a form of modulation for an event to trigger anything we want. The danger is that we go too far. And then we disconnect, and the user doesn't know what they're doing to generate the sound. And then it just becomes play a loop or something. But if we can keep that connection, understood by the player, and yet allow for these human gestures, or the interface to translate human gestures into really interesting outputs.
+
+And you know that when you move in this way, you're going to get a different characters sound. That's when we kind of blow the doors off and say, you know, we really have the opportunity to change the entire future of
+
+What it means to play with sound compared to learning a specific instrument, it's not about that anymore. Now it's about having the the intentionality to create something and knowing how to configure your tools to get there, I think I think we're moving Well, we tend to at artefact to say that we're moving beyond singular instruments into plural.
+
+And that's, that's only because of digital, that we can even talk like that. So those are some of the concepts The, the, you know, the interface itself, the idea that you can abstract the gesture into many different outputs. And then, and then the idea that you don't have to choose just one way to play but that we can create interfaces that are that are multiple, and have have many different ways to sort of adapt to the player rather than the player just conforming to the instrument.
+
+Those are probably three, three concepts I'd bring up.
+

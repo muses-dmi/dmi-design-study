@@ -1,0 +1,699 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 19
+role: Electronic Musician
+experience(years): 40
+instrument_count: 24
+
+instruments:
+ - a sample: 6502 based 8-bit instrument
+ - Apple ][ based digital control for Serge Modular
+ - Mac audio + MIDI software
+ - RPi based effects unit 
+ - MIDI tools
+ - MCU based metrical clock
+ - MCU based looper + CV converter
+
+langugaes:
+ - assembly
+ - c
+ - c++ 
+ - python
+ - haskell
+ - elm
+ - javascript
+ - supercollider
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+ah boy okay i'm going to try to make this not be a three hour lecture on programming languages
+
+i should start with saying that my my
+
+30 or 40 years ago my undergraduate degree is exactly in the intersection of electronic music and programming languages
+
+so programming languages it's actually what my thesis is on
+
+my
+
+undergraduate thesis wasn't anything too major
+
+but it's
+
+so programming languages
+
+it's as important to choice as choosing what kind of wood for the guitar body in the sense that even though you can shape the wood in any shape you want and sure all you know sufficiently reasonable programming languages are turing equivalent
+
+the properties of the language lead you to be able to be expressive and create an instrument of different expressive it more directly and so i think the choices are deeply related
+
+and so that that's going to put that on one side and then on the other side there's this other
+
+other really
+
+balancing force which is that there's just fundamentally practical concerns about what can be used in what context and what environment and so
+
+i think these two interesting forces
+
+which is sort of a theoretical and conceptual framework and how it relates from
+
+how you want to have conceptual integrity throughout a musical instrument from the core of you know what would or what language you're picking all the way through the instrument you're creating you also have these utterly practical engineering concerns which is like what can you use
+
+and so i have to say for the most part most of my language choices have almost always been dictated by the environment in which i wished to create the instrument my first musical instruments were built using an apple two way back in the day and i did a bunch of
+
+and i found that the right language in that environment was of all things fourth which by all constructs i think is terrible terrible language for a lot of reasons
+
+but it is it had that balance between the two
+
+i have to say i've done a lot in programming languages both professionally and in outside of music and in my work with music
+
+have layton days my preferred invite languages are things like haskell or elm
+
+because these functional languages i hesitate to call them modern since most of them have been around for 20 years or more
+
+really allow great expressive it on that on that on that conceptual side of being able to express what you want the instrument to do
+
+but on the other hand a lot of my most recent work is in something as dull as c++ because ultimately if you're going to run it on an arduino or an arduino like processor like that's your choice you know the other choices is micro python which just isn't practical and so that's where you end up personally i think it's really really important to be deeply rigorous about the code you write for musical instruments because you're going to ask that code to be stretched that musician is going to ask that code to stretch
+
+you know in other kinds of programming there is often a very practical engineering middle ground of like i know this task needs to only do this so the fact that my code can only handle you know 10,000 rows and not 10 million rows i don't care in music you do have physical constraints but they're often really really really really wide like i want this low frequency oscillator to be either like five hertz but you know the user might want it to be five kilohertz and that's three orders of magnitude which is
+
+A lot of difference in a piece of code. And so rigour in your programming language helps you get that, right. If you do stuff in less rigorous programming languages, you tend to end up with sloppy timing and crappy stuff. And so and so there's always this tension.
+
+You know, I use things like Haskell when I can I use c++ when it makes sense.
+
+I mean, you could go on for ages on that discussion.
+
+# Why do you use your chosen tools for instrument design?
+
+Are they absolutely inform each other, because ultimately,
+
+I tend to work backwards from the environment that they expect the instrument to be used in.
+
+So
+
+meaning, I look and say, like my current project, is,
+
+it's a new kind of MIDI looper, I think it's the simplest thing you could call it. And so I look at the environment in which that that instrument has to, has to sit, alright, you know, okay, it's got to be able to deal with MIDI, and it's got to be able to do this, and it's got to have
+
+and the constructs of like, well, what, what position does it take in the musicians Arsenal? Like, is this, you know, do I have the luxury of building like a two by four box made out of steel, that's gonna be the centrepiece or is this, like, you know, something that's guitar pedal size, I mean, these things have an influence on your hardware. And then working back your hardware generally dictates a very limited choice of software environments in which to work in.
+
+So
+
+I think I always think of it as being pushed from from the end goal towards the tool. I mean, there is there are other approaches, I'm sure other people take where they look at a piece of hardware and go, Oh, I want to make something out of this. And it to me, it's, that's, that's backwards. Like, I mean, it's fine for them. It's just not me, like, you know, you know, this may be a cool tiny Arduino and a tiny circular board, but like I like, I don't know what to make of this as an instrument, because I don't know what instrument it wants to be, like, I want to know what the instrument is first.
+
+So I always work in the other direction.
+
+And then for tools, I tried to assemble a tool set both hardware and software
+
+that has the most,
+
+but gets out of the way the most, right?
+
+Maybe that's just 40 years of software engineering. You know, if I can, like, you know, change code, compile, get it on the device, bring the device up and run it, like, you know, in in 25 seconds or 15 seconds. Like that's worth changing to whatever tool can enable that.
+
+You know, and if what I have to do is like, fiddle here and fiddle there and go there. And then, like I was working, I was actually helping another instrument designer
+
+about two weeks ago, on a long zoom call.
+
+And, you know, he had chosen a toolset where he would like had to write code on a computer at one end of his studio, and then he would like burn, like, then he would have to like, go extract the CPU out of the device, and then go over to his computer and burn it, and then bring it back to the device and plug it in. And it's like, like, forget it like you can't. So to me that the tools are very much about creating a honed environment in which you can focus on the task. And if and it's absolutely worth paying money investigating, taking the time, some of those tools you have to build like, like, okay, it's worth making a bunch of shell scripts such that this whole operation becomes a single just run this.
+
+And that becomes crucial. So I think that that, to me is the is the choice, I want a streamlined environment in which I can focus on the instrument. And I'm willing to, to work with what it takes to get that.
+
+Yeah, and so if there's any, like goofball Miss in the way things set up,
+
+I will say there's one other consideration that other people may not have.
+
+Pretty much everything I've done in the last 40 years with with one notable small exception of time has been, if not open source, formerly, you know, freely available may have given to anybody at all. And so another aspect, I think about the tools and hardware is it's not interesting to me to build something, which like, I'm the only one who can have one.
+
+That's That's sad.
+
+You know, it's not that everyone builds or duplicates the insurance that I build or have built, some do some Don't you know, but, but it is important to make sure that that so it did so it doesn't help if I choose a tool, which is obscure, weird, no one else is gonna be able to manipulate.
+
+Like, that's less satisfying.
+
+You know,
+
+Yes, your guitar is fabulous, but no one can get unobtainium.
+
+The only one?
+
+Okay.
+
+Okay.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Yeah, that's, that's, um, so I mean, in some sense, it's a continuation of the previous question because platform is really just part of your choice of hardware and software. But I will say there are some direct biases that I have that that really are sort of outside the issue of instrument building. One is about accessibility. So if I can, I always want to choose a platform that is accessible and open.
+
+So I'm
+
+sure and so I'm like, the obvious choice is like, if my thing runs, you know, my thing is underpinned by Linux, that's better than it being underpinned by Mac or Windows. If I can get away with that,
+
+if it's underpinned by a higher level system, like supercollider, like that's good, because supercollider runs on all three systems, but if it's underpinned by some other audio system, you know, that only runs on one, then that's like, less good.
+
+So to me platform is a lot about openness.
+
+Both because I want to have other people have access, but also because I think philosophically, that's where I want stuff to be. And I think that's actually is important, you know,
+
+you know, if we were to go through my history of instruments I've built, you'll see, I'm really not a commercial instrument builder. And so I have different concerns than other folks. And, and to me, it is important to philosophically support that level of openness and instruments I want, you know, it's, I feel like electronic music instrument design is at such a young stage of development, you know, that the notion of sort of locking it down or, you know, oh, this is the magic sauce. Like, that's unfair. It's like, like, imagine the first 100 years of building, you know, a wooden stringed guitar like instrument, you know, say back end, like, I don't know what, you know, 800 900 like, when when did those things for, like, somehow, like, like, Oh, I'm gonna have my proprietary shit like, no, like, this field needs another 300 years of development. Like, let's contribute to that. That's what I want to do. That was a rather long, roundabout answer. I will say it does. Sometimes.
+
+I'm not gonna name names, there are several Arduino like development boards, by several different companies.
+
+I will like on the positive, I very much tend to choose those by places like Adafruit, because they publish all their source code, they publish all their hardware specs, they publish everything, open hardware. And I think that openness, a it's useful as an engineer, but I also think philosophically that's, that's,
+
+that's sitting in the right pocket?
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+So, there are a lot of ancillary tools
+
+in, in digital engineering,
+
+that get used, and I think they're often Well, they're not under pressure, but there are some they don't seem, they're not directly involved in the direct pipeline, but they're like, like, I have a nice a Scylla scope. You know, you know, you go to buy your first nicest telescope, you're like, Oh, my God, like a cat could buy like the $300 dollar budget model. Or, I could buy the fourth trace one with the you know, digital with the logic and analysis thing. And you finally grit your teeth and pony up the $600.07 to $800, whatever the cost, and then you're like, Ah, it's a nice scope. Like having having a nice good tool like pays you back in spades. It pays you back so well, even though it's sort of this indirect thing.
+
+In software, there's so many things like this, believe it or not, like a good spreadsheet. I do a surprising amount of design work involving a spreadsheet You know, you're trying to do things like figure out
+
+what what's the best clock divisor that will give you the correct range, but also the right resolution like spreadsheets are really good for that. I don't have a good answer for them. They all kind of suck so
+
+there isn't a good one there. I found myself the other day, just literally just yesterday, I was using grapher, which is this completely unsung utility
+
+It comes on Mac OS that everyone doesn't even know is there. And is this funny thing that has beautiful, beautiful like algebra plots? And I'm like, Okay, I'm trying to figure out the exponential curve between a MIDI knob and tempo. And like, how do you tune that? Like, Oh, wait, I can like plot these out like quickly with this thing.
+
+There are a lot of little tools having
+
+having your source code repositories and workflows set up.
+
+Like these little tools are all here's the thing about all these little tools like having the right set of screwdrivers at hand or having I noticed you have a lovely haco soldering iron. When I bought my haco soldering iron. That was another one like this whole scope. I was like, I know I've had this trusty other cheapo soldering iron for the last, you know, 40 years. That's worked fine. Okay, final drop 100 Why did I do this sooner, like
+
+tiny tools at hand that don't get you out of I hesitate to use the hip term flow state are important. And they really, really are. And I find that those things, when you find them, you should latch on to them and make them part of your sort of ancillary constant toolkit. I'm
+
+just thinking I've handed software your code editor as goofball is that it's like, like, I'm always amazed when people are like doing Arduino code inside the Arduino ID I'm like, why are you killing yourself? Like stop?
+
+There are free tools that are a million times better just like spend half a day and learn them.
+
+You know, having having source code editor, editor, good utilities like like a spreadsheet, a lovely graphing programme, believe it or not a good calculator. That's another really surprisingly good one.
+
+You know, and a know the one that comes built in in your Oh, S is not a good calculator. That is a shitty calculator.
+
+All right.
+
+Yeah.
+
+> from something I noticed in the survey so when when you start to learn then lean into the physical design of the instrument i noticed that you mentioned open js cad
+
+Oh, yeah. Although I'd be hard pressed to say that I'm in love with that.
+
+That's an interesting example, where I haven't found the right tool yet for this, you know, doing.
+
+I'm amazed at,
+
+in that project, how long the case design took, I mean, the case design was a huge design problem, both in terms of what it needed to fulfil, like, the policy that it had to fit in. But also then just like, what, what's the right process for this thing?
+
+I'm definitely failing at that part of the design process are not valid, but I'm definitely not up to speed as I am in the other parts.
+
+Yeah, so one of the things is,
+
+here's where the need of a small instrument designer, I think, is really different than a larger commercial concern. Well, I don't know that there are any large instruments.
+
+But for others, so like, you know, the thing about a CAD problem programme is, you know, for real industrial CAD, you know, it's built for an environment in which there is a, you know, industrial design group separate from the rest of the product design. And that, you know, if that group wants to go ahead and use fusion 360, or some other giant CAD tool, you know, and draw out the, you know, oh, I'm going to draw the case for our beautiful, totally hip, you know, new pocket, does this drive.
+
+Great. And then like when engineering comes back and says, Oh, you know, those screws, you know, you have to move them three quarters of an inch.
+
+It doesn't matter, you have a full time CAD guy who can sit there and go, that's one three quarters an inch, that one three quarters of an inch, you know, make sure I checked everything, double check everything twice. We don't run the simulation with a circuit board yet, blah, blah, blah.
+
+When you're a single person, that's like really suck ass. Like, I just don't have the light. It's not that I just don't have the time. I'm just not gonna be good doing it that way. And so, what I needed something was really that was procedural, I needed to be able to say, I don't know how wide This is yet, because like, that's one of the weird design constraints, but like when I make the case, do I have one of my cases laying around? Now there I've seen that I want to be in the garage because they're all over there. It's like this weird bamboo case that comes fitted together with like seven pieces. It's kind of crazy thing.
+
+Like I was like, okay, like, Why don't how wide it is. But like, you know, the USB socket has to be this size and has to be set you know, is gonna be, you know, point two inches in from the left edge. Like I needed something that did that. I went and look high and low for this stuff. I came up with j s CAD, it was an interesting project is direct to use it.
+
+It won for that project because it had the immediacy right
+
+liking your cycle time really quick, right? And like, you know, I could spend $4,000 and buy fusion 360 the full thing, which does actually have what they call parametric design. But it's it's like parametric design, assuming you have a whole department doing this shit.
+
+And this was like, No, I could bring up like a bunch of JavaScript code, like, edit it in my editor, hit save, and like it would rerender. And that's, that's why I used it, he'd had a number of other problems in what it was was not perfect.
+
+But I would say, I don't know, I haven't found good tools for him. So it also doesn't help. And here's, here's a weird thing. Sorry, I'm rambling a little bit here. But this brought up an interesting thing. So open jazz CAD had the nice feature that its round trip was really, really quick, which was good for someone who wasn't primarily an industrial designer, like I needed to be able to change the length of a variable have all my other rectangles get recalculated and see it.
+
+But I didn't have his I don't actually have a laser cutter at home.
+
+Keep keep talking about getting one.
+
+You can't hear my husband behind me is saying Do it, do it. He's a horrible enabler. It's terrible. You know, other people say their spouses, you know, keep them from spending too much money, not mine.
+
+Anyway.
+
+And so my round trip on the actual physical build was really, really slow, because I had to send off the plans to a place out in Oakland, that would laser cut it and send it back to me, you know, 10 days later, that was really, really, really, really bad.
+
+So I don't know, that's, I know where we're going with that. But yeah, sometimes there, there are corners of this where I haven't found the right set of tools yet. That at all.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I'm just thinking about, like, where my problems really, really lie. Um,
+
+so
+
+yeah, I
+
+think the thing I mostly struggle with is physical layout.
+
+And that that happens on two structures. One, I mean, I've just talked extensively have like, I really haven't figured out what to do about cases and closures and shit like that, like that just really, really a hard problem for me, at the moment.
+
+A little bit less. So with PCB layout, in so far as I know, I kind of mean that, like, I sort of get what to do there. And I'm not that great at it, but I can do it.
+
+But it would be nice to have
+
+better at that, uh, well, I know, again, I guess this is this is an issue, there's this acid
+
+in contrast to like software, and micro controller hardware, which have become easily accessible for low skip for low volume, single persons, small production and design.
+
+Still PCBs and mechanical integration, that stuff is still like, either your hand cobbling it together, like I've done on my last several things, or you can spend $20,000.10, three years and full time on this giant package and stuff. And so I wish I wish there was something in that realm that that integrated those aspects better, you know, I know Kai CAD, is, you know, hoping one day to be that, but Chi CAD currently still feels like a giant feels almost like a giant behemoth like the one it's trying to replace. So that's still hard. I don't want stuff dumbed down. It's not that I just want stuff streamlined for the right size of project.
+
+
+# How do you approach the design of a new instrument?
+
+To me, it always comes from a musical need that I that I that I have. So I admitted to I mean, again, I'm not a commercial music instrument producer. I'm not evaluating what the market is and what the market needs or what will sell I'm always looking at like, I have a musical problem, like I want to do X in my performance or in my Krishna piece of music, like
+
+how am I going to do that?
+
+So it always is in direct response.
+
+To a to a solve problem.
+
+If I look back over the vast majority of what I've done in the last
+
+40 years,
+
+most of my work in digital instrument design has been on the side of control of inch of other instruments, making sort of larger hybrid instruments.
+
+You know, I don't feel the need to create my own filter, just because it's my own filter. Like, that's not a problem I have, like, I've got plenty of good filters. I have a cert three tier search rack, it's full of lovely filters. Like, I don't need to reinvent that problem. Others might I'm not saying it's a bad thing to do. It's just that's not me. My problem is, how do I control that filter? And that's always always always been that 90% of what I've done is I've been on the control side, I've done some audio stuff. Yeah, but most of it is, you know, hybrid.
+
+It always stems from problems, I'd be you would sound neat and tidy. If I said, Well, I always had this idea for a piece of music, and then I want to create the control for it. But that's way too neat and tidy, and not really the reality. Usually I have a vague feeling for what I want to do.
+
+And then I look around at all the stuff I have in my studio, I'm like, I can't do this.
+
+You know, the project I'm currently working on is a really good case in point.
+
+I'm working on a MIDI looper, which sounds like an incredibly dull project to work on. But it came about the fact that I couldn't do with any of my sequencers what I wanted to do, which is, you know, a very, very simple problem of, I didn't want to define my track length in advance.
+
+I want to play and when I decided that I'm at the end of the phrase, okay, that's it. That's the phrase.
+
+So that's what I wanted to do. And like nothing did it?
+
+You know, I'm, I'm perfectly sangwan with commercial gear, you know, if if a commercial piece of gear does what I need, I don't need to make one for myself, you know, the instrument? cord, but nothing does that. So I needed to build one that does that. So that that's how, that's how that project came about.
+
+was the need for that.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+So for me, I usually find that there's there's two phases early on, in management design. I mean, again, I'm gonna make the sound more tidy than probably the reality probably is, but
+
+there's an early phase where there's this sort of very nebulous idea, like, oh, or, like, I'm sorry, nebulous is the wrong word.
+
+There's this very dreamlike idea.
+
+You know, oh, yeah. Like, I like I wanted to be like a sequencer, but like, I wanted to, like, decide that, like, I just want to play and then I said, like, Okay, good. Like, oh, that was good loop that, like, let's that's very vague, actually. Right, it feels good in your head, like you can sort of, you can imagine how you as a performer will feel when you're using it, but you don't actually know what you're doing at that point. And so
+
+there's this dream aspect that happens up front, but like, that's,
+
+those are dime a dozen.
+
+Like, you can come up with dream aspects, like, you know, seven days a week of things that would be cool, without really knowing what it is you're dreaming about. Right? And the problem is that when you start diving into half of those, they're just they make no sense at all.
+
+So the real thing that happens to actually really begin realisation of a project
+
+is extracting what I would like like the first step, I'm a really really big believer in like, like, just make one thing work. Like make the simplest possible part of this actually work.
+
+Right and then then move on to see what the whole thing becomes. And so
+
+the most important aspect is coming up with what is that first simplest function that can stand on its own?
+
+And once you get that you have no you haven't frozen you're just your internet is choppy. Are you still getting me?
+
+Okay, good.
+
+Yeah.
+
+So
+
+that aspect is, to me, really important, the project doesn't actually get off the ground until you do that.
+
+I can give sort of two quick illustrative examples, right, like the like.
+
+So, one example is like I made this thing called the pulsar buddy, which is a an external clocking module for the pulsar 23, or it can be used for other things.
+
+And when I first saw the pulsar 23 instrument, I really really liked it, but it's its clock module is deeply tied to for for time, which seems like a very big
+
+choice on that instrument, but there it is. And a lot of my music is done in in other metres, or, you know, odd, odd metrical divisions like 1311.
+
+And
+
+so I wanted to do that. And my first thought was like, Oh, yeah, I should, like, go like an ultimate clocking module that lets you but that's very nebulous.
+
+Like, oh, yeah, I wanted to do something like that. But what does it actually mean? And so the key thing was figuring out like, okay, Oh, right, right, the first thing I needed to do is
+
+I needed to, so it interesting enough in the pulse, well, I'm not going to get to the details of it, but like, Okay, I need you to be able to choose the number of quarter notes, after which will reset send out a reset pulse to reset the sequencer inside the impulse are. So that effectively taking what is a 16 beat sequencer and turning it into any number less than 16 by forcing you to reset early on that that's like, okay, now that's very concrete. And the moment you get there, like, okay, now I can go build that. And that was the first thing I built, like, let me build just that.
+
+So that's one good example, a similar example is
+
+I was
+
+working with my first sort of a, in a nascent live improv group. And I was playing a number of commercial rhythmic instruments, circuit, Novation circuit digitalk. And my real problem was what to do about effects because I really didn't have a problem with an effects boxes or effects pedals as they they're kind of sediment, forget them, it was really hard to play them.
+
+And so my first idea was like, Oh, I need like, like something with effects where I can have like a MIDI controller turn its knobs and very vague. And then I came up with a very, very, very concrete thing, like, Okay, I need, I need to be able to build an effects chain,
+
+where I have MIDI control over
+
+this z ratio, the tempo ratio of the delays, again, a lot of my stuff is very much about rhythmic. So like I want to build like, like this delay should be 3/8 notes, or 4/8 notes or 5/8 notes, but I want to have multiple of those. Like, that's what I want to build. So the very first thing is like, I just need like tempo sync delays where I can real time change the number of beats of their control, you know, from a knob on my MIDI controller, that was concrete, and so like, okay, and that led to everything else, like okay, I'm going to use PI sound. And I'm going to code it in supercollider. And I'm going to use like, like, like, all these parts sort of come together in services, that one clear idea.
+
+I'm not sure if that's what you were looking for. But that's what I think about, like that's what it takes to get going.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+I think there I find for myself, there are two, there are two general challenges that happen.
+
+The first challenge is usually getting over the hump of getting the tool pathway set up. And I don't mean just like, you know, installing the compiler or choosing the compiler, there's this, like, you need just enough code to get the system up and running to actually do something to make a beat. You know, there's this huge pile of like, early code and whatever hardware stuff you're building that has to kind of just like get over that hump.
+
+That hump is often pretty big. And I find that once you get over that hump, then things can start moving pretty quickly. And that hump can be very to me. Like it's it's a depressing, it's a depressing hump. You get stuck
+
+This hump Like,
+
+right now it's beeping, but it's stuttering. Why is it stuttering? Like,
+
+okay, it keeps dropping middie Why is it dropping?
+
+You know, just getting your whole system just so we can like do nothing but do it do it well and smoothly. So that's one big impediment. The other is there comes this moment, which is usually later in the design.
+
+It's interesting, because I feel like this moment just happened last week on the MIDI looper project, in which you realise
+
+you need to have sort of a clear abstract model of what it is.
+
+It's like,
+
+you know, like America, like, like, Oh, you put some strings on it. And then you add, like, God, and I ended the spring. So it sounded springy, and then you got a bunch of other things on it. And then you look at this sort of thing that sort of hangs together be like, what, what is it?
+
+And there comes this moment where you need kind of, to step back and come up with
+
+what is, to me, at least I do, I don't know, other people do at all. Like, what is the conceptual basis, the clear, abstract conceptual basis of this instrument? And getting over that hump, that's like the let that happens, like usually like two thirds of the project, which can be devastating, right? Because like, you could decide to just doesn't have one or it just doesn't make sense, or half of what you've done is wrong.
+
+But that's the moment that's like, that's like a big moment, and you get over that you like oh, okay, like put the code in. And I have to say, that hurdle for me is often involved in not actually working on the device for a couple days. Like and I
+
+I have
+
+tonnes of scrap paper, I still I designed with pencil and paper constantly. Even though I'm sitting right in front of the computer, I still do a lot of shit on paper and pencil. And those couple days building that getting over that difficult hurdle is often spent a lot of days like writing shit out and rewriting that rewriting it out and trying to come up with what is what is the
+
+abstract framework of the instrument.
+
+I don't know if that's important to other people, it's really, really, really important to me. And I find that if if the project gets to the point where I have that crisis, and then figure out how to get through that crisis, that's a really good sign.
+
+Because then I think the resulting instrument actually hangs like I'd say, It hangs together, you know, it sort of conceptually makes sense, at least in my mind that I hope in some musicians mind.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+The first one, I don't think there's anything I can think of specifically, it's just grunt work. There's just grunt work. You know, the biggest tool is like a large pot of coffee. You just got to write, you know, 400 lines of code before the thing actually beeps the first time. There's like, no, two ways around it.
+
+I don't know. So I don't know, I have no answer for the first one.
+
+For the second one, I have
+
+two thoughts. One is really
+
+pencil and paper, it actually helps to be
+
+abstract and away from the device. And just think about it. And I pencil and paper is a huge, huge factor.
+
+Another one that's really, really hard to get, that can be a help. Is, is a willing set of years is, you know, sudden another musician who's willing who is willing to invest the effort it takes to think about an instrument which doesn't exist yet.
+
+I often don't have that luxury. But I think that's the key thing. Is that, that that for that challenge? The tools aren't physical. I mean, it's it's it's a tool of abstraction and forcing yourself to be that way.
+
+Right.
+
+So
+
+> So is there any ways that you would see the sort of existing tools being able to play into supporting those things?
+
+yeah, it's a little hard, I think, I think there's pros and cons there. I mean, certainly everything I said before about tools being rapid in your ability that is certainly good during the development process. And so that's, that's deeply important. But you run a real risk, if at the moment that you realise that the two of them, sorry, I'm going to focus this on me because I don't know whether this is true for other instrument designers or not. The moment in which I focus on this problem of Okay, what is the conceptual basis of this thing? How does it actually hang together if I
+
+spend too much time with my fingers in the code i can't i can't pull myself out of the abstraction into the abstraction layer to get there so that tool that actually hurts it hurts to be rapid there
+
+it's good to have one too good take the like i often take the thing that i have at the point it is and i go into my studio and i just play with it for like a couple days that often helps me figure out abstractly what's going on and try to come up with that basis
+
+so it's certainly being able to be
+
+to be able to produce a prototype prior to that moment
+
+so yeah so i guess rather than i would say an issue of tools it's more of an issue of working environment
+
+if you can be you know if you can be in a context where you can afford to build yourself a prototype before you've decided what it is totally that's tremendously helpful so certainly tools that make that feasible was good
+
+you know had i had had i had a
+
+laser cutter i could have actually built an early version of my enclosure which would have allowed me to make you see how the pulsar buddy sits in relation to the pulsar instrument itself and it allowed me to then sort of recontextualize and rethink about that that that relationship
+
+rather than having to go through that without the prototype in front of my in my hands
+
+so that i think made that longer so prototypes do play an important role there but i don't know that specific tool
+
+the ability to sketch is just tremendously important we don't actually have good sketching tools on computers they really suck
+
+at least the ones i know of
+
+so as i said i tend to use a lot of paper and pencil
+
+# How would you define a DMI?
+
+if it's if the word digital at least implies to me that we are talking about something with some amount of processor control i mean we could talk about things that use just you know ttl level logic gates as being digital but i'm not sure that's really in the flavour of the of the issue so i think the issue really comes from something which contains some level of processor control and therefore has
+
+an issue of software associated with it which leads to a whole set of issues of how things can operate
+
+to me it doesn't matter i consider it an instrument whether or not it's the thing making sound or whether the sound is made digitally or analogue that doesn't really sort of make much of a different mind to me the bigger harder problem for me is the notion of instrument that's a much harder word to define in a modern electronic music context
+
+you know you know orchestral instruments are we talk of them as being instruments that seems like a relatively well defined concept you know we don't really think of the string quartet as a single instrument itself or the composer might but it's
+
+it's really four distinct instruments you know but you start getting to an electric guitar and its effects pedals like are the effects pedals part of the instrument or the ancillary to the instrument i don't know so when we get to digital instrument at least as i conceive it
+
+if you're willing to accept that any part of the
+
+aggregate that the musician plays on or performs on if any part of it itself is an instrument then it is an instrument is any any
+
+self not self contained
+
+purposeful unit of that
+
+of that amalgamated instrument that's a terrible definition but there that's the best i can think of offhand for me
+
+that is very much how i think about what i do when i when i build up a piece of music to me i think of assembling i think of myself as assembling i don't know if you've seen any of my videos you know a lot of my recent videos i have this huge white table in my studio you know and unlike many other musicians i do not have all my gear set up on racks all lovingly out and available so i can just play it i i am the exact opposite all my gear is in a cabinet
+
+i have a big flat white table and i think of what is the instrument i am constructing for this piece and an instrument making
+
+have several different commercial synthesisers tied together via mixers or effects units or interconnected and it may consist of controllers. And so the whole thing is the instrument. But it's kind of like saying the orchestra or the string quartet is the instrument. Right? And so the any parts of it in there, so to me that, you know, a digital music instrument is any processor controlled?
+
+What did I say? purposeful component of that?
+
+Right? So I classify a sequencer as a digital music instrument, I classify a MIDI processor. Is it a musical instrument? I classify? You know, I have a, you know, that this Raspberry Pi running supercollider with my own code on it as a digital instrument.
+
+You know, I think of these Arduino things I'm building as instruments also.
+
+# What concepts do you consider a DMI to be made up from?
+
+This is a little bit rambley? Because I'm just thinking off the top of my head here.
+
+One, obviously, concept is
+
+it's clarity of intent. What is its purpose? Like, what is the thing that it is and it has to a digital music instrument? I think like any instrument has to be clear on that fact, first and foremost.
+
+Secondly, in aspects of digital music, instruments,
+
+and probably in this case, closer to being unique to digital music instruments
+
+have to think closely about what is the control system of that intent?
+
+Right, I mean, most
+
+non digital instruments, I mean, certainly physical instruments don't really have a control system where the control system is, I mean, the most complex control system and a classic instrument is the piano mechanism that I can think of, right, maybe maybe some tracker organ mechanisms, although they're actually related, I suppose, in some sense.
+
+But,
+
+but even there, the control system as a whole, I mean, I mean, certainly church organs with multiple stops is probably getting on the most complicated level of control system. But most instruments don't really have much of a control system to have to think about it, it's not really a fundamental component to them. You know, I'm looking at the guitars on the wall behind you, you know, and there's like, two control knobs and a slider, like, you know, it's just
+
+a facet of digital music instruments. And often the reason that we choose to make them digital music instruments is because
+
+of our ability to construct a higher level more complex control, schema schema.
+
+Right? I mean, if we didn't need more, then then you know, low frequency EQ and high frequency EQ, we wouldn't bother
+
+you know, the choice to make a digital then it's just like, probably awkward.
+
+Right? It's because I need things like no, I want to have multiple interrelated temporally rhythmically related delay lines. Okay, how am I going to control that and so I think a fundamental component of a digital music instrument is how you construe
+
+this control structure. Because that is that to me is like that's the reason you're going digital in the first place is to be able to have this high level concert conceptual construct of control.
+
+The last one, I guess the last one I sort of thought of,
+
+is, I'm not sure how to put this into words. It's
+
+it's the aspect of how does the instrument
+
+sit in the environment it's intended for.
+
+And this is like full of like, this is like really boring, practical.
+
+Like,
+
+does it power up in under 10 seconds.
+
+If someone trips over the plug does it remember it settings and come right back when you turn it on again?
+
+Does you know is it completely happy if you turn it on before the
+
+Other instrument or if you turn on after the other instrument, I'm sort of focused on power these days. But, but these aspects of how,
+
+how does the device sit in the environment, which are not really directly about its conceptual basis? You know, what is it that it does?
+
+And aren't really about the sort of, you know, how will the user probably musician perform on it? They're really, they're mundane.
+
+But I think they're terribly important. You know, I mean, the guitar wouldn't be so useful. If that anything were like, completely rectangular shaped, you would feel like shit on your leg, you know, it would just feel bad.
+
+You know, you know, if the piano keys were half the width, because that's what the woodworker wanted to, like, know that wouldn't worry. So there's these sort of mundane, so that Monday, but it's the How does the instrument sit in the world?
+
+That to me is like another really crucial aspect?
+
+I think those are I'm trying to think of what else is like? I mean, the problem is, like many other specific instruments have specific things I could come up with, but those seem kind of universal to a digital music instrument.
+
+> would would you consider the sound generation portion to be universal to instrument or not?
+
+No, I would not, not not in this context, I think 20th century instruments are we're like we're done with that.
+
+Which is to say,
+
+I think it's an artificial distinction to put a line between the sound generation and the control.
+
+In fact, if anything, that's a musically limiting idea, not just artificially, it's actually limiting.
+
+I admit that I come from a background of learning analogue electronic music, with modular electronics,
+
+in the years before MIDI even existed.
+
+My idea of what a modular synth is, is one of its amazing liberating qualities for me is
+
+that there is especially on designs like the surge
+
+modular,
+
+that there is no distinction between sound and control.
+
+Right, there's no, there's no
+
+harsh dividing line between, oh, this is the list of notes. And that's the thing that plays the notes. Like we don't have this in, in, in in the freedom of analogue electronics,
+
+analogue musical instruments, or any musical instruments for that matter.
+
+And if we go and so therefore,
+
+I think we have to consider that our ability to build control structures for musical instruments is just as much part of the instrument as the thing which makes the tone.
+
+I'm trying to come up with a physical instrument analogy here.
+
+It's like on a piano, we consider the mechanical action of the keys to be as much part of the instrument
+
+as the wires is the wire strung across a metal sounding sounding frame. Right, those two things are both important. They're equally important. In fact, probably most penis for claim that the action was probably more important because fundamentally a wire string and extension sounds like x.
+
+And, and so a piano is an example where the control mechanism is just as much part of the instrument as the sound generation. In electronics, we have the beauty to be able to separate these out in separate boxes, I consider the vast majority of what I do to be digital music instruments, even though very few of them actually contain their own sound generation. Sometimes they did, you know, sometimes I you know, use supercollider to digitally do the sound, I have written stuff where I actually wrote you know, generated the samples myself, I know how to write an oscillator.
+
+But
+
+the flip side is, you know, just like I don't need to reinvent round wire strings and sounding boards, like I can just make use of those. I don't need to reinvent necessarily like a filter or an oscillator. But I do need to reinvent the way in which I control those things.
+
+# Any other comments?
+
+I will say
+
+You know, this is probably outside the purview of your of your study. But
+
+I think electronic music, even though it's been around, obviously for not quite a century, well, about a century at this point
+
+is sort of an interesting CUSP. There's something happening in the scene here, which
+
+makes us rethink
+
+what the roles in music are.
+
+I look at what goes on when I watch like live streamed, you know, shows in the New York modular society or something like that, or, and you go like,
+
+is he composing?
+
+Is he playing a song? A track? Is that a piece? Wait, is it a version of a piece? He's played three times before? Wait, is she play like, like, these notions are all getting jumbled right now, I think in a very, very, very interesting way effect in a way that, again, I'm sorry, this is probably a little bit outside the realm. But if you think about like, what went on in, you know, the, you know, the sort of early electronic music era, I'm thinking like this 50s and 60s, and people like Merce Cunningham and john cage, and David Tudor, and all those people whom I had the joy of, of studying and occasionally actually studying with.
+
+Okay, I had one lesson with john cage, which I have to say, was the most fucking amazing three hours of my life. But
+
+yeah, it was, it was pretty astonishing. But anyway,
+
+they were taking electronic music forward in a way that had to do
+
+with sound.
+
+But what I see happening now is, is is our collective consciousness taking electronic music forward in a way that has to do with the concept of music.
+
+They still did pieces, which they published by SHERMER and sons on physical paper with scores as goofy as they were, they considered them numbered, extant pieces that were re performable by performers. We don't do that.
+
+That is not what is going on. BMI and ASCAP are kind of goofy concept. Like, I'm supposed to register what every live stream I do, like,
+
+what is my track that you're going to pay me royalties? Like this makes no sense at all.
+
+But that comes right back to what our instruments
+
+because we're redefining that as well, that is getting redefined as well. What does it mean to be an instrument? It's like I said, like, like this assemblage of things is, is is only the synthesiser, the instrument, you know, is like, is this launch pad thing? Like, is this the instrument? I know, we call it a controller, but
+
+it has a lot of effect on the music, you can play chess. And so
+
+I think interestingly, we're in a, I see the
+
+I see what we do is in a huge, I mean, it's sort of slow, quiet upheaval of all these thoughts. And I think they weigh heavily on what we think of as an instrument.
+
+What are all those modules sitting in people's view? Or racks?
+
+Are they instruments? Is the thing an instrument? I mean, I'm not sure I care about the definition so far, but I'm just pointing out is that like, boy, that does not fit into the model that we've had in the past? It just does not. I look at half of those modules, and I think,
+
+oh, wait a minute.
+
+Like, is that? Is that a composition in a module?
+
+Like if rings is choosing the chords? Actually, I don't know. Frings is the one that does chords.
+
+You know, but there are these modules like, okay, like, so. Is that the musical compositional choice by this instrument maker?
+
+I mean, that's okay. It's not bad. It's just like, wait a minute. This is like makes you rethink what what does this stuff mean?
+
+So I know I'm fascinated by this topic. Right now. I'm actually been mulling over in writing, writing essays, or private essays about it to try to figure out where we're like what is going on what is happening now because this does seem different
+
+to even when I studied music back in the 80s. So
+
+I guess the one last thought this makes me think of is
+
+instrument design is it's like it's something more people should do not that more people should become luthier is and like primarily design insurance for a living but
+
+i wish more musicians were more involved in their in their tools like yes you may play lovely wonderful find expensive guitars or banjos or something but you know someday just kind of the fuck of it you should take a two by four and nelson strings to it like
+
+just like you know
+
+you know see what it is to build a tool and we're you know mess with that line a bit i think the same is true with electronics we have plenty of ability to do so i mean i think it's happening so that's that's all good
+
+i do wish
+
+we have a tendency to push these ideas towards commercialism which makes them less
+
+appealing to musicians to more people to most people right i mean most people don't want to design a musical digital musical instrument
+
+to the degree to which they could then manufacture and sell them like most people do not want to do that hassle but digital music instruments offered offer
+
+it's so easy and so cheap to be able to make your own digital music instrument i mean that's right i mean i mean this is a nice one and it's only $100 worth of hardware that's it this is $100 the whole thing and you could basically like okay it's got a d to a and a to d and it's got it's got midi and it's got usb and it's got a processor that was you know
+
+frankly i think had more compute power than my entire university did when i was in college
+
+that's not an exaggeration i think it's true
+
+and you can build your own little musical instrument with this thing so do it don't worry about it being commercialised i think that's that's that's a thought i have is that i wish we it's unprecedented that digital music instruments can open that up so much
+
+so i wish people would do it like like you should know it's it's worth it explore it see what it's like to build your own little sequence here don't rely on you know a pile of stuff coming out.
+
+

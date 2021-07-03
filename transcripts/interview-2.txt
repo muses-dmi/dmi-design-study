@@ -1,0 +1,186 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 2
+role: Owner of Company
+experience(years): 11
+# Note: approximate number of instruments worked on
+instrument_count: 35
+
+instruments:
+ - Mutable Instruments Shruthi
+ - Mutable Instruments Anushri
+ - Mutable Instruments Ambika
+ - Mutable Instruments MIDIpal
+ - Mutable Instruments Eurorack line
+
+
+langugaes:
+ - c++
+ - python
+
+---
+> Note: This interview was conducted as an email interview.
+
+# Why do you use your chosen programming language(s) and how did you come to use them?
+
+C/C++ was the only mature programming language available on STM32F
+when I started developing the Eurorack line - with very efficient code
+speed and size. I also had good success with it when developing
+Mutable Instruments' previous products (desktop DIY synths for AVR).
+
+Writing code in C/C++ allows me to compile, test and debug everything
+not hardware-specific on my desktop computer - for example, Plaits'
+oscillator code is developed/tested in the form of an OS X or Linux
+command line program that generates a wav file that I am free to
+inspect in an audio editor, and different use case scenarios and
+modulations can be programmatically tested.
+
+Another benefit of C/C++, is that Mutable Instruments' code becomes
+very easy to port to other environments (Max/MSP externals, VCV
+Rack...)
+
+I favor C++ over C for several features:
+- Classes. For modularizing the code, code reuse between projects, and
+more generally because I like the readability of the object oriented
+syntax which expresses well how the submodules in a digital module are
+patched together, as in output = quantizer.Quantize(input);
+- Templates. I make use of templates to build two specialized copies
+of the same block of code, free of conditionals – for example a mono
+and a stereo variant of the same delay code; or FIR code parametrized
+by the filter length whose loops will be unrolled for the shorter
+lengths. This also helps with code reuse - arguments and parameters
+that will vary from one project to the other, but that will be
+constant inside the same project, are passed as template arguments
+rather than as method arguments - it eliminates conditionals and
+unused code paths.
+- Scoping. There are a few cases in the codebase where cleanup code
+(especially code that puts back hardware into a default state) is
+executed when a variable goes out of scope. This makes sure that, for
+example, the CS line of a SPI device goes back to high no matter
+through which path we leave the block of code.
+
+C++ has also been the language I used the most previously in my career.
+
+# Why do you use your chosen tools for instrument design?  and how did you come to use them?
+> (You may consider both physical and software tools.)
+
+- gcc for arm / openocd: ability to do everything from a command line.
+- eagle: availability of part libraries and tutorials from companies
+like Adafruit and Sparkfun.
+
+# Why did you chose STM32 as a platform to build your instrument on?
+
+(copied-pasted from
+https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforum.mutable-instruments.net%2Ft%2Fwhy-stm32-chips%2F16005%2F2%3Fu%3Dpichenettes&amp;data=04%7C01%7CNathan.Renney%40uwe.ac.uk%7C5022db007cd34b3ca05908d8c13f04d5%7C07ef1208413c4b5e9cdd64ef305754f0%7C0%7C0%7C637471823697691183%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=Gtg4cBzqtSnFTcGj2%2Bj0BJ9ZDZSpQtN9fGAxkN56YHc%3D&amp;reserved=0)
+
+Why not DSPs?
+
+- DSPs require proprietary, often expensive, development tools running
+on Windows.
+- DSPs often require external memory chips.
+- DSPs often come in large packages.
+- The code written for DSPs is not portable and is often write only.
+The development cycle (prototype in a higher level language, then port
+to assembly, then it’s over) is not my preferred way of working
+because I like revising ideas, and running the code on my development
+machine to experiment with it rather than on the embedded target.
+Think of it: VCV Rack wouldn’t have been possible if Rings ran DSP
+code.
+
+Why ARM MCUs?
+
+There are open source development tools like openOCD and gcc. The fact
+that ARM is the most popular platform for smartphones and IoT devices
+means that there is a large community, including employees from large
+companies, maintaining and improving gcc for the ARM target, and that
+the generated code and the optimizations are good.
+
+Why STM32?
+
+At the time I got into it in 2012, there were two choices: STM32F and
+NXP LPC (I’m not even sure Freescale Kinetis was available, but if it
+was it wasn’t very visible). STM32 had better support from the open
+source tools, and more importantly the embedded systems class at my
+alma mater used them. I could get access to their course material, so
+that’s what I went with.
+
+In a nutshell, it could be summarized by the fact that I come from a
+software development background using UNIX command line tools, and
+that I wanted to keep a similar workflow when developing my modules.
+If I had come from an embedded systems or more generally EE
+background, I wouldn’t have shied away from a proprietary IDE running
+on Windows and might have gone for something else.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+numpy / scipy / pylab is often used for prototyping, or for "design
+time" code (for example, computing the coefficients of a sample-rate
+reduction filter).
+a variety of homemade python scripts simplifying the process of going
+from a project's board files to the whole "package" sent to the
+contract manufacturer.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Python as a scripting language in Eagle.
+
+But honestly, 90% of the nightmares are production related – any
+improvement to the design process would have very, very low returns.
+
+# How do you approach the design of a new instrument?
+
+Finding a large space of "processes" (sound generation, sound
+manipulation, melody generation, modulation generation) parametrized
+by a relatively low number of easily understandable  knobs. A big
+potato with an orthogonal basis.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+- Hardware platform (shared between projects).
+- DSP code.
+- Panel design and UI.
+- Hardware (specific to the project): schematics, board, and choice of
+components for BOM.
+- "Feel" / "balancing" (matters of responsivity, interactions between
+parameters, parameters' curves...)
+- Manufacturability and design for testing.
+
+# What do you consider as the biggest challenge when designing an instrument?
+
+The reception by the public of anything that is not directly
+recognizable as a Moog/Buchla adaptation. The weight of the tradition,
+and "groupthink" embedded in clichés and concepts such as "menu
+diving", "digital coldness", "presets".
+
+Manufacturability, production problems.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Design tools are of little importance for these problems.
+
+# How would you define a DMI?
+
+Any electronic device implementing one or several of the steps of the
+process of going from idea to musical sound.
+
+# What concepts do you consider a DMI to be made up from?
+
+One could envision a DMI as a collection of signal inputs, signal
+outputs, interface inputs (switches, pots, joysticks, sensors, keys),
+interface outputs (displays, indicator LEDs); and a collection of
+algorithms generating the outputs from the inputs. Some of these
+connections between inputs and outputs can be directly implemented in
+the analog domain (eg, a signal indicator LED doesn't necessarily have
+to be driven digitally, it can be driven by an analog circuit).
+
+I tend to treat the UI and signal elements as distinct "layers" (UI
+inputs mostly impact UI outputs and broadly parametrize the signal
+outputs; UI operates at a lower sample rate) – but one could
+generalize and consider the interface inputs as just another kind of
+input, and the interface output as just another kind of output.
+
+So in the end, it is just about evaluating a big outputs = f (inputs) function.
+
+These things manipulate or generate audio signals, or representations
+(as voltages, as digitally encoded data) of musical information.

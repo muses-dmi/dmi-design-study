@@ -1,0 +1,76 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 18
+role: Professor
+experience(years): 20
+instrument_count: 15
+
+instruments:
+ - mainly physical modelled based
+
+langugaes:
+ - c
+ - c++
+
+---
+> Note: This interview was conducted as an email interview.
+
+# Why do you use your chosen programming language(s) and how did you come to use them?
+
+I use Max because it helps for fast prototyping, and C++ to implement the simulations in JUCE.
+ 
+ 
+# Why do you use your chosen tools for instrument design?  and how did you come to use them?
+(You may consider both physical and software tools.)
+
+I use Matlab to check the quality of the simulations and C++ to make them in realtime. I am not sure honestly how I came to use them.
+ 
+ 
+ 
+# Why did you chose your chosen platform to build your instrument on? 
+
+I use bela and arduino because they are very well documented and bela allows to run dsp on it with low latency.
+ 
+ 
+ 
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process? 
+ 
+ 
+Yes Overleaf for documenting the work done.
+ 
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI? 
+
+ 
+Nothing really. Only more time to work on these things :)
+ 
+___
+ 
+# How do you approach the design of a new instrument? 
+I usually find an interesting sounding object in the real world and try to reproduce it in software.
+ 
+ 
+ 
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation? 
+ 
+
+For me it is very important that the instrument does not merely reproduce an existing one but also extends it.
+ 
+# What do you consider as the biggest challenge when designing an instrument? 
+(Feel free to refer to specific problems from your experience or more generally from you opinion)
+ 
+ I think the tools available nowadays are very solid and well designed, both from the users’ and developers’ perspective.
+The challenge is the design of a proper interface and the design of instruments which are not played only by one or few individuals.
+ 
+# What tools do (or could) play the biggest part in helping with these challenges?  
+ 
+I think a larger collaborative team where there is also a designer involved who is able to professionally build the interface to control such instruments.
+ 
+
+# How would you define a DMI? 
+ 
+A DMI is a digital acoustic object that can be interactively manipulated and played with.
+ 
+ 
+# What concepts do you consider a DMI to be made up from? 
+The software component but also the way we interact with it. So the interface and the mappings are as important as the software element.

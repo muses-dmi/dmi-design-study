@@ -1,0 +1,80 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 24
+role: HW and SW engineer
+experience(years): 3
+instrument_count: 6
+
+instruments:
+ - Gechologic Loopsynth
+ - Phonicbloom's Glo Polyphonic Whale
+ - MMXX T-ape
+ - Wingdrum,
+ - Loopstyler
+ - Don Iguano
+
+langugaes:
+ - c
+ - c++
+ - python
+ - php
+ - javascript
+
+---
+
+# Why do you use your chosen programming language(s) and how did you come to use them?
+
+I've learned c/c++ at the university around the year 1996 and thankfully it's still the most widely used language in embedded systems. A few other languages required for smaller tasks (website design or various scripts and utilities related to the project) were easy enough to pick along the way.
+
+# Why do you use your chosen tools for instrument design?  and how did you come to use them?
+(You may consider both physical and software tools.)
+
+Software tools are usually supplied by chip manufacturer, in my case all necessary compilers and IDE were freely available from STMicroelectronics & Atollic, Espressif, or as a free open-source software from 3rd party (Eclipse). Physical tools that I use are very basic and mostly ordered from eBay: multimeter, oscilloscope, microscope, power source & soldering station with hot air. I do not invest in expensive tools until what I have proves to be insufficient or limiting.
+
+# Why did you chose your chosen platforms? 
+
+The most important criteria is what those microprocessors or microcontrollers can do (interfaces, clock speed, floating point math, memory size), power consumption (as we want our devices run on batteries), what is the component availability, longevity (meaning that they will not be phased out by the manufacturer too soon), documentation and licensing. For example STM32 or ESP32 platforms offer very accessible development kits (often in sub €30 range) which is great in compare to some other chip manufacturers where barrier to entry is much higher, or the toolchain is outdated and cumbersome to use. Also it's good if the part can be soldered by hand while prototyping and does not require more advanced (higher resolution) PCB board (this unfortunately rules out most chips in BGA packages which would otherwise be very desirable).
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process? 
+
+Git, Dropbox and micro SD cards are good examples of how a relatively simple thing can become invaluable in everyday work. Git is an irreplaceable software versioning tool that makes coding, collaboration and code maintenance easy. Dropbox keeps files safe and allows to restore accidentally overwriten or deleted files. Memory cards are handy and versatile medium, used in cameras and in our own devices too (e.g. for fast programming of new units in production or for development of the firmware).
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing digital musical instrument? 
+
+I don't feel that anything is seriously lacking among the tools we have. For each task there are multiple choices / providers so it is easy to replace what is not working.
+
+# How do you approach the design of a new instrument? 
+
+First, I think of how to make something new (which is hard), or give an improvement / update / personal twist to something that may already exist (for example, ideas from very popular and classic instruments like Theremin, Tongue drum, Stylophone or Mellotron can be found in our devices).
+
+Second, the user interface - its layout later determines the functionality. It may sound odd, as one should rather start the other way around. But sometimes I prefer to invent a form first, then think about what could it do. For example recently I started with shape of a cassette tape, which determined that there are going to be 2 rotating wheels and just about 8 or 10 touch keys, and a few LED lights where they fit... the rest pretty much naturally followed from there. Some of our instruments have minimalist interface as they are rather intended for meditative or playful use (e.g. only 3 buttons and one LED light). Such model first exists as a functional prototype, built as small as possible, later the enclosure and controls are built around it.
+
+Third step is to make an early demo, share it around, and get feedback from potential users, which often makes us to rethink it - add or remove a thing or two. They often ask questions that show us what is exciting, what nobody cares about and what is missing - at this stage there us usually enough time to improve and fix most of these things.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation? 
+
+I believe this boils down to a few questions like: "who is it for" (general aesthetic, materials used, features, ease of use, desired pricing), "should it be compatible with other existing gear or rather stand-alone" (interfaces), then portability and powering scheme which further determines the shape of the enclosure. Hardware implementation has to be decided early enough, platform & components chosen - this requires to scout parts early in order to avoid trouble with insufficient stock, or too expensive manufacturing. Software-wise, it is important to create a "proof of concept" very early, to not run into unexpected problems later. But the finalization can wait to the very last moment (ideally with lot of early feedback already collected).
+
+# What do you consider as the biggest challenge when designing an instrument? 
+(Feel free to refer to specific problems from your experience or more generally from you opinion)
+
+In our case the biggest problem was rather manufacturing itself than designing (quality of materials, consistency and availability of parts), and then time required to build each unit (which is surprisingly hard to estimate up front). However all these things are decided during design phase, so I'd say biggest challenge is to foresee those potential problems early enough. With designing itself, the biggest challenge is to create the most accessible user interfaces without straying too far from the original vision. People tend to misinterpret things - they may confuse the graphics for a functional control element, assume that the device does certain thing because it ressembles some other device they know. Or ergonimics - with an oddly shaped thing there is no common and obvious way how to use it. And miniaturization must not be taken too far, then people complain that it is hard to avoid pressing two buttons at once, where they are spaced too close together (such was the mistake I made in the very first commercial product).
+
+# What tools do (or could) play the biggest part in helping with these challenges?  
+
+I don't think that tools could be invented specifically for the challenges that we face most, maybe there is something to do about parts and shortages; the octopart.com website (supplier cross-search) can be very helpful, but to my knowledge there isn't any automated tool to look for part substitutes (or to help optimizing BOM and production costs). We usually just maintain the BOM in Excel sheets and update manually when there is a problem (and it is also the format that most manufacturers require). I know about tools for designing user interaces, where you can make a functional looking mock-up, share it around and receive feedback, but I never used it (and they are primarily intended for mobile apps anyway, I don't know of any hardware product mock-up design tool). It seems easier (and more fun) just to build something physical right away, it also helps to figure out most of the hardware issues early in the process.
+
+# How would you define a digital musical instrument? 
+
+I think of digital instruments as powered by microprocessor or DSP chips as opposed to analog circuitry with oscillators and operational amplifiers - given that we are talking about electronic instruments only, as perhaps all other (mechanical) instruments are somewhat analog in their nature. There is a special case of synthesizers built on FPGA chips which is somewhere between, it is essentially digital but thanks to the internal parallelism and the processing speed which tends to be far beyond the audio range, the end result is very close to (and often hard to distinguish from) an analog implementation.
+
+# What concepts do you consider a digital musical instrument to be made up from? 
+
+Most importantly, user interface (hardware controls and software implementation - menus and indicators), and DSP engines which determine the nature the sound (one or more can be present in the instrument).
+
+Then, based on "who is it for", it is decided what inputs and outputs should be present (analog / digital: microphones, line I/O, MIDI, control voltages, triggers...), what enclosure to make for it - which is usually composed from a shell (wood or plastic) and some kind of a front panel, that contains original graphics, unusual materials, textures etc.
+
+It all needs to be considered early enough, because these elements influence each other. I often start with an idea of interesting & attractive looking form factor (which may already be a well known music instrument or anything else really), and then think about adding my own twist on it, and what it could possibly do (which sometimes ends up far from what the thing, that inspired me, normally does).
+
+Or I start with an idea of use case (e.g. a classics like a Mellotron or Stylophone) and try to figure out how to make it more portable / in smaller format than existing devices. Usually there are 4-5 rounds of prototyping, during which things may change dramatically, influenced by early feedback, then functionality, "feel" and manufacturing challenges arising from the materials used (what looks great on paper often does not work well in reality).

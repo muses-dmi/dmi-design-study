@@ -1,0 +1,156 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 13
+role: Assistant Professor of Music Technology
+experience(years): 11
+instrument_count: 8
+
+instruments:
+ - DMIs based on audio/visual physical modeling
+ - hackable DMIs combinig digital and analog elctronics
+ - immersive virtual DMIs
+ - collaborative networked DMIs
+
+langugaes:
+ - c
+ - c++
+ - assembly
+ - glsl
+ - pure data
+ - supercollider
+ - max
+ - c# (unity)
+ - misc scripting languages
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Okay. Simply because I mean I my my choices derived from the needs. So I'm an engineer. So I know that to achieve some technical goals, some performance goals or whatsoever, I need to choose the correct tool. And yeah, especially for what concerns computational power. That's typically what drives my, my choice. And then I try to adapt the tool to fulfil other requirements, like usability portability, but it's typically a matter of performance.
+
+> You mentioned in your survey submission things like GLSL. Are they also largely derived from the technical requirement? For example, using GPU? Is there other motivations, syntactically, perhaps, so what are the secondary motivations there?
+
+Yeah, correct. Oh, well I'm really keen on whatever is open source or free, non proprietary, stuff like that. So that's actually, that's a good point. It's a second, second motivation. So I try to develop on Linux. And so I like everything and anything that starts with open, I like it better than proprietary or closed stuff.
+
+# Why do you use your chosen tools for instrument design?
+
+Even like, the tools in terms of software tools, as opposed to languages. Okay. Okay. Well, it's a, it's a different story. So, harbour with respect to software. Let's start from software. So I don't use many software tools. So those that I listed there actually come from mainly explorations, or also teaching contexts. So sometimes I work with students or other research researchers that prefer to work on, you know, in different technological contexts. And there are some software tools that cross platform or allow, are characterised by that kind of flexibility, that sometimes some kind somehow fulfils both my needs and their needs. So it's kind of a trade off. That's good to prepare data, for example. For what concerns harder, that's a different story. So harder is again, all about the performance and capabilities that and some, for many years, I got stuck with the workstations like desktops and laptops. And that's a they they provide a certain kind of affordances and certain kinds of computational horizons in a sense, and working with different hardware opens up completely new worlds and completely new contexts with some constraints, but also interesting possibilities. So it's interesting to choose some hardware solutions or platforms, because of this specific affordances, they have in like a kind of a large sense affordances. And see what you can actually do musically. Or if you have a predefined musical goal, maybe that specific hardware is more suited compared to the desktop or laptop or stuff like that. And in many cases, I end up designing custom part, which for because means that sometimes the what is available on the market is not, is not in line with whatever I'm trying to do or doesn't expose all the functionalities that are needed. So you do something on your own that really fulfils your needs or something that doesn't exist yet.
+
+> And so when you start to work with custom electronics, do you then have to expand your toolset to include more typical electrical engineering support tools?
+
+Yeah, of course, it's definitely more complicated. And typically happens in the context of a larger project. It's not like a whimsical idea. Oh, yeah, I'm gonna do this. I'm blah, blah, blah. No, it's like, I have a plan. I have some funding, maybe some people working with me. So that's what triggers the possibility to actually start a design over something new
+
+from scratch.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Yeah, I mean,
+
+I really think that the important features in a design platform is the possibility to allow the designer to not to stick to Rado rules of the platform. But the platform has to be as open and compatible as possible and flexible. So which means open source, open hardware and can be programmed with different paradigms, rather than you know, just having I like, for example. Yeah, pure, pure data is cool. But not everyone likes pure data. So if I have a platform, I want to use your data because sometimes it's convenient. But I want to use c++ sometimes, because sometimes it's more convenient. So this kind of freedom. So compatibility, accessibility, open nature, or open source and open hardware. And also, I actually experienced this necessity to have a community around me that works on seminar projects, hardware and software. And because whenever you stumble upon a problem, maybe there is someone who has had a problem already, I found a solution. Thanks for the community. So that's also another important thing, as opposed when you work on something that is custom. Custom doesn't rely on any, let's say commercially, or widely available platforms. That's a problem, because every problem is up to you. That's another reason to choose something that is available and has a community behind it.
+
+> You mentioned Bela in the survey, do you think that is a good example of that?
+
+Yeah, not not just that, yeah. Not just that. But yeah, so Bella has a growing community. But for example, one interesting parallel with the impact of the community is languages. Sometimes going back to the very first questions, I think, the this is not a rational for selection of a language for me, but it's definitely a pro. So by choosing c++ or GLSL, I know that I can count on this huge community of users that have very technical issues, problems, challenges, and they share their results. And sometimes you see this happening also, around the platform. It's definitely less likely is definitely, let's say, less developed. But it's something that it's popping out right now. I think and it's very convenient.
+
+> I think that, there's a point I actually want to raise that, again, surmises, like all of these previous questions, but um, you've mentioned pure data and also in your survey, Max MSP, which are often considered prototyping tools or languages. And then you've also mentioned c++, GLSL, which are very much, you know, something that people tend to implement in their final product in? Do you find that there is a, it helps to have two distinct sort of paradigms that you port between? Or do you prefer to work in one exclusively for the duration of the project.
+
+So okay, that's a controversial. So by nature, I tend to stick to a single language, the definitive one, because of my engineering background, I'm comfortable with the extra hurdles linked to the development from scratch have an idea of using a, let's say, a lower level language or a more hardcore language. But I recognise the advantages of having the possibility to start from pure data or MATLAB, I forgot to mention MATLAB octave. And now I'm exploring Python, as a, as you said, kind of a prototyping set of languages. I should do this more often. Let's say, I, especially when I work with students and other researchers, it's good to have this again, common language or common working environment. It's extremely convenient. 
+
+> Yeah. Do you have any concerns then with the process of porting between those languages and any asymmetry between them then?
+
+Ah, yeah, but for example, that's another interesting thing, it's actually a very good point. So if you know exactly the implementation context of your idea, I think we can use a prototyping language not as it is supposed to be used. But in a way that mirrors the final the design of a final application. For example, when you work in MATLAB, you know that to speed up the simulation process, you can write your code in certain ways, we can because you can leverage the vectorization of made of matrix matrix logic and algebraic operations. However, you don't have that specific in that specific implementation doesn't have doesn't mirror in c++ or shader languages and stuff like that, or it can be done but with completely different libraries or coordinate rationales. So you know, what, screw MATLAB, I'm gonna exactly use the same structure that I know I will use in the final development environment, and just test more important details rather than optimization in the development software. So as I said, I often neglect the way design prototyping environments should be used. And because of the need of translating, at the end the result to a different architecture or software environment.
+
+Sometimes I, maybe I'm exaggerating, but I think it's kind of a waste of time. So I'm, I'm happy to wait some for a few extra half hour. So whenever I run a simulation, but then the actual time that it would be needed to translate the code will be much longer than that.
+
+> Ok, Just to pull finally back to the platform. You mentioned a couple of established platforms but also custom platforms do you select from a variety of vendors for chips for example, atmel, arm? Or do you have a sort of go to industry standard platform that you make yourself?
+
+I'm not really in terms of platforms. What I meant with custom stuff is not just custom hardware, but you know, you have some hardware, and then you deploy your own software, environment for development. And, you know, for example, you can use a phone or a smartphone as a development platform, you just use the hardware is there the SDK is available and then you deploy a bunch of tools, could you design and this can be done on a smartphone could be done on a laptop or anything. So I don't have a specific fenders. And when when we're talking about when talking about electronics or chips. There are some specific projects needs sometimes and you have to go to a specific vendor, but I haven't had that. That's a that's a constraint yet. I'm still working on stuff that is, you know, very cheap. electronics and can buy, go online buy the cheapest one or two I noticed available at that point without considering too many details, but I see her but I've met people that actually, you know, use arm, specifically atmel, specifically Ti and stuff like that.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+I think that Linux as a project as a large Ward really influenced and enhanced the way I approach instrument design. And let me think if there was anything else,
+
+> Would do you say Linux, because of its community, as you've already mentioned, or perhaps the engineering paradigm it represents? 
+
+yeah, I mean, the fact that, it's really customizable, you really have access to every piece of code that allows you to interface with the hardware, change the software, modify behaviours, that's fundamental, if you want to use a platform, it was not supposed to, it was not designed to support the development of musical instruments. So you can truly tweak hardware and software to make whatever you want. Now, literally Next, I'm not sure. I can think for a second. When I was much younger, I used to work in virtual reality. And in that case, all that stuff, again, all the consumer stuff at that time, we didn't have Oculus headsets or live and stuff like that. It was definitely think things were more difficult to find to buy and definitely more expensive. But it was a bunch of interesting things, like, woke up and tracking sensors, that stuff was very useful at the time was very flexible, and it was open ended. And in a way you can use it that affected a lot the way I was designing virtual musical instruments at the time. I haven't done much of that work lately. But I think that for other designers in the musical in the DMA domain, yes, D stuff is pretty effective, and has an impact. I'm talking about like, not just tracking sensors, like optical tracking sensor, but also Myo bands and sensors that somehow provide information about the motion of the body in space. And those are very open ended. And they have the potential to inspire the development or help the the process of revision of musical instrument design. Yeah.
+
+> That's an interesting idea. Do you think that that expands beyond even just the design of gestural instruments, and related to the body, but also to perhaps tangible instruments that are an artefact themselves, you could actually monitor and feedback?
+
+Yeah.
+
+Yeah, absolutely, absolutely. It really depends on the paradigm you want to, to embrace, where you can place a sensor on the body or in the environment, or in the object, you can achieve more or less the same more or less the same results. It really depends on what sensors you are available and what environment is available to you. The only problem with this technologies is that I think, maybe I'm wrong here. They're they're still evolving to be fully, I want to say compatible, usable. And with embedded hardware. There are more designed, let's say for laptop applications or workstation applications. But there will catch up definitely, I mean, embedded embedded hardware is, you know, just a few years old right now in terms of kit in the market and the mainstream community. So I'm pretty sure that sooner or later we're going to have lots of support for off the shelf tracking devices for embedded solutions that will will open up a very interesting more of sensitization For what concerns interaction and in particular musical interaction.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Okay, I will be very naive here. Like I drew motherboard where every single vendor, every single hardware, every single software embraces the open source community. So that you can use the device according to the way it was designed. But you can also let's say, we can appropriate it, and modify it without having to reverse engineering, rewrite the source code, reinvent the wheel, or infringe copyrights and stuff like that. I know it's a utopia because you know, it's good to support with the financial, let's say, the network of people that design products, but for what concerns my small micro war is open source open hardware idea as probably what would change would really mean has its it has the potential to truly change even more how a design is. For example, I, I struggled a lot with a Microsoft Kinect. Some years ago, I was like, I want to use it in a way I want, I need to use it, and it was not possible. And I had to wait for people that, you know, I employed hours and hours of their lives to actually rewrite to code matches, Microsoft wrote. Alright, so just a quick example, I'm not going to use connecting right now. But that really left a mark, in my experience.
+
+# How do you approach the design of a new instrument?
+
+So it really depends on Okay, it's a little bit a kind of a counterintuitive answer, probably,
+
+I explore lots of new technologies or new ideas that may need the design of new technologies. And the musical perspectives that these technologies are assumed to be technologies are characterised by are typically the, the trigger for, for the design of a new instrument. So rather than having an idea or have like to have an instrument that does this, and this and this, I stumble upon a technology or a potential technology that may achieve something new, something that I have never seen before. And then I do my best to actually either implemented or modify it to reach my goal. I don't have I don't have dream instruments, behaviours, let's say.
+
+> Do you think that's a motivation from a research perspective? Or is it a motivation of you exploring technology?
+
+it's my my say upbringing. In a sense, the fact that I was trained as an engineer and a, I am been exposed to research for more than a decade. So this is kind of my mindset. I like new things. But I really need to understand what's available and what's not to define what what movements and new is different from possible. Let's say put, no, I maybe thought out impossible, that's potential or imagined imaginary, okay. Something I can imagine is not new, something that is new is something that can actually be done with some effort. I can I see that. I think that can be done with some effort. 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Okay. very vague. aspects. Yeah. Okay. What aspects? Yeah, I think visibility is a it's a strong constraint, let's say aspect of the design process. Yeah.
+
+And
+
+in many cases, the feasibility of a an implementation plan depends on the workforce you have. So the people that work with you the time that you have funding. So the financial support that you have. But I think the most important thing is, yeah, the having a group of people that share the same vision and same target. Yeah, I think that's the most important aspect. So visibility, and then having a group of people that can truly make visibility and truly express visibility with a technological efforts. Also, theoretical efforts. 
+
+> How do how do you think that works in the context of a solo designer?
+
+It's more about it's not you as I mean, it's not about the actual group of people that design and development more about the the target. So the group of people that will see this instrument during the making, or whenever they prefer to be present is first beta version. It's going to be I don't know, like, investors, or conferences, researchers, scholars, musicians, sometimes you want to work with musicians, you design something, and they say, Hey, I have this thing, new thing. Why don't you? Why don't we meet and discuss on how making music with this. So it's not a soul? It's never a soul, or dimensionally my vision, it's more of a perspective of meeting with someone, eventually discussing getting feedback, or having fun together.
+
+> would you would you go as far as to say that even in the scenario where I have a secret instrument that I entirely developed, without sharing with anyone, at some point, if I perform it, that even the audience becomes part of that process?
+
+Yeah, absolutely. I think eventually, I mean, music is autotelic we like making music even when we are secretly shut in our bedroom or a studio, right. But I think that if you did, if you design something new, you want to make new music, and you want to share it with other people for maybe because you want other people to embrace the same approach, or you just want to have a wall effect on people because we have, sometimes we have a little we are a little bit narcissistic, right? No matter what, I think that that is the point. So you have to take into account the presence of other people, even in that extreme case, and your design process, this is one of the aspects that must be considered during the design process. Definitely, why I'm doing this, who's gonna see this, I I'm the one who's gonna design this on my own. No one was gonna play this and compose with this on my own, but eventually, someone will listen to my music and see me performing. So these two aspects are so these two final points are, let's say expose my soul of work to other people and they must be taken into account. 
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+different instruments, different challenges, honestly. But  Okay, let me be. Let me give you a scolar answer. Which, I believe in. The challenge is, how long it is instruments will live for, or as the instrument itself or as a future embodiment of the instrument. So I designed something, I will use it or someone else will use it for some years, but maybe this instrument will inspire other designs. So the heritage of this instrument continues to live on. That's still a good thing. Right? So I think this is the main point. Yeah. Because in most cases, you spend a lot of time a lot of money, work effort, time, not just you, but also your collaborators or people that guide this project. And sometimes you're part of a project that is done by someone else. And then after a couple of years, is just something that is on paper, right? You want to have some kind of a track record of influence and impact 
+
+> Do you do you think that that is a big problem, particularly for digital musical instruments because, you know, support and like, the nature of software continuously updating and, and bit rot causing code to sort of go out of date is actually almost a barrier. to like, the instrument deteriorates, and then it loses a lot of its core and can't be inherited in the way that a traditional instrument can.
+
+Okay, so yes, it's a problem. I think that with open source development and open source communities this, this problem is kind of easier to handle. But it's still a problem definitely. But I don't think that it's just the actual implementation. So an idea is different from its implementation. And the implementation is bound to some kind of technological constraints that depend on the current development of tokaj. And or electronics or software or whatever. But the idea is what remains, there are so many instruments that present for a first time interesting ideas and had a specific limitation that cannot be carried over for across generations, ecological, of technologies, but they still reside in the implementation of other instruments. So that's the only fine in my opinion, we just have to underline disconnections, we don't have to forget that this derives from this is too easy to forget the value of the development of the testing of an instrument. But I think the most important thing in this case, rather than thinking about how the instrument can survive the, the cyclic renovation of technology is, what is who's gonna use these instruments, who's gonna teach to use these instruments, where is the actual
+
+musical heritage and under technological or, or the design heritage is more about the artistic heritage, right? I'd like to see this instrument, being part of a music programme, maybe not, not forever, but during its iterations, and whenever it becomes whatever and inspires but it will be great to actually see that this new affordances this new ideas are combined, we new pedagogical approaches, analysis of these instruments from a musical perspective, interactive perspective, change the musical language, the musical jargon to reflect a new way we use musical instruments, thanks to digital technologies. So we know there's there's a bunch of words that are linked to the music, pedagogy. And I would like this dictionary to increase right, regardless of how long this specific instrument will leave for. But if we introduce a new way of making music, it should live on across generations of digital musical instruments with different implementations still carry out this idea in a practical and artistic term. And we have to teach this, otherwise, it gets lost, right?
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Humans? Yeah, I really think that we are doing a good job with exploring technologies and design and stuff. And it's just a matter of, like gathering. And during COVID times, it's difficult, but we can do this remotely, and discuss, okay, what's new about this? It's not that the implementation, right, it's the idea what kind of music making approaches surface from this novelty? Let's analyse them. Let's compare that with how we intend music making right now in conservatories, and music schools. And let's see how pedagogy can be modified to include this new stuff. And that's organised classes, where students put their hands on new musical instruments, even if they're not the best music, digital musical instruments, but they are new ones, and see how they react to these to this new pedagogy. Let's see what kind of repertoire comes out of this. Because if we don't trigger music making in such a way that many people have access to digital musical instruments in a kind of a professional way, we're not gonna see the growth of in terms of production that is needed to support original musical instruments at large across many, many generations, let's say. So just people I think I'm really I'm really sorry. I'm really happy with how the instruments from five years ago I presented at the non conference or SMC icmc All these interesting places, I'm more than happy with the kind of music that allow you to make, and the kind of artistic, artistic, artistic inspiration they're capable of. So I'm not interested sometimes in designing anything new. I mean further, let's say, but I'm more interested to see what how we can do with this stuff that has been lying around for many years. And how can we transcribe this? How can we can formalise this?
+
+> So maybe the tool is partly, would it be fair to say it's partly the academic process, as it's a very human problem? And, and, you know, it's situated in that domain...
+
+I think rather than an academic, I think it's more related to teaching. It's it's a different term, they are related, but it's more about teaching. It's a pedagogical effort.
+
+
+# How would you define a DMI?
+
+Okay.
+
+That's a quick one. So in my in my word, digital musical instrument is a something that can be considered, at the moment, a new instrument that relies at least partially on digital technology. So it's not a digital synthesiser, from the 90s is not a keyboard and stuff like that. But I mean, it could be considered a digital music answer. But no, it's more of something that, you know, was not possible some years ago, and introduced some new ways of making music, both in terms of interaction or interaction of sound synthesis, is not going to be novel forever. But it doesn't belong to the word of traditional musical instruments. Which means electronic, acoustic, electric, it's not there, it's not in this big bubble that is a considered a musical instrument to the average person that can walk into a music store and buy a musical instrument.
+
+> And so a digital piano to you would be not really a digital musical instrument?
+
+It is, but when I, when I say DMI, I don't mean that. It is I understand it's digital. It's a musical instrument. So heck it is. But that's not what I intend. There is a
+
+desire, let's say dichotomy here in terms of beliefs, in the academic community that I say hang out with, it's a Is it DMI? Or is it NIME is a digital musical instrument or a new musical, new, new musical interface? Well, it cannot be new forever, so cannot be new. But the DMIs can be also can include include a digital piano or a electronic drum set. So there is no solution. I simply use the term in that specific way as untimely isn't the NIME term. I just need to clarify it every time so that the people that I have the person that I'm interacting with, or the reader understands what I mean.
+
+# What concepts do you consider a DMI to be made up from?
+
+concept? Well, yeah, it's the introduction and exploration or reenactment of something that is not considered a traditional way of making music. I think, as I said before, that's basically part of my personal personal definition. And which means that doesn't necessarily mean that has never been seen before. But maybe it's something that is a little bit alien to the average musician. It's something that is niche, something that relies on technologists are not easy to cope with, in a sense, or something that goes against the rationale behind most music genres, those that make money, for example. But it's interesting because I noticed that over the last 20 years, many have submitted say, some of the musical rationales that I've been exposed to in academic contexts and research contexts that somehow influence music making at large, like this tiny parts are taken from weird musical instruments DMS, and use And mainstream productions, stuff like that. So everything that is, doesn't right now doesn't belong to this big accepted definition and share definition of musical instrument and music. I think that's what, for me at EMI and EDM, I shares, let's say, this novelty difference.
+
+Not really. And then how many people actually uses this thing to make music in a different way? I can buy a roli seaboard, and I can use it as a piano and do some bending. I can do this on us on Ableton Live, right? When I listen to this record, I don't I don't hear a difference. When I go on stage, I may see something different. It's a it's a tiny thing, though, right? So it's not just that. So it's not just something that hits the market, and is a not not new anymore. But it's something that even if something hits the market already leaves of trades. And it's different. And it's not used in a way. It's a there is a lot of potential on designer and his new musical instruments, right? And is this potential actual used by people understood by people whenever this device hits the market? If it's not, it's still new, it's still something that needs exploration is to be analysed and is to be studied and is to be spread in a different way. Efforts actually embrace very quickly, which almost never happens. That's that that's not new anymore. But that's the goal, right? We want to transform something new into something that is acquired, right, is shared. So it's kind of a blurred definition, a blurred line between what is a BMI when kids in the market?
+
+# Any other comments?
+
+Yeah.
+
+Yeah. I may have contradicted myself a couple of times, probably a couple of times, probably because of, you know, these are interesting questions that I I rarely formalised in my thoughts other than the definition that I put in my, in my writings, I'm talking about DMI, which means which, to me means this, but I never talk about the impact on the market. I never write about how the definition changes or how the connotation of an instrument changes whenever it hits the market. It's stuff that it's interesting. I have some ideas, but I'll still take some time for me to actually shape these ideas into words. Okay, okay. Sure.
+

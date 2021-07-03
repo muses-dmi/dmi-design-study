@@ -1,0 +1,203 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as a markdown for better readability.
+
+participant: 21
+role: Artist
+experience(years): 3
+instrument_count: 2
+
+instruments:
+ - Electronic_Khipu_
+
+langugaes:
+ - java
+ - processing 
+ - max
+ - supercollider
+ - c++
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+I just look for what is the core of what I want to do, and, in this research, I looked for the best tools to get this objective. As I told you I'm new in all these fields, so I apply the same that I do for all my projects.  When I have an idea I just look for the best media to adopt this idea or to possible this idea so I'm not close to one or two digital software or hardware to work I just look for the best fits in the project I have in mind also, I have to ask for help or I have to learn it's always it is a good part of the process for me, so I don't have any special software on hardware that I want to move on like to work just I mean the choice is related with the research.
+
+
+
+> And yeah, so you mentioned using Java, what informed that choice?
+
+yes, now I did I put Java but in that very little level.
+this is my basic level to help me for example if I want to apply something in processing, yes, the basis has helped me to do something but at the end of the day, I must research again and look how can I met its very basics I put the logic Okay, I know a little bit but it's helpful. It helped me to me, for example, if I try to do something in supercollider also, of course, is not the same language but all these structures helped me to create or something or to build something that.
+
+
+
+> Yeah, so you learned some Java just to provide a basic understanding of programming. Is that right? 
+
+yeah, I think this for the basics or Yes, from the basis of any programming language it’s no matter what language is if you have at least the basics of the whole program it is very useful. So, for example, we are doing with you know, something related to processing and processing this basic little bit, the same structure with other programming languages this is easier to develop something.
+
+
+
+# Why do you use your chosen tools for instrument design?
+
+As I told you, I chose the elements I put because they're the ones I know that I was I created in the past, but of course, this list can change according to the project. So, I tried again, I tried to fit the idea I had in my mind into the media I have for example if I know that I can work with I didn't see it because I use all the students see. After all, it's very easier to come back to a meeting note and all this stuff up I always think first and the idea and then in the tools I think this is, of course, it's important to know how the tools works and how to have a piece of minimum knowledge in every tool but for me, the main important thing is the first idea I mean for example if I don't know how can I control any special software to make my idea works I tried to learn and this is when we have no other new software for me um but if more technically I think the chooses my tools right now is based on my background my education.
+
+I'm finishing a second master program in Electronic Arts and we must learn about all these tools, so this is the handiest world I have right now. And of course, this is a discussion and influence in how I form my work, but I'm pretty sure that for example, if I had to learn, how works the Leap Motion Sensor or something like that or I have to be more focusing on Math I going to do it because is part of working for the project, I'm always with the idea to learn to make the idea possible no on the other side.
+
+
+
+# Why did you choose your chosen platform(s) to build your instrument on?
+
+In my case I look for the easiest to carry off, for example, the Teensy is smaller, in many projects, I must choose the teensy instead of the Arduino because the number of analog pins I use, is very important. It has more pins in a smaller space than an Arduino and it's easier to connect to transform these data in MIDI notes to come back to make a MIDI controller easy. This is because of the previous research I made always to start a project.
+now, for example, I can tell you my last experience with the instrument I made, in addition to the teensy, I had research with materials and sensors till I got the final one, I also had the help of the professors and advisors of the university that suggested me the features and advantages of different elements to use in my project. And of course, all the background research and, I have a lot of stuff if I can afford it, or somebody can lend me I don't know a board or something like that., I am just happy to have all this material because allowing me to test and know what is better for the project I do.
+
+I try to have in my workshop, micro microcontrollers, cheap microcontrollers, a lot of different sensors, cheap or others a little bit more expensive, I like to have all these tools in my hand because I can just choose and to see what better it seen the project. 
+
+
+
+
+# Are there any other tools (software or otherwise) that you feel contribute significantly to your process?
+
+Well, the tools I work with are basically with Teensy. But if I think in Teensy to make it possible that I can control medium, I had to pass before for doing other projects with other kinds of microcontrollers as Wiring or Arduino, without this knowledge, it would be more difficult to use teensy for me.
+
+
+
+> What about in terms of the more like tactile side of your instruments? Are there any tools or processes that are involved in realizing that for example, the interface itself the physical side of things?
+
+Yes, exactly I think this is it comes thanks to testing. 
+I tested before different kinds of electro textile sensors, to get the conductive rubber strings, for me is important the conductivity of my skin, it serves as an instrument itself as the control of the device.
+So, I don't know if I am answering well the question because in fact, when you are looking for the right way to make a project, you do have to test a lot of tools that make the results that you want to get, I don't know even if this also applies in these more tangible media but I think for project creators in other areas is more or less the same, I think is more related with the creative process of each person. 
+So that's why maybe for me, it's a little bit difficult to answer especially that question because there are a lot of things that influence even if it's software, or hardware, a lot of things have a certain influence that I get that result. So, one thing that I always have in mind when I make when I'm doing a project is to take account of all the references around me. no matter what kind of references would be.
+I have a very funny experience when I was in the creation process of my instrument,  I was looking to solve a problem I had,  I didn't know how to make that my own conductivity in the instrument will works stronger mapped in the device, and suddenly  I saw my mother was watching television at evening and there was a TV show with people doing, I don't know, doing like scientific experiments on TV pretty spectacularly and there was a 10 years old kid making an experiment with the conductivity of his body connecting his hand with aluminum foil and that just clicked on my mind, and I got the solution of my problem, I could make a little bit the same with my instrument, I got the answer with a simple thing like that. So, it's, it's just having to open the eyes to receive all the ideas of the world.
+
+
+
+> Maybe Would you say that other media forms are in a way a tool for you because you draw from them and are inspired by them in a way?
+
+Exactly. Yeah, this is. pretty difficult to answer. but I can say that works like that, I felt inspired by very different media forms.
+
+
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I think and this could sound like magic, but it's not. I think is intuition.
+I think it's enough for me to know when something sounds good or bad for me, or most likely likes to people or not. And I’m not a musician, I used to play the guitar poorly when I was in my teens, so I don't have the experience that a musician has to know to recognize. 
+But I think that for me, even mapping the instrument that is one of the most challenging things in the process, was very intuitive and very natural, because I could make a sound selection based on my hearing and intuition. 
+when you're involved in this kind of project, you have this uncertainly is kind of frustration, but in the end is very, is a big experience. So, yes, I think maybe.
+
+
+
+> And would you say there's a tool that can help with that process?
+
+In this part of the process, I worked with Ableton, and with a lot of their effects available in the same DAW.  I didn’t use any external plugin or external instrument.  I also worked with Pure Data using different frequencies of white noise. I just started to change some parameters based on my hearing (if that sounded good for me or not) and it was very useful to also know this mapping part of the instrument.
+
+
+
+> Would you say that Ableton helps with that intuition? And in terms of that mapping?
+
+Yes, yes. It's in I used to play in my instrument very experimental sounds and noisier. But the fact that I work with these kinds of sounds people has the mentality that if you will work with noise, you can put whatever and it's not like that. No, you must choose the correct sounds of the piece of the composition together it's not random.
+
+
+
+# How do you approach the design of a new instrument?
+
+I am now in this first part to create a new instrument. So, the first step for me is research, about the idea, the references, if other person had worked in the same aspects, how this person solved any kind of problem with the instrument, of course, it's useful to know how it works, but also the techniques or the of the software that you think that may help to fit the idea in mind. 
+So, now, I think the first step is after to have the idea is research in the research your idea is transforming in other different things.
+another important point in the approach to a new project is the time, this is the first time I'm working without deadlines.
+I the past I just working by the deadline. So, you must do have time to make your research, but you also must start to do something. In my, in my case, I try to combine because I can make some experiment with something or test some material with something I use, do it, but I used to research because you just still need it at a certain point. Of course, you must stop the research and just dedicate part of the time to make the practical work and use experiments with materials and software.
+yes, I think this is more or less, the steps I follow and when I approach a new part.
+
+
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Okay. I think it is more a general question because it's different for every project, I think these aspects are specific to the project itself. But one of the things important for me, that is easy to it will be tangible and have good feedback and response now is just for be general because this course is something that it's different in each project, but in my way to work in one of these aspects that must be easy to touch, that will be tangible. And, and the feedback is very important. I want to be able or at least try to perceive in sound something coherent and expressive by tangible means.
+> so, if you have this tangible component that you've you work on. Is there any other component that you think must be part of the instrument? Or is it just that tangible part for you?
+
+In my case, it's the tangible part.
+If I have an instrument but is just for myself and to play on my performances. And so, this is a tricky question because of course, I want to know how my instrument works. but one of the things, I like to work on in the future is get more understanding from people about the working of instruments I made. So, this is one of the features that maybe I would like to get forward.
+Yes, make more instruments that people can understand better or make devices more intuitive to the people to know.
+
+
+> from the perspective of the person watching or listening or...
+
+For people can play, because, at this moment, I do instruments just for me for myself and play in my performances. But I would like to start maybe developing this kind of project of instruments to make workshops to be closer to the people from a different perspective. So, this is one of the things I would like to maybe take in mind for future projects.
+
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+have feedback, I’m talking about the musical, the sound feedback, when you touch something, or you make click on something, you must have the response that you need to feel to play the instrument, otherwise is you're failing to try to do something that for you doesn't have any response. I think this is like the soul. Like you need to have the feedback, or this is one of the difficult parts to get when you are creating the instrument and mostly see the tangible but electronic instrument, you must adjust very well, the sensors there you're working or being in programming, even the choice of the sounds. Every choice is important to get this.
+
+
+
+> And do you think that that is a technical performance thing? Is it about how fast that when you touch something that you get a very quick reaction I latency? Or do you mean, tactile feedback? Or do you mean emotional feedback? What? What kind,
+
+
+
+I know that sounds a little bit complex, But I think a combination of these three aspects that you just mentioned, is the perfect combination of the instruments. So of course, you have this sound feedback, you can control the latency and this technical stuff is perfect because there's a maybe get out of the second level that is the hub This is the other kind of feedback and you are, able to interpret that instrument and you have emotional feedback that. I think this is started to move when the instrument is starting to move in. You're moving something inside. it's like it's a good signal.
+
+
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+What is the tool? Yes, it's difficult because it's like a kind of talent some people have, so maybe nobody can explain that. Talent is like a skill... but it’s not, is difficult to explain, let’s say that is intuition.
+
+
+> something you can use to better express your ideas perhaps.
+
+experience and possibility to test a lot of materials I think experience and knowledge provides a lot of confidence and power, the knowledge is incredible because maybe I don't have the experience to resolve some questions but my mentors can see solutions in a short time, you can feel these big problem for you, are just small problem for other people making answers simple and it's because these people are experienced so, for me is experience and a little bit intuition, sorry if I’m repeating myself.
+
+
+
+> So, is there a way that you can imagine that being embedded in your tools?
+
+yeah, they would be amazing though difficult also because I think that maybe these tools have this already, but I don’t know really.
+
+
+
+> maybe I can give some examples, just from what you've said already. When you mentioned the Teensy. I noted that you the teensy has a library, which means that you can use MIDI straight away. It seems like in some way, that's kind of like the intuition that someone more experienced might have, they might say, you need to...
+
+If a tool can tell what is better, it will save me time and save me even from frustration because sometimes looking for the right element you need is very frustrating. It's my less favorite part of the process but it's something that can save me from frustration that I understand as part of the process, of course, it will be amazing, but I don't know I think I don't know to answer the question.
+
+
+
+# How would you define a DMI?
+
+I had this question when you proposed the interview because okay, I thought at the beginning that I was not the target of your research but maybe I'm in the target because you look around all this digital at a certain point.
+
+Say that a digital music instrument must be relatedly something with computing is very short. This is because it's not also related to these high technology days, I know a lot of projects that maybe are digital but and not at this level. So, all the levels are the big, complicated thing so let's say that it’s an instrument related to the technologies.
+
+
+
+# What concepts do you consider a DMI to be made up from?
+
+I love instruments, but in a way that ones that don't look like a simulation, because this is the part that they think the digital instruments false in wrongly, not try to simulate an analog instrument and failed in their attempt to, to do it. So, I think it's difficult because it's very complex. But I think is like, the perfect feature of the digital instrument is having the have the same futures of analog instrument without simulating any kind of instrument, no, that is affordable. If you have a good environment experience with the instrument if you have this feedback. For me, it's very important that you can touch but for other people, hearing is also important. So, I think it will be the ideal digital instrument now, they also understand that we don't have to think in a digital instrument like this, this simulation of an instrument that we know about reality is I think is important to keep an open mind to new sounds and new forms to make a sound.
+
+
+
+> So, you think a very important concept is not drawing on previous instruments?
+
+Yeah, let's see classical, but it's not classical. Let's hear it existing instruments, even if you're not considered as a digital instrument itself. 
+
+
+
+> would you consider a digital instrument that tries to mimic the violin as closely as possible?
+
+An instrument of this instrument library that you can find to play it in meeting meaning words to try to simulate of the mimic of the sound of the violin, or even these little notes and it's kind of impossible. No, sounds very superficial and sounds a kind of false. And there are the people who like it. I, not the person who can say what is good and what is bad. But I like the nature of the sound, any nature even if the instrument is digital, it's okay. But this on their own normally is not so bad simulation of this kind of. So, your MIDI keyboard is trying to play violin and it's okay. But there is a violin also that can do it.
+
+
+
+> Yeah. And finally, I was just thinking, do you think when you're saying about the simulation of an instrument, do you think it's important that the instrument is not noticeably digital? Is that kind of what you're meaning that it feels like an organic instrument, even though it's digital, actually under the hood?
+
+Yeah, something like that. I think this experience is changed a lot, now is simple when you listen to music. And Latin music is for example very recognizable when there is a MIDI keyboard behind because its sound is plain and not with the features that can have to be a real instrument itself. I don't know maybe in that way, but there are a lot of ways that you can take these questions for Yes because it's the first thing I got in my mind when I was thinking this way.
+
+
+
+# Any other comments?
+
+No, I just think that it's good to know, or maybe open the discussion about the meaning of what digital has to be.  
+Because it's a label that also all the labels are you good but also are bad because they're trying to just to put you in a box and you can get out of the walls because it's like wrong. So, my and I think this may be in technology, we can, although there was a lot of time so it's, it's, it's interesting yours think about in the dimension of the question. Now, what are the dangers? Let's see my example. I felt that the first time that an instrument is fixing that category because it's just tangible, but at the end of the day, it's also digital in the future so is very interesting to still having the open question.
+
+> It seems like in some ways digital, the term digital musical instrument has got, it feels restricted to people and it almost feels like a negative term?
+
+No, no, no, I think is an issue we have all the levels, for example, we talk about analog music. So, what is an analog instrument itself?  my Instrument is analog? not at all, but my instrument is also not totally digital, how I read this? 
+So now we are very lucky to have in this time the opportunity to work in both worlds and try to combine and get the best of each. So, it's, it's interesting to have the open question always, but not in a bad way. No, I think it's also positive to think about it.

@@ -1,0 +1,189 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 11
+role: Researcher and Lecturer
+experience(years): 10
+instrument_count: 20
+
+instruments:
+ - The BladeAxe
+ - the PlateAxe
+ - the Chanforgnophone
+ - the Gramophone
+ - Nuance
+ - many more
+
+langugaes:
+ - faust
+ - pure data
+ - c++
+ - objective c
+ - webassembly
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Yeah.
+
+Well, so I think it depends on the programming language. So I use Faust a lot. Because I've always been working on Faust, like as a language developer. The the thing, though, is, okay, so how did I start using Faust? Then? You know, it goes that maybe that's, that's more the question here. So I think I started using fouse for geographical reasons. Because I did my undergrad in France, at the birthplace where phallus was created. And so that's how I started using fast. And, and since then, I've been using faster lots, just because it's also part of my job now. So so. So that's for fast, then they are all the other programming languages that I used to create DMS and mostly the programming languages that I used are more on the low level side of things than the high level side of things. So so I don't think I ever used like pure data or Maximus B or chalk or you know, like higher level programming languages for creating DMS. But, uh, yeah, instead, I used like c++ or Objective C, or mostly c++, basically. No, no, I, I think the reason why I use c++ is because I was more comfortable with it. And, and, and I'm a computer scientist. So as a computer scientist, I felt more comfortable with c++ and probably more in control of what I was what I was doing. So. So, so yeah, and with c++, I can kind of do everything that I want, which is not necessarily the case with higher level programming languages, which will sort of imply some limitations in terms of the platform that is used and etc, you know, like so. So usually what I do is that I use a combination of Faust and c++. I write my DSP in Faust. And, and then I use c++ to sort of put it all together, basically So, so that Does that answer the question or? 
+
+> would you say there was any other factor other than location for picking faust? There must be some component of suitability too?
+
+Yeah, no, no, no, of course. Well, so when I started you Using fast, which was, I don't know, like 12 years ago or something like that fouse was still pretty small in the community and, and, and there were a lot of limitations related to fasting. And also the the number of DSP elements that were implemented in Faust was pretty, pretty limited at the time. But, uh, but now it's different like him. And now, fast is definitely way more standard tool, and there are way less limitations with using fast then, like, 10 years ago. So, so now, like, so at the time, when I started using fast, I started using fast because I didn't really know anything else. And and I guess that's probably something very common in our field, you know, like, usually you learn the tools that your professors know, basically. And so, so depending on where you are, there is definitely, it's never a very neutral basically, like in terms of the the tools that you use, like Now, like I keep using found, because phallus really allows me to do things that
+
+no other tools would allow me to do in the context of da my creation. And and for, for instance, you know, like, it's the, this sort of compatibility with c++ and in the fact that I can write something in Faust, and then use it in my c++ framework. But like, mostly I write things and Faust equals, it's quicker for me to write them in Faust than in c++, basically, you know, I get if I had to rewrite everything that I do in fast in c++, like it would take just so much time, you know, like, so. So, so, so like, the two benefits I see. In terms of using fast when I make the M is our fact that it's quicker, and that it's compatible with c++. 
+
+# Why do you use your chosen tools for instrument design?
+
+so so when you say tools, you You mean, like both hardware and software?
+
+> here yes
+
+Yeah.
+
+Yeah. So for software, and then, so far as software I mostly use, just like c++ and Faust. So, so I think that I kind of already answered the question in that in that sense, then I think there is the question of the platform that is used,
+
+> we will come onto the platform in the next question but feel free to mention it
+
+and Ah, okay, okay.
+
+Yeah.
+
+Well, what I was going to say is that, if you use, like, if you develop an instrument for an Android, smartphone, for example, or iOS, or then you have to deal with the platform, you know, like, so. So you still write things in c++, but you have to adapt to the platform. And I am so.
+
+So
+
+sorry, I'm. I'm, reading the question, chosen tools for instrument design? Well, I, in that case, you know, I choose them, like, I'm talking about the software side, right, I choose them because I decided to, it's imposed by the hardware, basically, you know, like so. So I need to make an instrument based on Android device. So I just need to deal with the Android framework in order to programme the order to programme the smartphone, like so. So I think that's why I choose the like the this tool, you know, like it's a so so I don't really choose the software tool, it's more like the hardware then pauses the tool that I choose basically. And then Okay, so hardware. Well, I'd say and software tools related to hardware. So I mostly so far that the purely hardware side on just a product design, you know, like creating the an instrument I usually use SolidWorks and I use SolidWorks, because there was an academic licence for SolidWorks at Stanford. So, so, so basically, the classes that I took, as a master student, involve using SolidWorks. And since these tools are pretty complicated, and the learning curve is pretty steep, I think once you know, one, you kind of stick to it, because they all work very differently, somehow, you know, like, you know, and I feel like once you know, like, slowly works, you just stick to SolidWorks. Because if you need to learn, like Rhino, or whatever, it's gonna take a lot of time, you know, like, so. So, so I think I use SolidWorks, for probably for purely commercial reasons. And, and also, because it's a great tool, you know, like goes, and in SolidWorks is pretty, it's pretty awesome. You know, you can, and I mean, I know Rhino, too, and an AutoCAD, and I think like SolidWorks is definitely like one, one level, above all these tools. So. So that's, yeah, for I also use openscad openscad, which is an open source software for CAD modelling.
+
+And then a
+
+at, say, depending on what I need to do, I will either use openscad, or SolidWorks. So if I need to make a big project that involves a lot of parts, and it's like a full instrument, if I need to make like an electric guitar, from scratch, I will use SolidWorks. Because only SolidWorks will allow me to visualise the whole instrument once it's assembled. And also like for, like producing it, like if, if I need to use like a CNC machine or something like that, it's more practical. With SolidWorks, then without openscad, then if I need to make a small part, or if I just need not necessarily a small part, but if I need to make a part. And it's just like something that needs to be 3d printed, for example, then I will use up and Scotty goes I am an open source person, you know, like so. So I prefer to to use open source tools. But and also I think openscad is, like for very complicated shapes, it's a little bit more practical than SolidWorks. Because you you basically design the the parts with a programming language. And so you have way more flexibility than with a graphical graphical interface. So So, so I use openscad, because it's open source, and because it's better for complex shapes. And I use SolidWorks because it's kind of an all in one tool that allows me to do everything that I want basically from one single place. Okay, and then for the purely hardware tools, so like the machines, basically, uh, I think it really depends on what I want to do. And what the project is, but, uh,
+
+I'm not
+
+like, I've never been a big fan of 3d printers, because they never really work or are you have to fight them to work, or you have to fight with them to work. So sometimes they work great. And sometimes they don't, and there is the limitation of the size, the way it looks, you know, like I don't like plastic. So, so like, 3d printers are great prototyping tools, but uh, but I never really use 3d printers to make like, final instrument. So, so I would rather use laser cutters as an alternative to 3d printers because I don't know they always work. They rarely break and the final results 
+*call cut out*
+like the then a 3d 3d printers. Oh, sorry. Yeah, I was saying that, uh, yeah, I prefer to use laser cutters because they, they are more reliable and because the, the, the, the the fact that you deal with 2d forces you to to have better design, better designs than ever We're using a 3d 3d printer. So, uh, and then I use CNC machines a lot, both for metal and for for wood. And, and that that like, that's by far my preferred way, like, cool music that I that I will use because it's, I don't know, it always looks better, you know, you can it's more professional, too, you know. And then for circuitry, well, you know, I just do like PCBs, so. So for that?
+
+Well, it's what do
+
+you know, actually, like, usually I do my circuits in SolidWorks, as well. So, because you can do that until it works. So, so I use only works. And then I have them, like, printed somewhere outsourced, so. And then I just like to use raw materials and work with them by hand, basically, you know, like so. So, uh, so I, you know, I've done a lot of instruments involving, like, welding and metal and like that, that kind of stuff that you can only do by hand, basically. And I've done a lot of instruments, like involving wood working by hand, as well, like, routers and handsaws. You know, like, it was tough, you know, like, so. So I, I've met a lot of instruments, you know, and usually, I never really were used the same technique. So, so I, I like to try different techniques like to build them. And, yeah, so I know, it's kind of messy. Like, the, like, what I'm saying here, you know, I suppose I'm not sure. It's just that there is a lot to say, you know, and so it's probably it's probably a little bit all over the place. But, uh, yeah.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+That's a good question. Yeah, yeah, there we go, you know, like, so I'm just like, trying to put together like, a, an answer that makes sense. I think it depends on the Yeah, depends as well, you know, like, so. Uh, so at some point, I, I was doing a lot of mobile development. Because for it for actually very technical reasons, cause real time audio on Android was very bad. And, and I tried to solve this problem. And I kind of did and, and then in that context, I implemented file support for Android and, you know, any bad that they can have stuff. There was a while ago, now now it's like 10 years ago. And, uh, and so, so, because I did that, then I suddenly like started using mobile devices for every single instrument that I was making, you know, like, and so so, so because my research and because the, the the hard stuff that I was doing on the computer side was on mobile devices, it completely like impacted the way I was making instruments you know, like so. So, so that's how I chose this specific platform to make those instruments. Now, like I don't really use a I think now I have a more like pragmatic approach. And I I use mostly microcontrollers or bare metal Raspberry Pi, like so like small embedded computers to make to make instruments. I like to make my own stuff so so I don't really use the Bella you know, like or the elk or like that, you know, like stuff that are a little bit too easy to use. Like, I like to make everything from scratch, you know, like so. So, so I'm kind of happy with with those. Now, it goes, I don't know like microcontrollers. like four years ago were naturally powerful enough to to do like proper, real time, audio DSP, and now they can. And, and I've never really hit the limits of what can be done with this kind of platform. So, so now I don't even think about it, basically, you know, like, now I just use, like the teensy or the ESP 32 or whatever, like, powerful microcontrollers to build my instrument around it, you know, and I don't think it's going to change because I'm in there just like, too good and too, like, cheap and too powerful to to go for, for for another for another platform. So
+
+> I see what you mean by prefering to build for yourself. But of course platforms like teensy and ESP both have suppporting infrastructure in place for them. Do you think there is a distinction between having general purpose or audio related frameworks available to you.
+
+no,
+
+no, no, no,
+
+no, I, I see your, your point. I think in my case, it's very, it's very specific, because because you know, what I was telling you about Android, and allowing low latency real time audio on Android. I think the same sort of happened for microcontrollers in my history somehow, you know, it was basically Okay, you could do real time audio DSP on the TMZ. On before, you know, like, but, but it was really hard, you know, like, it was, because it was all like, fixed points. And, like, the, the infrastructure to do that kind of stuff was sort of limited. And, and then I tried to make this easier. But more like as a research project, you know, same thing for the same thing for the the ESP 32. You know, like so. So basically, I think I started using micro controllers, for my DMS because first, I implemented everything from scratch, in the context of Faust, for more than more like, as a research project, you know, and, and so. So, in other words, I
+
+think
+
+in my, in my life, I've never been in the situation where I, maybe at the beginning, but, uh, like, but I've never been in the situation where I have to use an audio framework that was developed by someone else. Like, I mean, I think when I was an undergrad, definitely, you know, I mean, I use, you know, like, pre data and stuff like that, you know, like, but, uh, like, very quickly, like, I like, first I implemented the thing, you know, like, for other people to use, you know, and then I started using it, too, you know, like, so. So, but but then, that being said, like, I think it's great that those higher level framework exists, you know, because they, they definitely make your life your life easier. And, but once they get like it, and, like, as for me, like, I haven't been in the situation where I had to use something made by someone else. Sort of in a long time now. So, so yeah.
+
+> So thats more because you have access to that stuff rather than there being convenience or limitation in other platforms?
+
+Yes, definitely. Yeah, yeah. Yeah, I think that's a good way to summarise. So, I What I'm saying is that my job definitely influences the tool that I'm using in the end. And my job is not necessarily to make DMIs enjoy. And so, so but but but because my job is sort of related to making DMIs somehow Like, it definitely influences a lot the the tools that I'm that I'm using, so
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+Nope.
+
+*laughs*
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I never thought about that. And then, you know, like, somehow, maybe everyone kind of dreams. So the more all in one solution
+
+for a DMI creation, like, like some sort of software tool that allows you to do everything from one single place, but it's never gonna, it's never gonna happen. Like, I mean, the, like, it's part of the, it's part of the deal, basically, I mean, like software tools for, like, sound synthesis are different from tools to build an object. I don't know, I mean, I feel like the learning curve, all the stuff is pretty steep, you know, and people have to put a lot of time in learning learning them. But I don't think there is, I don't think there is any thing to do about this, like, the minutes, just the way, it's just the way it is. So and, like, I don't know, like, to me, the fact that those small, micro control microcontroller based chips sort of popped up, like two or three years ago, for real time audio, DSP, it was big game changer, basically. Because like, before that it was definitely missing, you know, like, there, there was something like that that was missing, which was very approachable to everyone and in which was low level enough so that you don't have to run an entire operating system like to, in a wait for instrument to, to boot, you know, like or, or whatever, you know, and also, like in terms of power, you know, like the, the amount of power you need on a battery to, to, to power your instrument, you know, like, what I'm saying is that now that these tools exist, like that they are here.
+
+I mean, a,
+
+like, as far as,
+
+like, as far as I'm concerned, like, I'm pretty content with what's out there, you know, like, maybe, maybe, maybe, you know, I think there are actually some boards that solve these problems, but uh, like maybe the one thing that is still sort of problematic with these tools is there a lack of RAM because for real time audio DSP, you do need a fair amount of RAM and microcontrollers don't have a lot of RAM. But you know, like now they are Boris like the the daisy or whatever, that sort of solved this problem. So, so, so, yeah. Yeah. Yeah.
+
+# How do you approach the design of a new instrument?
+
+Um,
+
+I think I sort of had two periods in my life for approaching zero Have musical instruments. So for a very long time, I had a more bottom to top approach where I would start from the hardware and its limitations and, and sort of try to build an instrument around the, around the hardware. And that was mostly when I was working on mobile devices, because I had to start from the mobile device and, and then sort of expand from from here. Nowadays, I think I have a different approach, which is more like top to bottom, you know, and in that, that's probably also because I have a better knowledge of the tools, especially like hardware tools, like I mean, I'm pretty comfortable now with like, most like fabrication techniques, like whether it's woodworking or CNC, digital fabrication, or like,
+
+I
+
+like, I know, like many of these techniques, you know, I'm so so so I feel like now I can afford to think about an instrument, like at a very high level and, and then think about the, the tools that I'm going to use and, like the the hardware and all these things after, after that. And, and I know I mean, that's where he you know, like, I know, like many people will always do that, you know, I come in, even if they don't know anything about making the the, the the actual instrument, they will have a top to bottom approach. But I don't know, I mean, I'm, like having an engineer, background. And so. So usually, when you're an engineer, you have more like bottom to top approach. But now I try to do the the opposite. And I think I prefer it, I prefer it like that. And then it makes more it makes more sense. So
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+yeah. Yeah, so when creating a new instrument, what distinct aspects are required to realise the design...
+
+
+required.
+
+
+So,
+
+like, to me, it's very easy with what we do to go down the rabbit hole. And it's very easy to get excited about the technological aspect of what you're doing and forget about the essential, which is that you're making a musical instrument. And so, so so to me like that, that's probably like, the only aspects that is required to realise the design and implementation of the instrument like a, like, you always have to force yourself to remember that you're doing this for musicians. And, and that you're not doing it for yourself, to satisfy your needs to make weird tools. And, um, so I've done a lot of weird tools for myself, you know, and, and now. Now, like when I make a musical instrument, like I really tried very hard to, to not miss that point, you know, like, which I think is super, super, super important. Like, what, what was the tipping point for me about this, you know, I was five years ago when I went to the guffman musical instrument competition in Georgia Tech in Atlanta. And, and the guy who won the competition that year was Ken Butler. And he came with a golf club with a string mounted on it, and in a kid's Oh at the bottom. And, and he did an amazing performance with it. Like he was such a good musician. You know, I can and then There were all these guys with, like, tonnes of gears, you know, it was shit. So. So basically, like, to me, you know, like that you always have to remember that basically, the musician is more important than the instrument and the and that if you haven't been musician, you can give him like a plate and a fork and he will probably make good music with it. 
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+That *laughs*
+
+Yeah, no honestly like, I think I have the same answer to this question, you know, like it's a it's keep on track basically.
+
+And
+
+also I'd say that if, if you're using some kind of technology, I'm thinking of sensors in particular, you know, I can't, it doesn't work. Like Don't be stubborn. Like, if it doesn't work, it doesn't work, you know, I can just just try something else, you know, I, like I've seen so many like students, you know, like spend like, days, like trying to fix their FSR or something like that, because it doesn't behave the way they want. want it to, to behave. And, and no, you know, I came in there, there's gotta be a better solution, like, simpler with less flyers. And like, yeah, less complexity, you know, that it's, that is not necessarily going to compromise the final product of your of your instruments, you don't want to go. So. So yeah, I like simplicity. And, again, keep in mind the fact that you're making an instrument for a musician.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Okay, it's probably a weird answer. But like, maybe the best tool is to keep playing music.
+
+So, because,
+
+like, if you become more an engineer, than a musician, that means you're probably not going in the right direction. For that matter, you know, like, so. So, so yeah, like, probably just keep playing music. And if you're, I mean, it will be very hard if you're not a musician to, to make good musical instruments, somehow, you need that you need that experience, you know, and I don't know, like, if you if you're playing your band, and you're using your instrument, and you see that it doesn't work, you can let like the fucking touchscreen, like, you know, stop working because you sweated on it or whatever, you know, like then then you'll know you know. So, so yeah.
+
+# How would you define a DMI?
+
+Well, first, I will not define it, like, the way people define it in the NIME community. *laughs* Like if you look for the definition of what DMI is, it always comes down to having something that has an interface separated from the place where a sound is being produced, you know, I cannot. And I think the first person who gave this definition was, I think it was much better actually,
+
+like in
+
+the 70s or something like that. And then like people like rheostat, you know, and it sort of became the defining component of digital musical instrument. So So to me, that's, that's always been a problem because if you disassociate the the, the interface from the place where sound is coming from,
+
+you might break the coupling or like the link between the two, you know?
+
+So, so if you try to control if you try to control like a saxophone physical model with a piano keyboard, it's probably going to sound like shit. Just because the interface is too different from what the instrument originally is, you know, I am so. So I think I think that's a bad definition for what a DMI should be. Like, to me a DMI should. I mean, I think my definition is probably more simple. It says just that it's an instrument that has some computer in it, doing something, I'm not sure what it is, you know, maybe it's purely for control, you know, and the instrument is completely acoustic, or maybe the computer is here for sound synthesis or processing. But, but, but and it's not an interface, right? Because it's a musical instrument. So it's not just an interface. And so, like, to me, a DMI is just a it's a musical instrument in it has some portion of it, which is digital
+
+# What concepts do you consider a DMI to be made up from?
+
+concepts Do you consider? constantly, I'm not sure. What do you mean by concepts here?
+
+> It's meant to be somewhat ambiguous. Any concepts that generalize to all DMI or make up a DMI?
+
+I mean, not really, cause I don't know, I mean, up. To me, the digital part of the instrument is minut it's just like a tool like another, you know, like, in a, it's like, some instruments, you have a membrane on others, you have strings, and on others, you have a computer you don't want to so so like, to me, I like that computer is more like, material
+
+than,
+
+than anything else, you know, like so. So, am I like I personally don't only make digital musical instruments, I also make completely, apparently acoustical musical instruments, you know, and so, so like, to me like the the computer and the digital portion of the instrument is just just like another material. And then like as far as, like defining what DNA is, are at large. I mean, it's like, as I said earlier, you have to be very general. And I think the definition that I gave you is very general and you have to be very general because I mean, so many different kinds of instruments you're only going to like it's it's kind of weird because I think in the head of a lot of people, especially in the anime community, if you say DMA, you immediately think about like some kind of weird instrument or like an instrument made as part of the nine community and I'm not saying that all instruments made in the nine community are weird, you know, I just want to do just want to say that but I mean, if you buy a Korg Triton or something like that it is at the end. Just like an instrument presented and nine is going to be a DMA as well you don't want it so So and they're very, very different. But but there are they're both dm eyes. And, and, and so to me, it's very hard to like to sort of say exactly what a DMA is, like more specifically, like, once again, I think the only thing that they have in common is the fact that they have a computer in it. 
+
+> so you talked about excitation methods, to be a bit more abstract, would you see that as being an idea that generalises to all instruments?
+
+Like, and what do you mean by excitation? Like as, like, working is plucking a string or? Yeah.
+
+> yes
+
+Yes,
+
+I guess so. I mean, like, all instruments need to be excited somehow, like, so. So yeah, I guess that's maybe that's a, but it's not just its own musical instruments. I mean, like that, to me, it doesn't really, that that's not necessarily like, feature specific to dma's. Like, I mean, like, any instrument needs to be excited, somehow to make sound. And then, like, I think excitation methods really differ from one DMI to another. So, so to me, it's not really like, Sure, I mean, they're there. They all share that, but, uh, but other musical instruments, which are purely acoustical as well. So, so, no, no, I didn't to me, like, the only thing that all dmi's share is the fact that they have a computer in it, you know, and that's really the only thing because they are, they aren't many DMIS, they don't have a digital interface. So, so, like, if you think about the Korg, you're gonna say I only talked about CT, but that is just the examples that just come to my mind here. But if you think about the quarter wave drum, like the the current wave drum, do you know the current wave drum or? Yeah, well, so the Korg wave drum is a it's a drum instrument, which has a real membrane and but it has digital resonators. So, so, when you when you play on it, you make sound on the membrane and the sound that you make on the membrane is injected in the in the physical models or like digital resonators on the instrument. So in that case, there is no there is no digital interface, the interface is membrane which is purely acoustical, and it is really used as such. So the interface is not a defining component of DMS. To me, the only defining component of DMS is the fact that they have a computer somehow in them. So
+
+> any other comments?
+
+I think I think I said it all. like once again, I get like to me, and what's really important to highlights is the fact that you're making instruments for musicians and not for yourself. Like to me like that. That's like the basis you know, and then everything else, whatever. So yeah,
+

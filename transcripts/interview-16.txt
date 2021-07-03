@@ -1,0 +1,238 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 16
+role: Researcher, designer, performer
+experience(years): 12
+# Note: approximate number of instruments worked on
+instrument_count: 7
+
+instruments:
+ - ROLI Seaboard GRAND
+ - Seaboard RISE
+ - Roli Blocks
+ - Stenophone
+ - a series of "Unfinished Instruments" for my PhD
+
+langugaes:
+ - c
+ - c++
+ - javascript
+ - python
+ - haskell
+ - supercollider
+ - pure data
+ - bash
+
+---
+
+> Note: During the introductions, interviewer mentioned PhD being about programming languages and DSLs. This was a passing comment but an association was made in the interview, so is added for transparency.
+
+# Why do you use your chosen programming language(s)?
+
+Okay, um, yeah, I mean isn't not much profound to say here, it is kind of familiarity causes productivity
+
+most,
+
+most of the time. I think that's, you know, we were working at a time in history when the constraints on what languages you can use for certain tasks is very constrained. So, I can't make a Bella like instrument using JavaScript today, I just can't, that doesn't technically work. I might, I might enjoy doing that in practice, if it was possible, because it's a dynamic language. And it's easy to hack stuff together with when you don't need to care about the consequences. So yeah, it's really, you know, largely, those decisions are made for you by the constraints of your kind of target. And then the other constraint is, whatever it is you're familiar with. And then, you know, on top of that, sometimes you want to do stuff, like little demos or something just because you want to try a new language or play around with
+
+the,
+
+the role of the language in a design process. And then, you know, there's also kind of, I don't know if this is kind of going outside the, the borderlines have this question. But there's also kind of like, things that aren't actually programming languages, like pseudo coding can be useful in the design process. And
+
+kind of like sketching things in a non textual way. Like, as you were just mentioning, a DSL for making grid like controllers. You know, I'm sure that you can get pretty far developing algorithms for that just by sketching on paper. And not even sketching the algorithm, but just sketching the output of the algorithm, which I think is if you have a broad concepts of programming, then that's also should be kind of included that. I think that's about as much as I can think of an answer to that question or anything you want to follow up on?
+
+Tidal has really influenced my understanding of programming and other things in a way that definitely bleeds over to like how I approach other languages like c++
+
+Yeah, and then there's other kind of music specific languages and environments like supercollider pure data Max MSP, where, again, the,
+
+you know, I'm not I wasn't approaching those initially to do general purpose programming, you know, I was approaching those to do music instrument or music system creation tasks, on projects.
+
+if Faust was as developed as it is, now, when I started doing my PhD, I probably would have like, played around more with domain specific languages there.
+
+I think.
+
+Yeah. And then Not to mention, like, you know, I don't know if you know, the Sema platform,
+
+which is from from the mimic project,
+
+https://sema.codes
+
+This is really where you have to check this out, because it's amazing. It's it's a whole kind of like,
+
+music DSL workbench in the browser.
+
+Built by Thor Magnuson, and Chris Kiefer and Francisco Bernardo and those guys.
+
+And yeah, it's really about their whole project was about like, how do you create a live coding language creation platform?
+
+So yeah, if there was more language creation
+
+tools out there, then I would be equally interested to develop my own languages as I would be to use existing ones, I think, which I guess is what you're kind of approaching in your research.
+
+# Why do you use your chosen tools for instrument design?
+
+And by tools? Do you mean like physical tools?
+
+> Either phyiscal or software tools.
+
+Okay. Yeah.
+
+Yeah, I mean, again, it's kind of very circumstantial. Being in the lab that was producing Bella made it really obvious to
+
+go for that.
+
+But I think that also stemmed from like, and the reason that I want part of the reason I wanted to join Andrews lab is that we were both really, when we worked together at Roli we were both really interested in I don't know if we talked about this explicitly at the time, but we're both very interested in like, subtlety and detail in digital musical instruments and like fidelity. And that's kind of the rationale for the Bella platform full stop. Really. So yeah, I couldn't I couldn't believe my luck, really, when I learned about it and realised it was going to be you know, I'm never going to exhaust that platform in the timeline of my PhD.
+
+Really.
+
+So that, yeah, that kind of, in my research, I'm looking at the idea of craft in a digital delivery context and detailed craftsmanship. What does that mean in a, in a digital lutherie context. So you know, you need, you really need tools that can access that level of resolution that you're interested in. So and the majority of research and platforms have all been at a higher level, at a lower level of fidelity than that, until recently, I would say in the main, you know, Arduino, and TNC, and whatever they are low resolution platforms, but they're cheap and quick and dirty, and they allow you to explore like, the breadth of the design space as opposed to the depth of the design space, but I've always been Yeah, in the last, since working at rollio was interested in the depth question because I think that's
+
+less
+
+addressed in, in research in general. And, you know, my experience at Roli was all about depth, because it's about creating a manufacturing process of a new instrument where you don't know what, what depth even means, because you're creating the instrument from scratch.
+
+So yeah, it was all all tied into that really, which meant that gave always, I've always been looking for sensors, which and, you know, sensors and experiences, which are detailed and have the capacity for richness.
+
+Thank you. Yep.
+
+Yeah, I think, yeah, I
+
+mean, there's, so I've used teensy to use the teensy in my standard phone instrument, which was kind of like, wasn't really part of my thesis or anything, it was just kind of like a module project in the first year of the PhD here. And in that case, you know, it was about form factor so I could slot...
+
+where is the bloody thing.
+
+*searches*
+
+It's either always sitting around in a place, that's really inconvenient or just magically disappeared. Oh, sorry. I do have like diagrams of this if you need one reference. I don't know. Did you? Did you see this paper or project before? So this is a stenotype. To know, you know, stenotype? Is it? Yeah, it's a typewriter that was used in courtroom transcription. And it uses like a compressed form of like pneumonic typing, or coding. So it only has 22 keys. And you basically, you chord words. So you, you basically have a dictionary of, of words, which are compressed down into mnemonic form. So like the word compression might be like CMP RM or something CMP rn. And so you would hit those four keys at the same time in a chord, and then you let go, and it would be printed on a bit of tape at the back and then later, you run back through the tape and re transcribe it into full text. And so it's got some interesting properties from like a typing perspective. One is that because you're doing codes, you remove error from the, from within the words, because the letter order of the word is always the same. So you can't have spelling errors with this. And also, because you're writing a word at a time, it's, you know, a couple of times faster than then Qwerty. So people that's why they use them in courtrooms to do speech because speech is around 180 words per minute. Whereas this you can type it like over 200 words per minute on this. And so I, we had this project in our PhD where you have to kind of adapt an old piece of technology. So I bought one of these off eBay and I wanted to turn it into a live coding instrument. So I did is this really faded now but basically, you can see when I hit the keys, these these little levers move up and down, and that's why they would be like punching onto the tape
+
+and how visible that is.
+
+So I put these little stickers on black and white, and then
+
+I have the PCB but
+
+basically you can measure like, you can measure the With a reflectance sensor, you can measure the, like the position of the key and then translate it into a digital signal. And that's where the teensy teensy was sitting in the paper tray underneath, fit perfectly. And, and this is kind of an interesting, like example of what we're just talking about, because basically, what I wanted to do is, is get discrete key on offs for these. Right? And then the idea was, you could try and make live coding faster. That was the idea. 
+
+But what I found is that...
+
+now I need to send you the
+
+web link
+as there is a gif on the GitHub page. 
+
+https://github.com/jarmitage/Stenophone
+
+as a gift on the GitHub page. What I, What I didn't plan for and realised was much more interesting was that the, you get continuous data off these reflectance sensors. And so if you go to that webpage, and then scroll down to where it says web app
+
+GIF,
+
+you can see like a visualisation of that data. And what I realised is that like, this is way more interesting than just having on offs for the keys. And you could actually create, like a whole kind of like, graphical textural, textual language to, like, make use of this continuous data in the live coding. And then that's what there's like a diagram above with, like, some rough sketch of on the right there of what that would be like, I just use some title code and put some graphic design in that basically, I never built that because it was, you know, it was a language design. Like, yeah, hybrid language design problem. But basically, that it was, if I'd have used, you know, a PIC microcontroller or an Arduino instead of the teensy, then the sampling rate would have been lower, and I wouldn't necessarily have been that inspired by the continuous data coming off those key presses. So. Yeah.
+
+> I guess, so are you bring that back to the idea of being high fidelity...
+
+ Yeah, exactly. Yeah. being important because it's, if you have the luxury of having high fidelity at the start of the design process, it can surprise you with things that you didn't even realise could be very interesting. Whereas if you go in with like a low fidelity tool, you risk kind of not being able to see very much
+
+behaviour, and not being able to see high frequency behaviour. And a lot of music interaction is actually high frequency, motion and texture. But the other thing, I would say, Sorry, if I'm going too fast, but the other thing I would say about the choice of tools is like the main the main limitation of ballot to me is that you can't live code it. And that's, that's the big problem for me is that you have to you know, even though even if you're using pure data with Bella, you can't live code that because you have to compile the pure data patch still. So actually, I have like a shadow PhD, everyone has a shadow PhD. Alright, of like, the thing that they thought were the thing I wanted to do, or the thing that they had, they, you know, they tried to do, or, or whatever my shadow PhD has been trying to get live coding working on Bella. And I know never succeeded, because I didn't really have enough time. But yeah, that's that's an issue. So in terms of choosing the tool, it's also about what stage of design are you at? If you're prototyping, you want fast tools, which, unfortunately, embedded live coding doesn't really exist. And yeah, that's been my kind of
+
+shadow PhD interest. And yeah, sorry, go.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+> Omitted due to allready comprehensive coverage and need to move on.
+
+What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+> I think you have really captured the next question here:
+> I think that really captures it in the desire for live coded, embedded devices and platforms. Would you add anything to that?
+
+ Yeah, it's, it's that it's, yeah, it's that. It's the well. I know I still don't really know how to solve that problem like, is a platform that just came out recently, which I'm really really into called micro blocks, which is by... microblocks.fun . That's by john Maloney who's like kind of one of the original scratch people. And he's a small talker. And basically, he's created this insane virtual machine that runs on microcontrollers, which can do live coding. But not only that, it can do like parallel, like multitasking. So imagine if you have a scratch window, and you've got two separate programmes, you run those at the same time, no problem. And they'll both run, like magically. And it has all this other cool stuff going on. So I, you know, when I say I want to do live coding on a embedded DNI platform, it's not because I want to do algorithmic music performance, it's because I want to speed up the iteration of DMA Design, and do high fidelity stuff in that prototyping early prototyping phase. And you can't do that with like 22nd compile times. And actually, my study that I published in audio, mostly about Brickell is called like bricolage, in a hybrid lutherie context, that was completely hampered by the compile time issue. And so why not? Yeah, so I want that problem to be solved. But I don't know if the solution is like a virtual machine, like, what micro blocks or something else, or JIT compiler approach, which is what Faust does, and so on. But I think we want that problem to be solved the other Yeah, and then the other problem is solved by this summer project, which is like the language creation problem. I think, Well, hopefully, maybe that's something you'll address as well as like, you have to be able to each each like craft with like view, if you want to craft something, you you are creating a language there. And it might be a language, which is like put like encoded in the physical objects that you're making. Or it might be in the rules of the algorithms of the instrument or whatever. But language creation is, I think it's kind of essential at the end of the day, if you want to make something refined. And then the other thing, I was gonna say, that's my, my fantasy wish list. is such a big. So yeah, there's the language creation thing. That's the live coding thing. And then the thing that brings it all together is the commingling of physical and computational processes, which is best represented by the dynamic land. Project. Do you know do you know dynamic land? Do you know Brett Victor? Yeah, yeah, if you go through like subreddit, Victor's website is where you dream. If you go through his stuff, you'll kind of be like, Oh, yeah, and I've seen that somewhere else. But it's probably come from him, and then you might have encountered it somewhere else. But dynamic land is like, a kind of provocative reinterpretation of the operating system as a architectural space, in which computation kind
+
+of
+
+is tied to physical objects, often pieces of paper with the code written on them.
+
+And
+
+the is a spatial computing paradigm, where all of the objects that are computational are aware of each other and can interact with each other.
+
+And,
+
+yeah, there's a lot of like, kind of profound things going on in this project. And I think, yeah, that was my, this was all part of the shadow PhD was to try and make Bella do dynamic land stuff. And we actually be in Arthur (unclear on recording) actually had a prototype of someone made a clone of dynamic land in JavaScript called paper or something. And we got the Bella Ida. Like, I have a tweet video of it somewhere, but it's the Bella IDE like, projected into a physical space based on pieces of paper and you could like make a giant IDE by moving the corners of the paper and so on. So that was the that was the other shadow PhD that never was. So yeah, those are those are the things those ingredients, and then you try and boil it down into, like, lightness of the platform. Ease of language creation and total commingling of physical and computational processes. 
+
+# How do you approach the design of a new instrument?
+
+Yeah, so I've had, I mean, it all starts with like, the goal, ultimately, but I've had like, very kind of different goals and what I've been doing, because I've been, I haven't made an instrument for its own sake. For a while, probably since I was working on this staniforth thing, because all of my research has been about creating instruments that are the art craftable in a certain way, because I'm trying to study that crafting process. So that kind of, I call them that there's, there's a series of instruments in my PhD thesis, which I call the, the unfinished instruments. And it's kind of a like, it's a form of technology probe, where you have an instrument, which is, which I frame is unfinished. And the idea is that the participant in the study finishes it in some way. And I create a set of apparatus of tools and processes, that mean that the way that they work is is kind of curated by me. So I create this kind of scenario, and then I watched them, craft and then I, that's my whole research is about, like, the crafting process of digital instruments. And so instrument in that context is really kind of like, heavily deconstructed and kind of conceit for. And ultimately, I'm not bothered about the instrument really at all, it has to, it has to have certain features, it has to have richness, and it has to have has to draw, draw people in. But it also has to be deliberately frustrating. So they want to change it, and not accept it in the way that it's presented to them. And then there's also a big role for like familiarity, if you make something too familiar, then people will be stuck with those ideas that it refers to, if you make something too unfamiliar, they will find it too alien to engage with. So there's a balance there. And then outside of that whole research world, yeah, there was this standard phone thing which was about it was really about like, there's no such thing as a live coding instrument, as far as I'm concerned. Like, we just use laptops, because that's what is, that's what exists. So like, it was the kind of the idea of like, what it means to create like a live cutting instrument. And then outside of that, like I've just been performing with tidal cycles, and you can kind of people do argue that like, like, code can be an instrument, you can approach a file of title cycles code, which represents a song and it does kind of blur that song instrument boundary. But I think I mostly Think of it as a
+
+as music rather than as an instrument. So I think after my PhD, I may go back to like, much more normal reasons for like, making instruments but yeah, it's been very kind of like,
+
+abstracted, I would say in terms of what I'm doing most recently Yeah, well, this.
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Yeah, this I mean, this kind of really gets down to like,
+
+the problem of NIME in a way, because I read from that question that you're talking about properties of the instrument. Like, the things that we read about in NIME frameworks, which is Oh, it has to be playable, it has to be, you know, just this like, really reductive Wish List of like, airy fairy words. And, like, Nime craft, paper is just critiquing that, and saying, like, actually, those, those frameworks are verbally driven, whereas nothing important about musical experiences, globally driven. And similarly, nothing about nothing important about craft process is, is linguistically driven like that. So, but nevertheless, I think it's more interesting to talk about properties of the instrument making process, rather than properties of the instrument that you are seeking to achieve. So my main reference for that is Sarah Kettley's foundations of craft article which I, which I reference in the non craft paper heavily, and probably in all of my other papers, because I think it's really good. But for Yeah, just as an example, she lists principles like embodied process is a principle of the craft process that is necessary to produce a valuable outcome. And kind of like deep familiarisation with the materials is also an add one of her principles. But I think those looking at it, from the process level gives you much more powerful kind of ideas of how to get somewhere with an instrument. So I, my reference point is at least principles of craft.
+
+I don't,
+
+yeah, like, it's fine to like, start an instrument making process being like, you know, I want to make a live coding instrument that allows me to live code faster. But you can't, you can't just like, write that in big letters in front of you, and then look at it every day for inspiration. It's not going to like, it's not going to jump, you know, the interviews that I did with violin makers in this Nime craft paper. Where they say is like, these are these frameworks are, they are just guidelines that templates that they don't tell you what, like literally the great phrase from this guy he was like talking about, yeah, these these frameworks in saying it doesn't tell you where to make the next cut, with your chisel into the piece of wood. And in a craft process. That's the only thing that matters, because ultimately, what you create at the end is a product of how much you cared about each tiny little step. And so again, that's why it's much more about the how, rather than the what, ultimately, I
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+I think
+
+definitely finding the time.
+
+*laughs* 
+
+Yeah,
+
+I think
+
+I think if you're really serious about making a good instrument, then the main ingredient is always time. And a lot of the time people aren't serious about making good instrument and that's fine. In which case, it's Yeah, you're you're you can be a lot more. The challenges that you'll face are a lot more trivial, I would say, which is nice. But ultimately, the biggest challenge of making an instrument is, is time. Everything else follows after that, like building something good enough that someone else wants to play it again is a function of time. Gaining enough experience to be able to manufacture something or create multiple copies of something is also a function of time understanding The the micro, the micro scale details of an instrument, especially one that's never been played before or whatever is also a function of time. So, yeah. Yeah, you can extrapolate other stuff out of it, but it will all boils down to time and then perhaps money as a proxy for time. 
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Well, this is why we think, yeah, I mean, there's a funny relationship between craft and automation, right? Where
+
+you know, you if you start trying to, if you start something by going straight to automation, like let's say, you design an instrument in 3d CAD, and then you go straight to tooling, and, and CNC.
+
+And,
+
+yeah, I mean, that's like necessary in some situations, but
+
+the point is you,
+
+you then forego the act of really learning about the form of that instrument through making it by hand, and you forego the artisanal relationship upfront, you'll never get it. You might develop an artisanal relationship with your CNC machine. But that's kind of a separate thing. So you save time, but you trade it for craftsmanship, basically. Whereas if you do it the other way around, and you learn how to make something in a much more manual way first. In the startup technology world, they call us do things that don't scale. It's the idea that you have to do things manually the first time to really embody them, which is that this like, principle that Sarah Sarah Kettley talks about, about embodying the process? So yeah, you can do it that way around, potentially where you, you first embody something, or embody an instrument making process. And then afterwards, you can strategically automate it to optimise some of what you're doing, and create more time for yourself. And, yeah, this was, again, something that was interesting in talking to violin makers, one of them was talking about how, from his perspective, violin makers are always looking to cheat. And for him cheating is, is saving time. And that's coming from someone whose work is all about craft. So that that's what I mean, there's definitely a role for it. But it's kind of like, I don't know, it's kind of like the Sorcerer's Apprentice or something where you have to be very careful about what that what the, if you transform a capability to make it much faster, it's going to have a knock on effect on everything else. And you kind of have to be, you have to observe that whole transformation in order to not lose any of the value of the thing that you're creating the end of it. So I don't know, it's a tricky relationship. And I think in a way, if you want to be purist about it, then the only real answer is to say that you can't cheat. There's no way to cheat time. You either dedicate time or you don't. But part of your flow is thinks that actually there is strategic ways to like, gain time whilst not sacrificing tacit knowledge and craft knowledge. So it's, I don't know, Trump's some trade offs, some value judgments. Like practically speaking, you can imagine all kinds of like wirlyjigs to speed things up. I mean, yeah, again, like the three things I was saying about what I went into making platforms to be. Those were the main things for me.
+
+> And so largely your observations are centered around saving time...
+
+Actually sorry, there's one thing there, which is like the reason that I want those things from an instrument making platform is because part Yeah, so part if part of like the craft process is to understand. A craftsperson is someone who understands the entire process from beginning to end, from growing the tree, to tensioning, the violin, they understand it all. And today's systems that we encounter things like, Bella, for example, it's like post renascence, you know, it's not possible for one person to understand the whole thing. But it's even worse than that. Because he like, it's not possible for one person to understand all the things that matter for the instrument. So like, the only so yeah, again, you can fight that with time, by like, from a very young age learning everything from assembly code to semiconductor engineering all the way through to like precision, you know, mechanical engineering or whatever. But the other way to do that is to create like, new representations of complex things that are much more efficient for people to pass. And that's the whole idea behind the dynamic land project is to make complex systems fully understandable at all levels of abstraction. And also to make things the idea of like multiple simultaneous representations. So let's say, in live coding, you have a textual notation, algorithmic notation of music, and then you have the music you're listening to. And those are two representations of the same thing, in essence, and the more you the more multiplicity, you have simultaneous representations of the same thing in different domains, the more is a multiplicative effect on your ability to understand it. And so, again, yeah, the reason why we, we should ideally want platforms that can do that, is because it gives us superpowers of understanding. If I'm making a an instrument, which is running code, that I can't see any of the runtime information of that code. Yet, like I say, with Bella, I can, I can print stuff onto the oscilloscope from the code, which is fun. But you know, that's still kind of like looking through a letterbox to try and understand the spaceship. And so you need, you know, the analogy that Brett Victor uses is like, if you look at a NASA Control Centre, that's a room, a space, which is dedicated to making very, very complex things understandable at a glance. And I think ultimately, instruments are things of similar complexity to that. And so you need the same. Again, it's about bandwidth and fidelity and resolution and a multiplicity of representations if you can get that. Yeah, I would say that actually, that is the one thing that you can trade for, that you can gain time for. From. 
+
+# How would you define a DMI?
+
+Yeah, well, I'll try and start with something really concrete before I go meta. And it relies on accepting the term and its current vernacular, vernacular usage, which is incorrect really. But you know, digital instrument is any instrument which contains a computer chip, basically, doesn't matter what the instrument does, how you play it, what kind of sound it makes, how it produces the sound. Is it an instrument that has a computer chip in it, or something that closely mimics the behaviour of a computer. Maybe. And so yeah, I don't know, that's fine. Like, in this era, people understand each other when they talk about it. And that's the most important thing. But I know, I guess there's two, there's a couple of things. One is that like when we talk about DMIs and you knew even some people call Nime new new interfaces for musical expression. And some people call it new instruments. And nothing is or no faces versus new instruments. And that highlights the fact that like these these are kind of like linguistic fads. And Thor Magnuson is work, I think, like, touches on this the best because he's always talking about like, musical systems as perhaps the most abstract way of describing what we're all doing.
+
+And then
+
+instruments and interfaces and whatever else that kind of like sub genres in that taxonomy. But yeah, then the digital part of it is problematic. And there's a really good short paper by Alex McLean about the history of digital in art. And he takes he uses digital to mean like the discrete mathematics. Digital was in like five digits. So like for him, ancient Greek looms are a digital technology, because they operate on principles of discrete mathematics. And, and so on, and so on. So it's quite funny because Alex McLean and Thor Magnuson are kind of like buddies and write papers together, but they have completely different views on this. So Thor's book about
+
+it was it called
+
+Sonic technology or whatever [Sonic Writing: Technologies of Material, Symbolic, and Signal Inscriptions], is like the three main areas of instrument making our acoustic, electronic, and digital. And Alex McLean says doesn't seem to agree necessarily. Digital and analogue are just forms of things. And in a in a complex system, you always find commingling of the analogue and the digital, like an embedded system, you have ADCs and DAC's and so on, they're always co present. But yes, that all being said, a DM is is an instrument with a Mac with a computer chip in it. I think that's that's the what it boils down to. 
+
+# What concepts do you consider a DMI to be made up from?
+
+Well, you can't describe a music, digital musical instrument as a combination of concepts. Because it's also a combination of material things, which are not concepts, they're not representations, they are just themselves, they are non representational. If it's made of a piece of wood, that piece of wood then those pieces of wood are not concepts. So, I think you have to kind of distinguish a bit between like the epistemological versus non representational parts of this whole that we call a digital musical instrument. Any given instrument can or like does encode epistemological concepts to varying degrees, like an accordion is based on an epistemological and piston ology of like music, harmony and in theory, and so on. I guess you could. Another way you can look at this is by saying what parts of an industry All kinds of explicit. And sometimes that might be based on like principles from engineering or physics. So let's say a physical modelling instrument is based on the concepts of dampening or resonance, or something which is a, a model derived from nature. And which were then reprogramming back into a thing that's part of nature through various analogue to digital transformations. Other concepts? Sometimes, I mean, yeah, not really. So well, I don't know, maybe. Like, the unfinished instrument series is it has the concept of an instrument which is unfinished, as a in a very particular, like way, because you know, all instruments are unfinished. That's how they continue to evolve. But I mean it in a certain way. So there's, like, you know, it's kind of like concept art instruments, maybe where a concept can be really driving the instrument and like the stenographer and the concept of a way of speeding up. live coding is like the driving concept. Yeah, I think, ultimately, instruments as kind of like artefacts are more non representational and conceptual. I think they're more material than they are epistemological. And I think maybe they are not there. It goes more the other way, perhaps when you're talking about disembodied instruments like live coding. Or even sometimes people talk about graphical user interface instruments as being
+
+kind of disembodied or abstracted. And perhaps those are more conceptual because they're more they're more about representing information. using Visual Media than they are about instantiating. physical things.
+
+Isn't mp3 music is amazing musical score music changes with the times I think. People look at a MIDI keyboard and say that's an instrument because it looks like one.
+
+people describe mp3 as music today. Because that's the most common way in which we experienced today.
+
+And I think probably, maybe I don't Yeah, I don't know, like with a musical score.
+
+If it's a gregorian score, or black blobs, you're more likely to say that's not music. Whereas if it's a score, which is so tightly specified that it's almost like a recording, then then you might say, yeah, that's actually the pretty much that's the music. And I think the same thing applies really, it's just different ways of decoupling. The musical experience, and I think Yeah, decoupling is kind of the, the key term. And yeah, in different eras, we have different mediums which are the predominant mediums for representing something and I think that kind of helps to contextualise this question a bit.
+
+
+

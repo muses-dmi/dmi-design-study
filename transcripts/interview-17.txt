@@ -1,0 +1,195 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 17
+role: Software Developer
+experience(years): 4
+instrument_count: 1
+
+instruments:
+ - otto
+
+langugaes:
+ - c++
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Well,
+
+we use,
+
+we use c++ almost exclusively. And it is a what I want to say that we knew them before, which is not quite true that we were both novices in it actually, when we started, it does seem to be the default default language for people who really need to do any performance. So I think that's why we ended up choosing it. And now, we both Actually, we kind of like we now we both really like the language, me and me and the other, the other developer. And with a, some people might call that a form of Stockholm Syndrome, or something now that you've invested so much, so much time in it, I think, I think it is a it is a good, it is a good choice for it. So I think we have definitely chosen the performance, as opposed to the ease of development. So that's the, that's the main reason we have, we haven't used other more domain specific languages before. So we've used something called Faust, which you might know, developed by some people in France. And this, I mean, it's a great, it's a great like, DSL domain specific language for for audio, what we ran into was that we wanted to do things that were like, We wanted to have some c++ and then we were envisioning that there will be like, it would run this little nugget, this little module of fast code. But what we figured out was that the interactions between those became like, either we would have, we would have to do it in the way that the people who made fast, they were sort of envisioning, so we would have very little control. Or we would have to make really make, like, have a huge interface between this and it will be like a lot of boilerplate code. So in the end, we just decided to sort of have just everything in one language, so everything can speak with each other. So I think we we tried having several different languages, and we just converged that in the ease of having only one language.
+
+> And that was because of interoperability was it?
+
+Yeah, exactly. That was it was not seamless enough at all, what we would like what we would love and something that I mean, other people have made similar things that we found, since then, that we also want to start integrating, but what we would really love is something that is that is in c++ with so meaning that it is c++, so it just, it just you just plop it right in. But it has the same, the same. Same Express ability, as Faust, like this, this whole thing of just you just piping stuff, chaining things together, and you don't even think that underlying it all is like audio buffers and stuff. that would that would be great. But you're probably next the chosen tools.
+
+# Why do you use your chosen tools for instrument design?
+
+At the end of the day, I don't think we use that many, what I would call tools. I mean, of course, we you know, we make some hardware and to do that we, you know, we we use software to design the design, the PCBs, and we have them have been manufactured and we do solder them together. So there's some tools involved in that process. And then then there's a bunch of like software things. As I mentioned, we don't really use IDs, actually, we just use, like text editors, basically. And compilers, and you could set up like a more, maybe a more automated pipeline for like, compiling these things, but we don't really have that up and running. But I would, I would call it very bare bones and bare bones operation, I would say, there's not that many specific, there's not that many tools specific to what we're doing,
+
+that we're using.
+
+> So you'd probably say that they're just the general tools of the trade on working on an embedded system?
+
+Exactly, yeah. Yeah. 
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+> I see, you've just got Raspberry Pi in your survey...
+
+That's correct. Yeah. Specifically, it's the three a plus that we're using. Um, so Raspberry Pi. First of all, I mean, it's, since we chose, there's been some other like, single board computers that have come out. But at the at the time, like, it was undisputed, the most bang for your bang for your buck. Like it was the most computing power, you could get on the least amount of space for the least amount of money. So that's really what we've done a, that's why we chose it. And it is, crucially, it is we didn't choose a mega DSP chip, which a lot of other platforms choose to do, mainly because we don't have any, mostly because we don't have any experience with it. And we liked the idea of being able to run a full Linux distribution on it. And all the tools that that gives you, basically,
+
+> So is that what stayed you away from using a microcontroller as well? Or maybe something like ESP, something more bare metal?
+
+um, something like, well, we
+
+do actually also have an STM chip in there. But that's mainly doing micro controller ish stuff, like the buttons and encoders, and led control and that sort of thing. But yes, we I think we really wanted the because also we have screen, which is like is an LCD, colour screen. So just having a screen driver, in a in a Linux system. It's just you get so much stuff for free, once you can run Linux on it. So yeah, that's Yeah.
+
+It's, yeah, the
+
+Oh, well, you know, there was a bunch of like, different versions of raspberry pi, that we were choosing between, basically, we wanted the biggest, like the strongest process that we could find, but in the smallest form factor in the is a form factor that they have is like really optimal for us. We don't want all the we don't want all the the USB stuff like all the headers that already connect all the connectors that are already like, soldered onto the board. We don't want that. And we probably want to move to the compute module at some point. 
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+I will definitely say that Faust was a tool that helped me even though we're not using it anymore, so I am the one doing the most most of the DSP programming. And it I so I have a background in I have a background in physics. So I have a lot of like, numerical programming experience, but like, but like audio programming and like DSP programming. That's it. I've never really gotten into that. So as a tool for understanding, like filters and different effects, how they work and that sort of thing, like something like Faust where I could like, where you can even make, like a practical view of how a reverb effect looks, and you see the see like the delay lines feeding back on each other. Right. That's that, that that was perfect for me. And it's that that really kick started my understanding of this of this field. So I would, I would say that was a tool that helped us about something, can you repeat that? 
+
+> Is there anything that's maybe a bit more out of the box, not directly related to the development, but has been involved in the process?
+
+Well, the whole Well, the whole open source nature of it, and the community that we have had, we sort of we have, let's say the the the, the engagement that both we are able to put into it, and also that we sort of get back from the community has been sort of it's been varying, there's been periods of very high engagement from from people. And also periods of less engagement, but that community. First of all, that's how I came into it. So I didn't know you're the developer when he started the project. And I found out about it as a as a open source project. And we found out that we actually live in the same same town, which was complete coincidence.
+
+so I would say, maybe even just for that reason, without without it being a an Open Source Initiative. We wouldn't be we wouldn't still be doing this.
+
+So we have, we have this Discord server, where there's a bunch of stuff, not so much going on right now. It's it as the project has sort of developed from this very DIY. Meant to, like, be a fully DIY thing that you hack together yourself. And, and so the development has sort of been that we, we discovered, it's, it's way too big and complex. To do this. We need some sort of structure around it. And we need to like, be able to say this is the hardware that the system can run on. Exactly this hardware. So as that has happened, I guess this Discord server has been like less and less active. And we've sort of transitioned into being well, then we actually started then we started a company around it. And in that case, it's been moving towards like Instagram, and Patreon and other other platforms. That that the the open source has been a joy. Yeah, for sure. Yeah, yeah. It's also the like, we've been mentioned a bunch of times on Reddit, like on the synthesisers subreddits and stuff and which has gotten us some attention. So yeah, it's it's, it's, it's invaluable. Really. Also from a also from the perspective that we are doing this in our well, free time. Being a startup, like, everything is work. Everything's free time. There's no real clear distinction. But the feedback like that, it's just invaluable being able to share new stuff with people. It's it's a big part. It's a big motivational factor.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Good question.
+
+Um,
+
+Good question.
+
+Okay, if I can make, I can make a very tall order. It would be so in thing maybe that's mostly in physics circles and stuff. But people talk about like this the two language problem, which is like, some, you need to, you need to do some kind of easy some calculations, and you then you prototype it in, in Python or whatever. And then it turns out that that's, that's way too slow to actually do the calculations that's needed. So then you rewrite it. In c++, I'll see something more performance.
+
+And
+
+I think it's for the might be some tools out there, I would, it would be nice to know about them. But like I mentioned fast, like, yes, it would be it's great to prototype. prototype. But at the end of the day, when I then have to translate that to c++, and it's not just it can't be, it can never be a one to one translation, having to re do a bunch of things, makes it so that I don't really end up saving any time compared to just making it in c++ from the beginning. And prototyping in that, even with all like the recompilation. And that sort of thing. Just because redoing it is such a big hassle. So if there was, there was a way to get around that which, which, incidentally, the language Julia has sort of been for the scientific community, there was a way to get around that, where I could write something that in a language, which is super expressive, and just easy to get something up and running really quickly. But it's also performant. Enough to, to like being able to run on our embedded system, and also can have the interoperability that we lacked from C fast. Like, if there was a thing that could give me all of that, like that would be like, that would be the Holy Grail. 
+
+> Just just for clarity, what did you say the problem was called?
+
+The two language problem is that's what I've been. That's what I've heard it referred to, as to language problem. Yeah. So yeah, writing it in one, getting, getting, getting a getting a bachelor student to mock something up in Python first. And then once you have a proof of concepts, you you give it to a PhD student, and they're like, here, you you do that. And then half a year later, you have a have a programme in c++? 
+
+# How do you approach the design of a new instrument?
+
+That's good question.
+
+So there's sort of a that's there's several answers to that, because auto itself is an instrument like that, in it, like it's supposed to be a like a single cohesive product, slash instrument. But also auto contains several modules, which, like synthesiser, engines, or sampler engines, or at least it will. So those sort of has to be those are sort of standalone things that we also approach. So I will say there's, there's two, there's two, I can I can come with two different answers to this, depending on the level at which that was speaking of speaking as for auto as a whole, then the way we approach also is, is like we talk a lot about interaction model, the word interaction model has sort of become a meme for us. Something that we that we say at least a couple of times, every every time we talk, basically the idea that the workflow and the way you interact with auto as a, like a, in a UX sense. That sort of that is that's the guiding principle that we want. We have some we have some principles for that. And that has to and that's what puts it puts the constraints and the design decisions on the code. So So yeah, That's, I would say that's, that's sort of the starting point for auto as a whole, the nice UX sort of rocking ideals that we have. And then for, for the individual modules that we make for auto, it is a difficult question. Because for some of them, we sort of come in with a with an idea, like, this is the it's this type of thing, something that works like this. So sort of a, it's not the injuries, interest fault. That's the starting point, it is the the way it works. So an example would be, I want to make an FM synthesiser. Like, then I haven't said anything about, like, what's the kind of sounds that I wanted to make? It's like, this is the this is this synthesis principle I want to use. And I want to make something out of that. 
+
+> Do you think that implies a certain set of sounds?
+
+It probably does. It probably does. Yeah. Give it give, give, like the good base functionality of an FM synthesiser, and you sort of you have that dx seven sound? It's just, it's unavoidable. Really. Yeah, I mean, a bit, then a bit more UX work. And you've may end up with something like the Diggy tone, which sort of breaks out of that mould to a certain degree. Yeah. But that's still, I see that as sort of, yeah, that's layer to build on top of like, the core functionality of it. So it definitely does imply a specific range of sounds, I really want to be able to go the other way. Like having having my mind like a range of sounds I want to make, and then just like, Okay, how can I make that work, and then make a bunch of stuff.
+
+That sort of that gives me the that range of sound. I see that as like the I see that as a better way of doing things.
+
+But it's also a way it's also something that requires just like experience and sheer talent. So at some point, I hope to be able to do that.
+
+And I
+
+I don't think I'm that well versed in it yet. If that makes sense. 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+And
+
+I'm not quite sure what you mean with aspects.
+
+> So any kind of individual 'things' that make up the instrument or like the processes that actually realise the end goal of the instrument?
+
+Yeah.
+
+Yeah, yeah. For sure. Okay. So
+
+we, what will usually happen, when we decide like a module for auto, we will end up with way too many controls. It's like the scourge of VST s that are out there. Like, yeah, here's an interface, you get 100 buttons. Good luck figuring it out. Which is like, it's the antithesis of what we want to do with auto. We want something where you can, you can just twist knobs and you can explore, but without compromising on the making range, and the depth and the depth of it, which is an extremely difficult thing. And one where we constantly have to compromise and hopefully those compromises end up being Lando somewhere in the middle where we want to be. But, so one aspect is definitely trying to trying to pare down the, the note, like the the external controls that the user has, we have,
+
+we have four,
+
+call it encoders on the front, and they each have the each have a click, as well. And that's like, that's really for interacting with a single module. That's the,
+
+that's what you have. We have a shift a shift button, what a modifiable, that's it. So then you can, you can multiply up the numbers, that doesn't give you a lot of ways of interacting with it. So yeah,
+
+there's, of course, there's
+
+the design phase. And then usually, we will have like a bunch of things that could be really nice if we could do this. But then you want to separate, like, you have an LFO, where you want separate controls for the, for the speed and the depth and the delay of it. And you want all these kinds of things. But we, a lot of times, we just want to like, Well, you can't have that will tie that will tie speed and depth to each other. And then you get that one control. Then, since we also have a screen, we need graphics for everything. And we preferably would like them to be nice, we had one guy who was very active. Like, for a while in the, in the in the open source public was a was a guy from from the Netherlands, who is a graphic graphic graphics designer. And he he made some some great designs way more playful. And since he since he sort of left hasn't been here, the designs have sort of gone more and more
+
+technical and like a bit more industrial looking. Which we would like to change. But I mean, we
+
+in creating this requires thinking extremely diverse. Set, like set of skills, really. And so we're not graphical designers, but we want to give it we're going to get we're going to give it a damn good try. So that's definitely and I would say the graphical part is an is an aspect that's not part of the core, like sound engine. But but it's, it takes it takes almost as long time
+
+when you if you're just coming up the development hours. 
+
+> So what would you say that would you say the distinct aspects are if you could do a brief list?
+
+Yeah, briefly. This there will be like a it will be like a design concept phase. Or like, at some point, we'll
+
+get to a point where we're like, okay, we want we want and we want a shimmer reverb. See, that's what we want. Okay, well, we then you, you make some ideas and mock ups and then you end up with probably too many controls. And you like Okay, can we figure out some some good defaults for some of them? Can we tie some of them together. So we end up with a number of controls that we can actually handle on the device. And at that point, we will probably have an idea of the graphics, which we will then after So after we implement the sound engine with like some very, some very rudimentary graphics, some numbers words, then we will we'll probably have in mind some concepts and we will iterate on this on the graphics concept. And then we will implement that at the end.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+It's all challenging. I don't I every part of it is challenging, which, which is one of the reasons why it's fun. I'm not a graphical designer, but I try. And it's I think it's fun. I'm not I don't have any. I don't have any formal training in UX. But I think I think at the end, I think we've landed on some very good UX principles for auto. One that I have also had a lot of positive feedback on when I showed to people and and I am learning as I go when it comes to DSP. But they each have like their own, each is their own unique brand of awful. Yeah. 
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+So one tool that we use a lot for graphics is an online service called figma. Which is, which is a vector. It's a browser based vector. Vector Graphics programme allows you to draw up things. And it's, and it has a lot of nice features with like you can have, it can't be exact pixel offsets between things, which really comes in handy because we're implementing all our graphics, like, pretty low level, we're not using any fancy layouting engine or anything, just do it all by ourselves. So that's a big, big tool that we use for graphics. For development. Yeah, I think I've covered some of the other things earlier. 
+
+> feel free to propose something more hypothetical...
+
+Well, yeah. As I, as I said, a language or something for c++ or something that is performance, but still plug and play and very expressive for for audio would be would be great. Yeah. Oh, logfiles. If it was a, who was a DSL implemented in C plus? If it was a DSL for c++, but not as a not that transparent language? Whatever? Yeah.
+
+> So what is the is the challenge there? Maybe I could briefly ask. So you, like with fast you can generate c++ code with it? 
+
+Yes, you can?
+
+> So what is what is the interoperability challenge there that you're facing? Because once you've generated the c++ code, you can make use of it in the c++ environment?
+
+I would, I would prefer it if Faust was a library for c++. So there was no, no transpiling step. What I wrote was actually like, c++ objects, so and you could transfer it and then you can change stuff around. But then if I want to change the original one, then all these changes that I made, then then I have to do them again. So that that workflow doesn't really work. It's, yeah, a very good. There's like, there are two things. One, I think the point where we chose to give up on Faust was when we wanted to implement a voice manager for the synthesiser. So basically having these voices, different voices running and giving it like new note and velocity information and retriggering voices, that sort of thing. And we, we wanted to do it in our way. But fastest wouldn't let us we really have to add to fight with it. And we also wanted, we wanted to be able to control when changes to the different properties like a frequency of a filter when that was changed. We wanted to be we wanted to have control over that and false doesn't give you that it just it sets a rate at which updates and then you have to you have to be okay with that.
+
+So we wanted more control basically. And yeah, and that's what you lose with these kind of extra steps. You lose control. You have to do it in a way that fits. Okay.
+
+# How would you define a DMI?
+
+Digital ones and zeros
+
+I guess I mean,
+
+digital musical instrument? I don't know, there's, I guess the extremes of like, analogue versus digital is pretty is pretty obvious. Something like a, like a Vizio, in a, in a, in a modern synthesiser digital digitally controlled oscillator is that digital? Oh, that's a? That's a good question. I think at the end of the, at the end of the day, it's just I mean, I don't care about this analogue digital battle, I don't give a shit. But it's, I think once you're using, okay, so a lot of people want to make analogue want to make digital musical instruments that emulate or that sort of hides that they're digital, for some reason people don't, people don't want to be. People want to seem like it's it's still analogue, like, they have all these skeuomorphism morphisms, or whatever you want to call it, like, like a tape deck, like an op one that has a tape deck, right? And it's like, it's an it's an quote unquote analogue tape, and you're like, then I'm, you're scrubbing this piece of the tape, but it isn't. It's a it's a piece of memory. And I kind of wish, more instruments who kind of just lean into that and be like, it is it isn't the tape. Like it's a it's a register. It's like, it's a bunch of registers and memory. And, and you can manipulate them the same way you do with this sort of lean into the Yeah, lean into the how it's actually implemented, instead of what you want it to look like. That's not really an answer to it. But I think it may be a little bit of gets to the heart of what I think about digital instruments.
+
+
+# What concepts do you consider a DMI to be made up from?
+
+Yeah.
+
+Good. Good question.
+
+It's also maybe relating to the last one, it's, I have a hard time I have a hard time maybe answering this question. But I think it's, it's interesting to think about like these, these boundaries, where it's unclear if it's a digital musical instrument or not. So in my mind, I was thinking something that's digital implies, like, it implies a computer implies some sort
+
+of
+
+imply some sort of imperative algorithm that you're running to get your to get your audio to get your signal. Like is there's some algorithm like, once again, assign like a sine wave? And it's like, Okay, well, you have a face that you increment, and then you calculate the sine of that value. And it's like, there's some sort of imperative algorithm that runs. Whereas if it's in, like analogue circuitry, then a sine wave happens because, like, it's the way it is. It's, there's no, like nature doesn't follow an algorithm. That's just the way the way it is. But what about what about an FPGA then? thing where you hook together, like logic, logic gates, but like on a piece of silicon And this, they can do a little bit of imperative logic like, internally within themselves. But other than that, it's just the way they're hooked together makes an algorithm because that's just the way it works, sort of emulating nature and that in that regard. And I would still call that a digital instrument, even though even though the, even though the laws that sort of emerge, emerge from a digital nature. Maybe Yeah, because because the laws, like the emergent behaviour, which is generating some sort of emerges from Digital principles, instead of just nature. There's a little bit more sort of in design behind it. Yeah.
+
+> So that's, I think that's a really nice idea there. And I think that sort of talks to the digital component of the instrument, are there any other concepts that you think brought together - form that instrument as a whole? That make it an instrument? Basically?
+
+Yeah. Um, it's the, the musical aspect of it requires its music, for me at least requires control.
+
+So it implies or implies control. I am not avant garde enough to think I am I'm, I'm not. I'm not john cage, or whatever is called. Ah, yeah, to me, to me, an instrument implies some sort of control over it, and you, and it can, you can generate, it can generate sounds, but if you're not controlling them in a meaningful way, then it's not really music to me. Like, it's, so I went, I went to an, I went to an art show, like, many years ago, which was, which had like, digital music, art installations. And it was like, there was a guy in that he so he played a piece of music, and it was just like, two sine waves, in superimposed on like a very, very, very low frequency sine wave as well. But there was like, but it was the it was the concept that was no control. Like, he just had an idea. And then he like, and then he, like, made it. And that might be art, but I don't think it's music. So this control, maybe a good example is something like this, there's this glove that Imogen Heap is like sort of known for, which is like, it's just so it's controlling a bunch of software on the computer, but it sort of allows her to loop and control these loops and effects that are coupled up to, to it with like gestures. And I think it's a prime example of something that is, you know, it doesn't look like a musical instrument. But exactly, because it gives you control to manipulate and it gives you a lot of control, then I think it's definitely a musical instrument.
+
+# Any other comments?
+
+I don't know. It's, I'm thinking like, instrument, the whole.
+
+Like, the whole
+
+thing is like, does it have to be? It's manipulating audio? Does it have to manipulate audio? Because we have a lot of like, music can be, well, it usually has to end up being audio but I guess a stream of MIDI data, like something that manipulates that is would also be a musical instrument. So I don't think the audio part is necessarily part of it. It's probably a part of like the, the end result somewhere later. But if you have a an arpeggiator that's a musical instrument. I don't think it has to be audio. So, yeah, so my point is just that it's not necessarily just audio. But it's a very, maybe a very basic basic observation.
+
+

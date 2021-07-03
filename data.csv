@@ -1,0 +1,53 @@
+ID,Role,Experience,Intruments created (aprox.),Example Instruments,Langs,Tools (Software),Tools (Hardware),Platforms,,,
+1,Music Technology researcher and professor. ,30,10,"FMOL, reactable (and many more) ","C++, Pd",,"Sensors, cameras, projectors... It really depends on the instrument. I have also designed many mouse-based or touch-screen based instruments.","Linux, OSX, Windows, Android, IOS",,,
+2,Owner of Mutable Instruments,11,35,"Mutable Instruments Shruthi, Anushri, Ambika, MIDIpal ; and Eurorack line","C++, python","vim, make, gcc, OpenOCD","STMicroelectronics Discovery boards, Olimex ARM-USB-OCD ",STM32F,,,
+3,Digital artist/performer/composer,10,4,"Soft Revolvers, Ballistics, autopsy.glass","Supercollider, Max, Python, OpenScad, Touchdesigner, Processing, Javascript","Fusion 360,  Blender, Ableton, Eagle","modular synths, CNC, laser cutter, 3D printer, x-io, Arduino",Supercollider,,,
+4,Artist,30,3,"Personal ones - the lady's glove, the Spring spare",max map,max msp,"MAC power book, Motu ultra lite",max map,,,
+5,Software Engineer,6,3,Polaron and other prototypes ,"c, c++, (java / javascript for non DMI work)",Visual Studio Code / Teensyduino,Mainly Teensy / tried others like Bela / Raspberry / Axoloti ,Teensy,,,
+6,Software Engineering Manager,11,lots :-) (8+),"Eigenharp, LinnStrument, GECO, Animoog, Model 15 App, Minimoog Model D App, Moog One, Claravox","Objective-C, C++, Swift, C, Bash, Python","Xcode, Electroacoustic Toolbox, MIO Console 3D, Grapher, CurveExpert Pro","Computers, Mobile IO ULN-8, various MIDI Controllers, headphones of various qualities, speakers of various qualities, acoustically treated room","macOS, Windows, Linux",,,
+7,CEO,8,~100,"Eurorack Modular, Desktop Synth, Effects Pedals, Audio Dev board","C++, Python, Csound, Arduino","Max/MSP, EAGLE CAD, Ableton Live, Audacity","oscilloscope, bench meter, audio mixer, soldering iron, spectrum analyzer","Arduino, Daisy, Raspberry Pi",,,
+8,Composer ,4,~2,"No published products, tools for personal use",None in relation to this,"For this project:
+Max 
+Reaktor
+Variety of sample based synthesisers, Omnisphere for example
+It uses Ableton as host/mixer/midi router
+","For current project:
+Sensel Morph
+Variety of conventional midi controllers, Faderfox etc
+Octatrack",Mac Windows,,,
+9,Not provided,Not provided,Not provided,Linnstrument,"c, c++",Rhino,Not provided,Arm,,,
+10,CEO & Founder,10,5,Artiphon INSTRUMENT 1; Artiphon Orba; projects in development,C; C++; Apple Metal,"JUCE; Solidworks; Various DAWs (Logic Pro, Ableton, etc.)",3D printing; laser cutters; CNC machines; soft-tooling; mass manufacturing; screwdrivers,Compatibility: MacOS; Windows; iOS; Android,,,
+11,Researcher and Lecturer,10,20,"The BladeAxe, the PlateAxe, the Chanforgnophone, the Gramophone, Nuance, and many more.","Faust, PureData, C++, Objective-C, WebAssembly",SolidWorks and OpenSCAD,"RPI, the Teensy, ESP32 boards, Zybo Z7, Android and iOS devices","Android, iOS, Linux, Free RTOS, Bare metal",,,
+12,CEO & Founder,13,3,"AlphaSphere, BetaLoop, NUSIC","C++, Kotlin, Python","VScode, Xcode, Android Studio",Injection Moulding,cross platform,,"
+",
+13,Assistant Professor of Music Technology,11,8,"DMIs based on audio/visual physical modeling, hackable DMIs combinig digital and analog elctronics, immersive virtual DMIs, collaborative networked DMIs","C/C++, Assembly, GLSL, Pure Data; more rarely Super Collider, Max/Max For Live, C# [Unity], misc scripting languages","Mainly IDEs and Pure Data; more rarely Max/Max For Live, Unity","GPUs, chip synths, custom electronics",Bela and custom platforms running on regular computers and sometimes on mobile phones,,,
+14,Composer & Instrument Builder,10,20,"Lightdome, concertronica, eggiophone, the chromatic, the sonic bonnet and more","arduino, max","ableton, max, teensy loader, arduino","teensy, arduino, various breakout boards + sensors","arduino, teensy",,,
+15,Software engineer / Audio developer,6,5,"Ableton Live, Ableton Push, Ableton Simpler / Sampler / Wavetable","C, C++, Python",Max MSP,,OS X,,,
+16,"Researcher, designer, performer",12,"Commercial: 3
+Research: 3-5 (more if you include instrument making tools/platforms)","ROLI Seaboard GRAND, Seaboard RISE, and Blocks, Stenophone, a series of ""Unfinished Instruments"" for my PhD. If you are counting DMI platforms: Bela","C/C++, JavaScript, Python, Haskell, SuperCollider, Pure Data, Bash","TidalCycles, SuperCollider, Reaktor, JupyterLab, Svelte.js","Bela, Teensy",Bela,,,
+17,Software Developer,4,"1, although it is split into several independent modules","Mainly OTTO - a groovebox with synths, midi fx and audio fx",C++,"Visual Studio Code
+GCC/Clang and various libraries","Soldering iron, oscilloscope, multimeter","HW: A Raspberry Pi 3A+, SW is completely homemade",,,
+18,Professor,20,15,mainly physical modelled based,"C, C++","Matlab, Juce, Unity","Arduino, bela","Max, Juce",,,
+19,electronic musician,40,dozens,"a sample: 6502 based 8-bit instrument, Apple ][ based digital control for Serge Modular, Mac audio + MIDI software, RPi based effects unit + MIDI tools, MCU based metrical clock, MCU based looper + CV converter","assembly, C, C++, Python, Haskell, Elm, Javascript, SuperCollider SCLang","beside compilers and interpreters: SuperCollider IDE, Visual Studio Code, spreadsheets, Eagle, OpenJSCad","soldering iron, bread board, multimeter, oscilliscope","Arduino, SAMD21 MCU, Linux, Mac OS; in the past Apple ][, 6502 systems",,,
+20,Software Engineer,1,"2 or 3, depending on how you count them.","""SeqPal"" and ""DrumBud"" for the Winterbloom Sol, and the Winterbloom Sol itself.","Python, Rust","Vim
+CircuitPython","Microchip SAMD programming tools 
+(but honestly Stargirl's work on the Winterbloom modules means I only have to use the native tools if I somehow break the module, which I've done once. Otherwise it's just plug in, edit in vim, go.)
+
+Various Eurorack modules, in an Arturia 6U case.",Linux; Microchip SAMD 50-series and SAMD 20-series chips,,,
+21,Artist ,3,2,Electronic_Khipu_,Java,Arduino - processing - Pure Data - Max/MSP - Super collider - vvvv ,"teensy boards, different electronic sensors, Arduino boards, Bela sensors.  ","My own physical creations, MIDI controllers applied -  Ableton ",,,
+22,DSP Engineer,4,5,"The Daïs, Magrittophone, several unpublished","C++, C, Python, Matlab, Faust","JUCE, Arduino, Processing, Bela IDE","The regular electronics tools (soldering iron, snips etc), laser cutter, CNC machine, 3D printer, various wood working machines.","Bela, Teensy, Arduino",,,
+23,Professor of Media Computing,35,5,"EMG instruments like the BioMuse and the EAVI EMG, and have made musical instruments out of consumer devices like the Thalmic Labs Myo","C, C++, Python","Max, Pure Data","Myo, Beagle Board, LEAP Motion, Arduino, Huzzah","Max, TI Biosignal signal processing chipset, OpenBCI",,,
+24,HW and SW engineer,3,6,"Gechologic Loopsynth, Phonicbloom's Glo Polyphonic Whale, MMXX T-ape, Wingdrum, Loopstyler, Don Iguano","c/c++, python, php, javascript","Software: Atollic True Studio, CubeMX, Eclipse, ESP-IDF, Oracle VM Virtualbox, MinGW, Borland C++ Builder; PCBs: CadSoft Eagle, EasyEDA, Gerbv; enclosure & mechanical elements design: Onshape","3D printer, CNC milling machine, solder station & hot air for SMD rework, binocular microscope","STM32F4, ESP32 (ESP-IDF & FreeRTOS), embedded linux (mostly Allwinner)",,,
+25,Lead designer,12,30+,the whole Bastl Instruments product line,"C++, Arduino","Eclipse, Arduino, AVRdude, github desktop, eagle, illustrator, ableton live","digital oscilloscope, soldering tools, complete music studio for real-worlds testing","analog, avr chipsets, arm chipsets, arduino",,,
+26,Composer and interactive hardware developer,15,At least 10,Custom interfaces for live performance,"Max/MSP, Supercollider, Arduino, Python, Lua, Rust","Arduino IDE, SublimeText, Linux JACK","Norns, various midi keyboards, various sensors for arduino (most recently over I2C), wifi networks","Arduino, Teensy, ESP32, Max/MSP, Supercollider on Raspberry Pi, Norns",,,
+27,Creative director,2,A lot of iterations but only one instrument,Knurl,"c ++, Supecollider, Javascript",Fusion 360 Supercollider,"Beagle bone, ",Bela,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,

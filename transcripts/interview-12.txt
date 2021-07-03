@@ -1,0 +1,320 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 12
+role: CEO & Founder
+experience(years): 13
+# Note: approximate number of instruments worked on
+instrument_count: 3
+
+instruments:
+ - alphasphere
+ - BetaLoop
+ - Nusic app
+
+langugaes:
+ - c++
+ - kotlin
+ - python
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Yeah. So, I mean, I'd say like, just to make it clear to me, I'm so I'm not, I'm not a coder. I don't like, I do dabble and, you know, get stare at code a lot and spend time with teams that are coding. 
+
+And, but I'm not.
+You know, like, I think that reason that I've been very most familiar with those languages is because the team members that I've, 
+I've worked with, on various projects, those are the, those are the languages that I've used. 
+
+So, you know, I've, I've spent time understanding, like, how, you know, software design and development and an architecture works, but it's, it's, you know, it's basically the reason, the reason for using, like, using those languages typically, is that maybe not even that the team knows how to use them already. 
+
+But I think, you know, like, in the case of, in the case of c++ was, it seemed to be like the best programming language to, to write a native application for, for Mac, or for a computer, right, like a PC. 
+
+And it was possible with JUCE, which was like, what,you know, what, what, basically what our software developer had interacted with, when he was at UWE. And ***** recommended that, that we work with JUCE. 
+
+And, and then in, in the case of kotlin, it's like the latest, you know, for Android, so you can, it's basically just like, a great language to work with, for Android, and then for Python, you know, for like music information retrieval, applications and using like, you know, py notebooks and all of this stuff. It's, it's just, you know, the best the best language for machine learning and putting together neural networks and things like that. So, those are the Yeah, like, you know, that's the reason
+
+because of the, I guess, in the end is because of the function that that they serve, right.
+
+So, yeah, I mean, I think, yep.
+
+Yeah, I'd say so I'd say like, in in those cases, like I was advised that, you know, basically like, there was, you know, expertise around me that I drew on like,
+
+To make those decisions, if I think it's, um,
+
+you know, like, it's, yeah, that that's what that was based on.
+
+Right? Um, yeah. So, I mean, I think it's, it's also, I guess, like, it might be, you know, maybe if we, if we roll things back a little bit, too.
+
+And I think possibly I forgot about this, but like, if we roll things back a little bit, then, you know, I used like max MSP to build the first version of the alpha sphere, software, alpha live. And that, and so that was
+
+a great, like, way to just get my hands dirty and build, like a bit software that actually does things. And then,
+
+you know, it was it was then kind of taken over by
+
+you know, initially just actually, like, you know, a graduate from from the, the audio that the music technicals up who was just like, had this maximum fee patch. And then our CTR, at the time, kind of pushed him into like, actually, like coding it up. And that was a that was either he had some experience already, of course, with programming, but but that was,
+
+*~20s connection issue*
+
+hey,
+
+*described what was last heard*
+
+yes. So? And I think so, yes, he has some experience from, you know, from the music diploma at UWE, and,
+
+and then, you know, like, we use those, like, you know, I've continued to use like, different IDE's, because, like, you know, that, like the industry standards for
+
+the, like, various
+
+use cases that we're looking at. Right. So.
+
+# Why do you use your chosen tools for instrument design?
+
+Okay. And then I think I also because I think, you know, we're doing,
+
+and alphashere, especially was hardware.
+
+So, you know, it's kind of,
+
+in that case, the work, you know, we were also used while we were prototyping it, you know, things like 3d printers, and, you know, different, like, you know, CNC machines and this kind of thing. But basically, it was, like, you know, the tools are used, because they're the, that's like, what the industry demands for the production, right. So, I think that, in the end,
+
+you know, like, maybe at the beginning, as far as, like, having an idea about, like, how you can produce something, you might, like, aspire to use, like, unconventional tools like as, as a kind of, like, artistic licence as well, right? Because it's an instrument, it's like, a piece of art, in many ways. But in the end, like, you know, it's, you've got to, like, use what is the most cost effective? And like, what the industry? I mean, I think that relate to like, hardware and software, right.
+
+You know, it's not like similarly, you know, like,
+
+use like, you know, electronic, I mean, we use like a PCB makers, right. And that could be some of the tools are, you know, those websites where you send off and get your PCB manufactured, you know, the tools could also be the batteries, right? Maybe, I mean, I don't know, like, if you'd agree, but like, the tools really, like, I guess, you know, and probably where I'm going, it's in my life. And I want to do is like to have mastery of like, production, right, like, but production, I mean, like mass production. So, you know, you're probably,
+
+you know, they're still
+
+you know, some of the tools are even like that communication with the people that run the factories like people
+
+work in the factories, you know, I consider that as part of the,
+
+like, that's part of the instrument, you know, that you're ultimately putting into people's hands. So, you know that that would be, I would say that,
+
+you know, I would consider that as, like, really,
+
+you like when at some point in the future, like, I come back to the alpha sphere to do it again, I'll do it, like, do version two, you know, like, maybe like levitating one, or whatever, you know, then like, it'll be my position, like, as, you know, in the supply chain, that will allow
+
+me to do that at like, a level that it could reach, like a mass audience, right. So like, you know, whereas, like, when we first put out the spirit, UK, and, it's like, you can't do mass production in the UK, well maybe you can for some, like, especially the small things, like little PCB to like, much easier than, like big products that have got, like, you know, mainly to use plastic or, or whatever. So, and then part of the process of doing the outfit was like, the journey to China and, and becoming immersed in, like the supply chain, and ultimately, you know, having this legacy of like something that we started off building in the UK, and really wasn't able to fully transition into mass production in a really straightforward forward way. So that's kind of Yeah, I hope that Yeah, like, that would be my, you know, I didn't quite, I think I kind of went through the survey quite quickly. And I didn't, I kind of submitted it for it, like, really, like, written everything down, but like, those are my thoughts expanding, like, yeah, you know, actually, the tools that we use are, it's like,
+
+it includes like, the resources of, of the supply chain, that, you know, ultimately, you know, the great to be able to, like, shape that as well. So that, you know, and of course, like, you know, we care about, like, you know, you'll want to think about how we can make things more environmentally friendly, and everything. But, you know, that's like, you know, the beginning, like, if you, if you start off and you've got like this, this, your intention is to make a, an instrument that people can actually like afford as well, then you end up getting pushed in these directions of, you know, what to use plastic and things like that. So, which is like, you know, it's it, at the end of the day, it's,
+
+I think it's, it's, it may not have been necessary at that stage, even like to use plastic, like, we could have probably used like wood, you know, and that would have been, they'd be probably good, it probably wouldn't have been that different price in the end.
+
+Because because of the, you know, the nature of the, of like getting the supply chain up in the UK in the first place. But I think that as it is, as its digital instrument, we didn't need to use word because there's no, there's no resonance, you know, you don't, it's not like you don't need the material is
+
+all of the sounds are actually produced electronically, or digitally in the end, like via the electronic. So you don't need to, we could have used wood for an aesthetic perspective, or like, maybe it was easier. But I think, you know, the kind of the shapes of the atmosphere, it was, it was necessary to do something more plastic or it was easier to use something more plastic in in the first instance, right.
+
+# Why did you chose your chosen platforms to build your instrument on?
+
+So I guess yeah, I mean, if you think about I hope I'm not taking this in, like a too conceptual direction, but I think if you think about it from
+
+I guess, like,
+
+if you think about it from
+
+the, I think
+
+so, like my decisions were like really influenced by
+
+actually, like, you know, wanting to make a product that people could use in the end. So, in many ways, you know, there was some, like creative restrictions, to the choices that were made. Because, you know, we were basically
+
+you know,
+
+Working on?
+
+Yeah, like,it was it Yeah, like the point is to make something that's like, affordable, right? In some ways, like, you know, there's that, like, that's the kind of business side that's less.
+
+You know, that's very different from like, when we're starting out and like, first produced alpha sphere, and it was much more about, like the concepts and you know, like, an alphabet of sound.
+
+So,but then I think now like, even, you know, I'd say, like, going from where we are now, like, the platform, like, if you look at, like, what I'm doing now with, with music, then, you know, the platform has, you know, the platform that built on Android, and then the distribution, like through Google Play is like, you can reach like, hundreds of 1000s of people, millions of people like dow, you know, nobody need there's no, there's no supply chain. Right? So I mean, this other is there's like, massive infrastructure of the internet and everything, you know, these amazing devices, everybody's got pockets, but then it's like, you know, you cut out the, and I think that what happens, and probably in my realisation, that just the complexities that I faced in doing the distribution for a piece of hardware, it was like, Well, you know, how about we make the the phone into like, a, you know, into, into an instrument, right? Like, how do we, and I think that that's also based on wanting to bring down barriers to entry for people to actually be able to create music in the first place, which is kind of where the outfit started go in, as well. It was like, you know, how do we make it so it's really easy, and having to have the software. So it's really easy.
+
+And then it so I think that, that that, like, there's no natural, there's no, nobody has yet created a platform that can allow, I mean, there's, it's, there's that scary, you know, fits do like distribution on a global level, for a musical instrument, you can't, it's not like, you know, whereas you can put an app on the, on the on the Play Store, and then, you know, half of the, I mean, half of the smartphone users in the world can can access it, you know, in a couple of taps. So, I think that, you know, it's always, like, I'm probably, you know, I'm just kind of thinking out loud as well. You know, in some ways, like, there's not, you know, there is no platform, there's no real platform, like can supply the end goals to actually get like your instrument into somebody's into somebody's hands, if it's a hardware device. Right. And that's something that is, maybe that's going to be something that is like, as, like, technology continues to improve, and, you know, able to, like, you know, people talk about, like 3d printing as though it's this thing that could actually allow you to get products, you know, like, produce products in your own home based on manufacturer's like, specifications. But I think probably, it'll be a combination of technologies like that make the easier to do distribution, and then it being tied together. With something like that, I get to some ways I feel that the, the ability to distribute, I think it's, it's not, maybe that's, I think, for a lot of us an alpha sphere started off, it was just a piece of really, it was just a piece of art. And it was like, you know, it was a, an alphabet of sounds to explore, like, universal human expression, then it was like more of a vessel. And then it became an instrument as in as people recognised it as it is, like, you could that'd be a cool instrument. That'd be great. Maybe controller? All right, yeah. Okay, cool. So, it kind of, and in many ways, it was wheeled out of my, out of my hands, you know, it wasn't like, I was just doing this thing. And it was like, really well received. So you know, and I was able to, like, pitch and be successful in like getting funding to go into production. And then, you know, initially like, actually, you know, set up a global distribution network and, and sell like, hundreds of these things. But, you know, it was also
+
+I think, the, you know, that that platform, I mean, if you can, if you can count, like, the distribution network is a platform that was really shaky, because it was like we did, we tried ecommerce, doing our own website.
+
+And that was selling it directly. And we also did,
+
+you know, we also had distributors, different countries, and they will buy like, you know, like, a significant amount of units. But, but there was no, you know, whereas now it's like, Man, you know, but like, it's so easy. I just have to like, I've just got, you know, the Google Play store like it just like we could just ask
+
+Upload that APK to that, and the whole thing streamlined, we could reach hundreds of 1000s of users without really doing much at all, you know. So I think maybe like, that's a slightly strange, kind of maybe not like what you're after specifically, but I feel that it's appropriate. And I think that that's the frailties of the distribution. platforms that exist at the moment is no, you have to deal with the whole world of
+
+demand, right? Because we have demand for over the world. So, you know, initially, like, our first Bond was in Japan, and it's like, we're in the UK, we started making this thing in the UK. And then it's like, how do you transition to be able to serve the Japanese market? You know, there's lots of strange, yeah.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+> Skipped due to time and as was covered in previous discuss.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Yeah, well, you know, it would be great if like, somebody could just come up with like, a one stop solution to go for, like,
+
+you know, from having an a, you know, having or having a product, let's say, having a product, like an idea is like, that's, that's, that's the realm of like, total fantasy, like, you know, you can just have an idea and anyone can, like, you know, get it. But I think, you know, if there was like a, I think that, like, the, the concepts of having a
+
+distribution network that could,
+
+you know, basically like, put, you know, you could get your
+
+instrument into people's hands.
+
+This would be like, a wonderful thing, I think that it's, you know, from my perspective, it's, it's, I'm sure that different, like, instrument designers have got different ideas, but I think, from my perspective, it's always been very important to get the instrument gets into people's hands, and for that, to improve their lives. So that's, like, a pain point for me is, is not being able to do that. And, you know, like, there's these things, you know, like the sea, you know, we have to deal with like, no, getting over the sea, you know, and so it's like, how do you, I think there are different people that are trying to attempt to, to do this with hard work.
+
+But those are the, you know, whatever is like, so, yeah, you say, to round off, like, you know, my quality of life in, in doing music is great, because I don't have to worry about the products, you know, that and everything else, everything else will come, you know, everything else if we get if we get the instrument to like what we're aiming for, it's a big and I using instrument in a broad sense, but it has come out of this evolution, we if we get the instruments to like what we need it to be, we don't need anything else. Like we've got everything that we need to get into everybody's hands. Oh, I think that like, the equivalent tool that could facilitate that for for hardware, instruments would be up, but you know, read that it that includes I think all products, you know, it's not, it's going to be that it's not just going to be for, like a musical instrument. And I think it would be practical, like, you know, like, judging by the industry, that to be enough of a market for it to actually be
+
+that to be realistic, right. So I hope
+
+# How do you approach the design of a new instrument?
+
+Yeah.
+
+Yeah. Well,
+
+how do you design your instruments? So? I mean, I think that it's,
+
+I mean,
+
+so
+
+I mean, I think that like, you know, you got to think about
+
+kind of ergonomics, and I think that like, really, I mean, I'm just trying to relate it. I can only
+
+You know, 
+
+> Prompted: 
+> Do you have a consistent starting point?
+> Do you start alone?
+> Is there a brief, exploration etc?
+
+Yeah, yeah, I mean, I think like, even though like, I'm, you know, within my broad definition of instruments, like, I've only just played like three, right. So, you know, it's kind of like quite an all of those have been completely different. But I would say that, if I look back at like, say, like designing atmosphere, it was about, like, in the first instance, it was about ergonomics, and making something that was tactile, and like, sort of starting point was about finding a, like, you know, a tactile like and fun interface. Right. So that and I think that
+
+that is certainly
+
+persist, you know, that certainly, I think that like wanting to make something or like, you know, looking at, you know, and things that were like always really important to me,
+
+or like the feeling as well, you know, like how it as the tactile thing, like how your fingers are actually going to feel when you're, when you're playing it and not being, you know, like, the different to that the great thing about a digital instrument is it doesn't need to be shaped by as we saw that we get doesn't need to be based on serials, right? So I mean, your materials could be anything, and you could, it does, like, you know, if it's a, if it's a violin, you know, and the string has to resonate with the body, then it has to be a string. I mean, if there's not, you've only got so many options, but like, with a digital instrument, then it can basically be anything. So ideally, you want to have the, the most like, you know, the most like, wonderful feeling on your fingers. Because you're gonna play it in the end, right? So I think that, like ergonomics, and making wanting to make something that's fun, and is, yeah, you know, like interactive. I mean, if the word I'm using a bass, but I think that, basically, it's like, what are you going to do with an instrument, you can play it? And that's like, that should be fun. So I think that Yeah, I have it. And that's certainly been, I guess you could call, you know, like, say, like, in the, in the beetaloo project that I did with *****, that was a different kind of, that was much more of a collaboration. And, you know, we didn't, I think we were thinking more than about like, the, the end, it was more It was more like, it's something that could be a augment an instrument that you already play. So it was much more about making something that was
+
+it was still, you know, there was still this this emphasis on, like, playability. And making something that would be, that would be fun.
+
+But it was more about
+
+you know, it was, it was it was less, there was less of a kind of, we didn't need to be tactile in that case, right. Because it's like, it's similar, the end product was supposed to be something that was more like a guitar pick up.
+
+Like, it gets all pick up, kind of meets the loop station meets a step sequencer that you can use, or like, you know, it was like, it was great concept, but it never really, you know, we never really had like, the, the energy or like the, you know, we actually that was, I mean, I'm kind of going off on one, but like, you know, we had funding to do that. It was the nature of the collaboration was like this academic, and, you know, like, commercial collaboration, so we had funding, it actually threw up to do this project. And it was, but that was really, but that was, it was different. But I think that there was still this, like, you know, the thought, like, certainly for me, and always in the theme throughout everything is that it should be fun.
+
+And then I think that, you know, like say now, you know, really, like the atmosphere evolved from this massive thing that was like, you know, it was going to be you know, like, you could have multiple people playing it to, like, what it what you will know, the atmosphere as, which is something that in the end, you know, we chose to, you know, the largest pads, like average size of the poem, the smallest tips and things, but it was kind of only through putting it in front of people that we started to realise that was the, you know, like, it needs to be economic on the basis that you can actually, you know, like, one person can can play it right. But that wasn't when it started. It was gonna be this like, Oh, yeah, lots of people can play it like all together and it's all like this kind of collaborative thing. That's gonna be fun and drums but not drums, you know, because it's digital. So definitely like soft tactile pads. And so I think I wouldn't have like, you know, maybe like in
+
+You know, I think probably like, on the trajectory that I'm on right now, I don't think I'm gonna design. Like, it's probably maybe another three instruments, you know, but like, I don't think it's gonna get far like on that. So I'm probably not gonna have I'm not like super prolific as the kind of, you know, sure that there are, like people that maybe are less want to get less involved in like the commercial space and you know, that could just like knock out like, you know, billions of instruments it No, no, that was like that's like a very, you know, I'd love to be that that guy that could just does that, you know, and, you know, so but that's sadly like, it's it's not been, you know, like the it's gone in different directions. So I hope that's kind of useful. I think that definitely people is you know, fun, tactile, ergonomic. You know, those are the kinds of I think always has been a starting point for me, because it's like, this is how we, you know, create, but then, you know, it's not I'm not thinking about, like vocal authentication or like, you know, wind instruments and all that stuff so much, right?
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+Yeah.
+
+Yep.
+
+Yeah. Um,
+
+well, I mean,
+
+yeah.
+
+Yeah.
+
+distinct aspects. So, I think that the,
+
+I mean, it's, I
+
+think,
+
+I mean, it's really like, I guess in in
+
+I mean, yeah, I'm just so I think that the,
+
+the, kind of, like, mechanic of the, you know, I guess,
+
+to me,
+
+it's, it's an especially like, in, like a digital instrument, it's, it's about the, the mechanic, I like, in terms of the
+
+you What are you produce, you know, how he producing these sounds like what you know, because you don't, you could do anything, you know, like, you could with, like, you know, a piezo transducer or something, you can just put it on your desk, and then you've got instrument, right. So, you know, it's kind of like, what do you how do you get that sense of,
+
+you know, like, what can How can you be creative? How can you, how can you like, sculpt the, the sounds like because you've got all of these tools, there's, like, you've got your keyboard, if you could do it, you could just use your modwheel you know, use a pitch band, and you do exactly the same, you could make the same sound that you could make with the sphere, but, but it's like, you don't get that like, you know, you don't get that same kind of feeling of expression that you can get from like, actually manipulating string with your with your finger. Right. So I think in some ways, like,
+
+you know, the mechanic of
+
+the mechanic is, you know, that's very important for me, but then I think that, you know, if just take it like, right through, which is, you know, maybe like,
+
+you know, something, that's something that we've discovered, like with in like making music is that like, you know, people just put results right? Like actually, like, people don't want to necessarily like, what you think it's fun isn't fun for everyone. And so actually like getting the get the end result like the production is
+
+could be like,
+
+Very important, so, but thinking about, like, how you get people there, and like, you know, so we should still it's still the mechanic. Right? But it's like it's not, you know, maybe in the beginning I thought like, you know, an instrument needs to be fun. And I think there's definitely a space for like fun instruments, but it's not always what people want.
+
+They people people actually want like the final result of having created and the fun comes from like that feeling of creation. So, you know, that's something that I think is is also,
+
+you know, if you can, if you can give that if you can give that prediction, because that the atmosphere was probably too complicated for most people generally. Right. And it was the software that made it too complicated. Whereas what we're doing now is like, you don't need you don't need to know anything about music, and you can make a mashup? Oh, it's
+
+> Prompt what other elements go with the mechanic?
+
+Yeah, well, I think it's, it's the mechanic, and then,
+
+like, you know, the the output. I think it's like, you know, what are you?
+
+What is what the results? How would you get the results? How are you? I think that, how can you?
+
+Yeah, I mean, it's, it's like, you have to get, you know, you want it to sound good. So I think that
+
+thinking about the,
+
+you know, like, I mean, you know, how, what, like,
+
+yeah, I think,
+
+yeah, there's one thing, I think, um, I guess the other thing is, like, I'm just kind of, it's Sorry, it's a bit like, I just need to think about this, but it's kind of like the, just
+
+the kind of
+
+musical structure, right, like, the musical structure. And that being something that can be,
+
+you know, makes sense, you know, it doesn't need to be, it doesn't need to be like even a notational structure, but like a musical structure that can produce. You see what I mean? Like it doesn't, you know, I mean, often in atmosphere is notational structure, because that's kind of like, it's that's the whole, you know, you can you can make it into different different notes. And it's based on this monic table, basically. So it's, it's quite, like modular and mappable, then it doesn't need to be you know, but there needs to be some kind of structure. So the brains got something to like, you know, orientate around, I guess.
+
+Yeah.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Think that the,
+
+I think that the biggest challenge of designing an instrument is
+
+it is the, like, assumption of, of what, you know, taking what you know, about music.
+
+And assuming that like, you know, the the player will
+
+be able to take, you know, have a level of musical knowledge that allows them to get the last one to, to, to understand. So I think that the
+
+I think it's in some ways, it's about the
+
+I think
+
+it's about
+
+The audience, you know, like you can't. And I think that this is very specifically based on like me having a desire to make, like instruments accessible. So it's like, you don't need to be, like my desire, I'd like I guess my some ways like, but the goal of all of this, like, everything I've done is based on like making it accessible to everyone. And so giving everybody that experience of being able to be creative. So I think that there's like a big, you know, there's a big problem, that, you know, there's going to be a knowledge gap, if you don't know anything about music, first place, it's just, you know, it's difficult to approach an instrument as you get older. So I think that that's a, you know, like, you know, it doesn't need to be like, you could be designing an instrument, like, could be designing, it could be your goal could be to design the most complicated instrument possible. Only, like the most most kind of virtuosic person could play it who's like, incredibly skilled at like, a variety of instruments. So then that sort of challenge, then you're just you're trying to, you know, you've got a different challenge, which is like, you're trying to be the player in some ways, whereas I think, so I think that my challenge is, is that, like, want to make the instruments as as accessible as I can. So, you know, I'll make assumptions about like, you know, what's accessible or not? So I think assumptions, making assumptions about was like, ability, and then the human, like, human body's capacity, like the muscle memory and things like that. Because you're dealing with like, no, you're dealing with potentially lots of different instruments in, in just this like, one inch, especially as a digital instrument, because it can be anything, right. So what is the human's capacity to actually remember how to play, you know, you know, piano, the keys, there was an inky dude, like, an elaborate tuning system, and you can change it, but like, it's not generally speaking, like, you know, you know, see, they'll seize me to see, you know, where it is, and you can orientate around that, but like, you know, if you've got an instrument, and it's, like, always gonna be different every time, then I think it's difficult to be able to, you know, that's, that's a challenge, it's a challenge to be able to understand, like, it's about the audience, and who's gonna play it, but like, you know, if it's just for you, that maybe that's not such a challenge. Right, you know, if you're just making history with yourself, then doesn't really matter. But so I think, I think that you're trying to make it accessible is is challenging, like, really challenging? Yeah.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+Um, well, I think that, you know, something, like, something really amazing is, you know, like this, like user testing, you know, user testing, websites, all of this stuff. So you can just literally get people to try things out and just do an open monologue about what they're doing while they're trying it out. And that's been something that has allowed us to, like, certainly now with music has allowed us to, like, you know, get tests in front of like, hundreds of different users that were, you know, that, you know, people that are using, and playing these, this app, and has really helped us, like, refine and understand like, what, you know, what they're looking for, right? So, you know, bearers like, you know, we obviously, like we don't, you know, with, initially with the alpha sphere, like we would take people to our, like, no office or like, a studio, and we get, we know, we just get inspired, we talk to them, we, you know, do interviews and all that. So, I think the, the other thing is, like, the great thing about those user testing sites is that, like people have been, people just go straight in and they'll tell you, there's also commercial imperative. And so it's kind of it really helps, like not having people, you know, not having people having to answer to your face, because like, they people don't want to offend you. You know, if you Yeah, I just invented this, tell me, tell me what you don't like about it, you know, people will be like, less, much less likely to tell you what they don't like about it when they're in front of you. So having, like, the arm's length, like the distance is that that would be that would be a great thing for, you know, we're kind of touching on where we are. It would be a great thing for like hardware. It's like to do that more, more easily. But, you know, again, it's like you could do it within a local you know, In a more localised region, I guess, but the anon being able to be anonymous for those users to be anonymous, and, you know, not feel like they are worried about standing you is really good. You know, like, that's what because really one here, all of the really negative stuff up front, I think. And so that's, yeah, any, any tools that could help, like anonymize the feedback cycle will be would be amazing.
+
+# How would you define a DMI?
+
+Yeah, I think that so digital musical instrument i think that i think it's any anything that could like, you know, a player or user can affect the the output, right? So any, as long as there's a user or the player or whatever, a person is able to influence the output, then that's, that's a that's a musical instrument, essentially. So yeah, like, so there's not actually, you know, like, I think it's different, you know, I mean, so you could say that, like, you're, you know, like, iTunes or Spotify is like a digital musical instrument, if you actually, if you're skilled enough, you could, you could, like, you know, and tap in time, just with the play button and, like, skip for everything, that could be an instrument, right. So, I guess that expands definition a bit, because, like, you're saying, it's about it, people have the ability to like the combat, she was sick with it. Right. So I think that, you know, it has to be effective. Like, it doesn't, in some ways, like it doesn't really count as an instrument until you've got that until somebody at least has like mastered as master on some level so that it can actually be a you know, virtuosity can be achieved. Right. So, yeah, I think that that's probably it.
+
+# What concepts do you consider a DMI to be made up from?
+
+Um,
+
+so, I mean, I think like the input, right, the inputs and the sound outputs. So yeah, pretty much. Yeah. I think, um, it seems like there's not there's not much to that. Questions about like it.
+
+Yeah. Yeah, no worries.
+
+It's very nice to like, be challenged to think about stuff. So it's, you know, I appreciate you reaching out and I hope it's useful.

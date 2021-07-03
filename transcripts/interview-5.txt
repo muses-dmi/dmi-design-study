@@ -1,0 +1,100 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 5
+role: Software Engineer (not music technology related)
+experience(years): 6
+instrument_count: 3
+
+instruments:
+ - Polaron
+ - other prototypes
+
+langugaes:
+ - c
+ - c++
+ - java
+ - javascript
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+Why do I use my chosen programming languages? So I have a background as a software engineer. So I use use programming languages for daily for my work. And I prefer like traditional programming languages. In contrast to that this flow based tools like max MSP, I could never really get into it. It's not how I think about programming. So that's why I choose something more traditional. And because I'm working in an embedded environment for my instruments, it's their c c++. Not because I really like them or not, not even that I'm really strong at them. But I think it's just more or less the only way I can get the results that I want. So like, having lots of LED and knobs and encoders. So I think it's almost given that you use something like that. Also, I think all that like if I would use something else more high level and then translate it to something lower level that also introduces other problems. So you, you're never quite sure, is it the process, which does something wrong. So for me, kind of started with it, and still quite happy with c++. But mainly, maybe I will look into something more modern in the future, like rust or something like that. But I'm happy if I can find answers on Stack Overflow, and lots of examples. So I think the c++ is the best fit for me at the moment.
+
+# Why do you use your chosen tools for instrument design?
+
+I I actually I did. So a few years ago, I did a master's in interaction design. And my topic was designing electronic musical instruments. And I tried a lot of different platforms that were around at that time. teensy Bella was really new there. ox a lot. It was very new there. I think that's that's about what I tried. And I think I made the best progress on the teensy and that's kind of I stick to that at the moment, but I'm open to choose something else. If I just for me, it's not that important. What platform I use it just Can I work with it? Can I make progress with it? Can I do what I have in mind and teensie worked very well for me. Also, there are a lot of libraries too, to control LED lights and encoders and all this kind of stuff, which I think are sometimes a bit harder if you use a Raspberry Pi, for instance or so yeah, microcontroller seems kind of simple because you don't have an operating system. It's just one big loop which loops around and it's, it either works or not, it's there are no surprises, and the timing is consistent. So that platform, Teensey worked very well for me. And I didn't like to programming the Arduino environment. So I have something else, which works for me like a pretty simple Visual Studio code. It's basically a text editor with some intelligence built in. But yeah, it's, it's the best I could find so far.
+
+> So Polaron for example is built on teensy not a more general arm based micro controller?
+
+No, it's on the teensy at the moment. Yes. Yeah, it's basically it's very convenient, I would say, has everything I need more or less data, I mean, the teensy 4.1 is really fast. It's that memory is a bit of a problem at the moment. But I think I'm more thinking of making a switch to something like BeagleBone, or Raspberry Pi, because that would really kind of solve all the performance problems and memory problems and, and having maybe violets would be nice or something like that. But I think as long as I work with microcontroller TNC is very nice. Maybe if I ever want to do a commercial product, then maybe I would think about switching to something else, just because it's a bit. I think it's expensive compared to if you do everything on your own. But I also like to support teensy, because I think the guy that does the teensy has really done a lot for the open source community. And you always find libraries where you find his name, and so kind of think it's good, it's good to support him and paid 10 bucks more than if you would somehow build it on your own. But 
+
+> I think that has comprehensively covered the question:
+# Why did you chose your chosen platform(s) to build your instrument on?
+> if we could just recap on the previous question on why you have chosen your tools that we could ensure we've covered the three questions. So anything from oscilloscopes to Vs code which you've allready mentioned.
+
+I hardly ever need an oscilloscope, and logic analyzers. That's, that's why I like the teensy because the guy has done that for me, I can just really I'm not I'm not, I don't have an electrical engineering background. And all I can do is find answers on Google and try things out. And if they work, I'm happy if they don't, I'm kind of lost. Like, if my digital analogue converter does not speak to the TNC I wouldn't know how to debug that. So that's too low level for me. At the moment, at least. So yeah, I think there are a lot of options like platforms like that axoloti is nice, if you like the flow based environment, and it's great. It's a bit big for my taste for what for the kind of instruments I do, and also belies brilliant. I think I might have to look more into this in the future. But yeah, as I said before, so like, once you know, the tool and you know where to find answers and you know how to use the libraries. I think it may be better To stick to that, instead of trying everything else, like all these days is very new. Now. It's, it's looks promising, but so far, I don't have a good reason to switch to that. So
+
+yeah, most of the time, yes, but did that my focus with the polar Ron was really like more than the sequence apart. So that's, that's the kind of logic I would always programme with, like a language like c++ or JavaScript or whatever. And the, the, for the synthesis part. I mean, there are many options I recently I tried Faust, and use their compiler to create something I could run on the teensy, which is really cool, because I'm not a DSP expert. And it's really cool if you can use modules or parts, which other people have done before. So like, can very easily play around with physical modelling without or this, this mutable instruments, git repository, which is like full of brilliant stuff, which you can just take and stick together in new ways and have a filter after something. And so there, I think, there there are many, many options. And it's good to try them out. Like also in c++, there's a lot of DSP libraries, which make it easy to kind of plug together something which you can use, like, if you are still outdoors, and VCF and VCA, and an LFO, or something like that. And you don't need to do all the hard stuff. You can just like a small modular system, not in code. 
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+No, I don't think so. No. 
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+I think for the synthesis part, it's always nice if you can very quickly get the result, maybe before it before it's even on the embedded platform. And so, like the Faust IDE is quite good at that. And but apart from that, from that, I mean, debugging is a bit of a different difficult topic on the teensy because basically, all you can do is to print something on the serial output, that's not really advanced. Also, I'm not really sure about how much memory I have. So this, this could be interesting at the moment to, to know finding memory leaks or even knowing if you have enough memory or not. This kind of stuff like good debugging good builds process, which helps you to find issues sometimes the c++ compilers really nightmare to find the cause for a problem. It could be Yeah, it's it's not really efficient. Yes, so I think this this would help me. 
+
+# How do you approach the design of a new instrument?
+
+Well, so far, I've only really designed I've worked a lot on the polaron and I'm working on something else now. But yeah, maybe maybe You start with a specific question or problem that you have or wish for improvement on something, you know, like that. That how I approached it during my, my master was really kind of, I know a lot of instruments, love some of the features and hate
+
+some of the features. And I wanted to know more about why do I like them or not? What's the problem and 10 was really like, exploring some ways to improve this stuff. So that could be, how would you improve? machinedrum? If you could, what do you like about it? What do you not like about it? Or what? What new ways of interaction are possible with instruments? I mean, they all look more or less the same? Why is that? And could you could you? One, one of the prototypes I did was like, more like, how can you create interesting physical interaction with instruments using your hand? And how could you sculpt sounds with your hand instead of programming? or writing or clicking? So like that? That's a question, which is the starting point, and then you, for me, the main tool to advance is just prototype and see what what happens. 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+I mean,
+
+First of all, the design space for digital musical instruments is like, in indefinitely big you can do everything? More or less? And so what, what do you want to do? And what is the good balance between old stuff and new stuff? So I think like having an idea is, is one of the bigger issues at the beginning, then, of course, there's the technical aspects, like, what platform Do you want to use to have enough power and memory for what you want to do? Can you for me, can I actually do it? Because I'm not a electronics engineer. So there are certain things which are kind of hard for me to do. And I mean, for me, the main the main aspect I'm interested in is not creating completely new sounds it's more like how do you interact with an instrument so that the whole interaction How do you what what are the inputs of an offering instruments? How do you communicate state back to the to the user? How many how complicated should it be? Or how simple should it be? Can you use should you have a shift key for like, even more advanced functions and this kind of stuff? So what is a good design for for interaction? I think that's that's what interests me most when I do stuff.
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+Yeah, more or less what I said before, so maybe I didn't really fully understand the question, but yeah,
+
+like,
+
+what what do you want to do? In the end? That's the biggest challenge. How should it look? And what should it be? And what what new stuff can you bring into the world? And I think that's the Yeah, that's the main challenge, I would say.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+I think just tools that allow you to prototype because for me, prototyping is the way to explore this design space and to find something which I or not find something, which I think is interesting enough to, to, to work on. So if you have good prototyping tools, and also like this, this, this all these services at the moment that we can use, it's we can fabricate PCBs, we have Mouser, where we can order everything and the internet, which has also everything answered already. So it's really a great time to be a maker at the moment and can try out stuff maybe first on the computer, if if you can prototype faster, but like yeah, if if you want to prototype the interaction with an instrument, you need a physical prototype. So that's why I would not really work with a simulator and clicking buttons with the mouse. So for me, like being able to create the physical product, try it out improve it. tools that are needed for for this they helped me most in my process. 
+
+> I've got this impression from what you've said. You said toward the start you dont like the flow based languages, but of course you do like to prototype. It seems like you have a distinction in that some things it is beneficial to simulate such as DSP with Faust, but some things can't be perhaps. would you agree with that?
+
+Yeah, exactly. Absolutely.
+
+> and so with prototyping, do you think it's important to prototype in the language that you will use to implement the instrument? again I think you mentioned you dont like to translate from one language to another, because that can introduce errors. But you obviosuly value protoytping.
+
+So yeah, I think when, for me prototyping, like the interaction part of the instrument, it's, I think it's almost the only possibility to do it in the language that I'm finally going to use because I wouldn't know something else which works for that like if you you really need to use those libraries and so that's why I think but I mean, use whatever fits best and is fastest for you. So for me I'm just not good at max MSP and never was and because I think so much in this procedural languages it's just never doesn't make the problem easier for me to approach but I think for some tasty stuff, I guess if you're really good with it, then it's a powerful tool. For me. It's just not I don't have enough experience with it. I tried a few times but never really enjoyed it. 
+
+# How would you define a DMI?
+
+Yeah, I
+
+actually I when I saw the description of your study, I saw this question and I checked back in my master thesis because I also had to answer this question. So I found something nice there. And that, like a digital musical instrument is, is an instrument that doesn't use the physical resonating body to create sound. And maybe you could say the same for an analogue synthesiser. But I mean, the main point is that you are completely free to do whatever you want, because you are not constrained by this resonating body. So you can make it big, small, whatever you like. And that's, that's what the important part of a digital musical instrument for me, so it's a huge design space to create cool stuff. And yeah, all aspects of it, the physical part, the synthesis part, can be freely designed, or changed or so that that's, that's, for me, the main point about digital musical instruments.
+
+# What concepts do you consider a DMI to be made up from?
+
+Well, the, the interaction is an important concept, I would say, No, of course, the sound
+
+I would say this is the two main points which kind of define the the instrument in the end. And, and the interaction is, of course, has to do with the physical layout of everything. But
+
+not only the physical layout also the the software, right? 
+
+> any other comments?
+
+No, maybe just get, like, it's, I think it's the best time so far in the whole world to do this stuff as an individual. That is not a like
+
+all the other parts are around that you need. If you are interested and curious, you can design your own instruments and maybe that's a good chance at the moment to do something which you eventually like yourself, like you can improve. If you don't like something about the instrument, you can try to make it better. So it's brilliant time to do this.
+

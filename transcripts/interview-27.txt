@@ -1,0 +1,155 @@
+---
+# Note: This is a metadata section formatted in YAML. This document can be rendered as markdown for better readability.
+
+participant: 27
+role: Creative Director
+experience(years): 2
+instrument_count: 1
+
+instruments:
+ - Knurl
+
+langugaes:
+ - c++
+ - supecollider
+ - javascript
+
+---
+
+# Why do you use your chosen programming language(s)?
+
+I choose because it's open source mostly. It's also what's my education has given to me in the conservatory. But it's also because I consider supercollider for example one of the between worlds of between programming and music production so and I feel quite liberating to use code instead of Max MSP or pure data
+
+> so particularly with supercollider you feel that that really bridges the gap between musical musical ideas and what about for languages like c++ and javascript?
+
+Yeah
+
+Yes, exactly. I have experience with more with c++ particularly I think it mostly works is just pretty the efforts to make it something work pretty well. It's quite high and I think mostly when for example, this when we are talking about people like me, there's they're doing a few things at the same time. There's no time to learn things and do things really well in dedicate a lot of time so of course, you're going to try to approach one language that fits into your lifestyle and your way that you think 
+
+> do you have to use certain languages to do to achieve certain tasks do you require certain languages to achieve certain tasks for example taking input from your instrument in supercollider how do you go about that kind of thing?
+
+Yeah, I think any kind of language not to just programming but also talking about language in general, they, they are translation already of something they they kind of belong to certain mindset. So in these when you're also doing music, you kind of filter your ideas Anyway, there's no way that you cannot filter I think
+
+# Why do you use your chosen tools for instrument design?
+
+Yeah. Related relating to hardware, you may it was a consequence of environments mostly I am aware this fusions not open source thing, although I said beginning I want to open source
+
+so it's more emotionally about my environments right now as I say, younger students and so I saw people using your teachers teaching me something and in I guess related to that somehow
+
+> and is is fusion 360 a big part of the instrument design process?
+
+I think other software's for 3d design would also fit completely because the design itself is not such a big deal. But of course, the the way that the thing is designed Of course, it helps me a bit to learn on my own.
+
+> so i gather from knowing a bit about the knurl instrument that you also use like you've got a 3d pipeline going on because i think you 3d print a lot of parts for that?
+
+Oh yeah, I used to sell and this is also considered part of it. A quite a lot. Because of course, when you are manufacturing are limited by the size of the machine or even the harmony material. You want to use it for months, that's it, you don't have to change things and so of course, it kind of shapes you but in essence, if any more in the beginning of feel imitated but later on you kind of it's already in your, your way of thinking so you don't think so much about it?
+
+> like the modelling side of things and then your audio processing side of things do you have do you find that there's any relationship between the process that links those two things or are they just completely independent?
+
+That's a nice question. Um, I have been thinking about it, and it's more about the experience of the project in general, because you realise you need certain time to make things precise. And for music, it's like this. So usually people when you're learning music, or you're starting in location and they want to you are pushed to to make projects for a semester or for three months. But you know, that's not true. You need the two years at least make something good. So I think in general, yeah, I my thoughts are more about the experience of having but in really relating both experiences using this practice. I think zine is it's just such an inspired work and we are so connected to visualise and feel touch try it out use your hands to do things and I think music it's also like this but nowadays I see all students hear around me and they are using probably old classical instruments that they didn't have any kind of connection with building
+
+> if we go back to the tools then that you're using so supercollider and 3d printing i think there's a nice idea there with the iterating and like actually feeling it, like you need to use both a musical thing and a physical thing in the real world to understand it and to actually to build upon it. Do you think that that's a powerful feature of both sides of things - 3d printing to bring something into the real world and like supercolliders very like iterative design
+
+Yeah, I think you know, this concept of design thinking that you you test you brought up and then you test in I think mostly mostly when you are especially programming
+
+you kind of miss the prototype time in I mean, of course you try you run but you need maybe a month or two, you know, two months so that you can really understand what the issues that's your design your way of thinking in that patch telling you.
+
+# Why did you chose your chosen platform(s) to build your instrument on?
+
+Yeah, well yeah, I chose Bella because I realised I play cello and I realised if I wanted to produce electronic music, I had to find a way to make my life easier. My instruments are really big and to make a setup of electro acoustic music it's even bigger. So I wanted to use a self contained I wish to create a self contained instrument where I don't need any sheets too many sheets or anything that destroys my yeah destroys like, or creates some kind of stress in my practice or limitation. Yeah, and Bella showed a lot of advantage to me. There is a preamp built amp built on the on the shields. I don't need to think so much about outputs inputs to create create a dry box or an amplifier and interface mics. me Of course, I have to solder in make my own stuff but I can leave it there and That doesn't change any more.
+
+# Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
+
+Any other tools and we think that's a 3d printers for sure. Of course CNC machine or laser cutters are very, very nice for the beginning paper.
+
+And
+
+let me think. I also just close your eyes and visualise what what do you what do you want? You know, like, kind of really just dream about it. And imagine how you want to play and what do you want to produce? What kind of music so imagination? I would say, I don't know.
+
+> What about, Is there anything that you use in? Because I noticed that the the Knurl is 24TET? Yeah. Is there anything that you use to help you with what is essentially kind of much more experimental in the in the modern, traditional sense of music?
+
+Yet Yeah, the, this this, this answer is very fresh, I would say because it's I am in the moment experimenting. I see. Because I have a still teleclasses and the most the half of the classes are about the snow. And we talked a lot about having a lot of patterns that helps a cellist that are trying to learn to know. And so for example, having the strings like India in this set of some kind of quiet setting, so starting from low to high tuning, so it's keeping coming with this circle of fifths, but also keeping with the the idea of increasing but in relation to to perception. You You also develop some kind of connection between the sense so that helps your your mind to, to hear a bit of microtonality
+
+> So do you use I mean, you must use some kind of tuner to get in to set that up initially?
+
+Yeah, I usually I made in supercollider just a patch here and in tune, because nowadays, there's no way of actually that you can really tune microtonal temperaments, and it's funny to realise that. So yeah, I was using supercollider simply easiest, I think. 
+
+> Yeah. So you have to make your own solution for that.
+
+# What would be the biggest 'Quality of Life' improvement you could request from your tools for designing DMI?
+
+Well, my back appreciates it a lot First of all, because now I change from a set that was around 20 kilos, to 5 kilos.
+
+I mean, like just holding it carrying my cello and speakers and cables. So I changed from this setting to a set of just a cello that has everything in probably five kilos. So that's that's already one thing. Another thing is is the possibility to bring electrical music outside because my cello has solar panels in the case. So I have I can charge and I can just I can just play outside with everything. I think that's very important that you kind of already to other environments. But also the Yeah, just because everything it's basically my house now. I feel like it's it's kind of music's to you for me lead
+
+> And so would there be anything that you could anything like from tools such as supercollider that could help you design the instrument more easily?
+
+I think the UGens of supercollider they are very helpful. I think the help files are also very concise, very, very, like, very precise. So I can read and keep thinking on my flow of what I'm doing. So that's really cool. Sometimes I see this is a problem other software's. That explanation is too hard or to be too long.
+
+> So do you think documentation like act good quality documentation is really useful?
+
+Yeah, yeah. It has to be also very elementary, like, really basic level so that you because even like when you understand stuff, oh, what a sample rate. All right. I know that in other context that you are in a flow or, you know, it's it can be a bit too much sometimes.
+
+> So accessibility and documentation is would be beneficial, basically
+
+Yeah, yeah, I agree. 
+
+# How do you approach the design of a new instrument?
+
+I think thinking of my own practice, as a musician, what am I missing in? and why things doesn't work anymore for me. What is my artistic what what do I want to achieve as an artist but mostly as my, my memory, my muscle memory, memory as a cellist? A lot of things I have been trying to, to read not not repeat, but rethink around. Like, for example, in the cello, like a guitar there is we kind of get written record, we recognise patterns through the town, so I kind of get a reference. And then, in general, I was always thinking like, Oh, this is what I really want. And why do we just too much work? So? So these kind of questions, they were very important to see what is really essential. What is makes a cello, cello. A lot of talks with other teachers and workshops that I had in my life also helped to to imagine why. Yeah, we have this connection with the spine in the instrument. So yeah, summarising muscle memory, I would say 
+
+> So are you saying reimagining the interactions in some way? is quite a big part. Perhaps the idiom of the cello? Like, a common thing you might do in the cello? Do you do take some of those ideas and use them as they are? Or do you try to do transform all of them?
+
+I was. Yeah. It depends if they work. Some ideas, they don't work anymore. And I think it's time to change. You, for example, like the loudness of an instruments, we are rows nowadays, they are not like the rooms of at centre you go. So we don't join you have instruments around us in, in, in our conventional rooms. So So, for example, this is a very good example because you know, it's not so loud, but I also don't want that. So this, this was really a rich transformation. But for example, the fingerboard of snow, it's not really in front of you, it's like this. So you can kind of also use in a way because you are always holding the cello in this angle. It's more like a 3d angle is now it's never like this. It's a bit like this. So I made a fingerboard that reaches forms a bit the idea of holding a cello. So this thing's For example, I will just form the string space spacey, although it's the same 
+
+# When creating a new instrument, what distinct aspects are required to realize the design and implementation?
+
+It's very personal what I'm going to say because it was more related to my experiences and friends that I have around the field of instruments. But I think there is a beginner stage where people are learning to combine software's hardware and tools. So everything's kind of fits. Everything is a prototype in, but there is a sense of reward because it's kind of fast. You get happy
+
+with small testing. But there is a second phase where I think people get more serious. And the second phase can be also more related to a third as well. But it's this cost phase, I would say it's, it's more related to finding, tuning like your idea of what what does,
+
+what do you really want? And now that you know, what are you going to do? Wasn't worked before, two times? What connected with your background or your identity? 
+
+# What do you consider to be the biggest challenge when designing an instrument?
+
+biggest way, this is a strong word. Patience. And I think in my case, is very difficult to say I'm gonna say something very personal.
+
+Because I dream every day to play. But most instrument makers, they don't train to play. They are very anatomical, they just, they just want to build and go for the next one. But I dream to play so for me, patience is the most difficult.
+
+> And is that because you recognise that it's a long process of refinement to achieve the playability the level of playability, you want?
+
+Yeah, it's also like, when you say to play, it means to enjoy, you know, and if your instrument is not waiting for you for the maker to enjoy it. And yeah, it can be quite frustrating.
+
+# What tools do (or could) play the biggest part in helping with these challenges?
+
+having a cello? Really, I play every day and when I start my day playing cello I feel I did my job. I I play it I enjoy it. And now I'm going to build my future cello that sounds weird.
+
+It's kind of part of my practice every day to play a beat in nice deep this, this this gap and, and then have this wish, you know, it's kind of like a prayer to say this kind of work because because it's not working for me anymore. 
+
+> So So the biggest thing is, is an instrument guide is the tool that helps you to To face the challenges of instrument design,
+
+Because remember this is all about enjoying? And then and then everything. Yeah, it's becomes like a meditation everything becomes soft again and there's no rush. You know, if it's your life career, if it's something you're doing for loss, it doesn't matter the time and how much does it can take?
+
+# How would you define a DMI?
+
+How would define a digital instrument? Yeah. I think this this is a very temporary concept in date. But I in my opinion, I just remember this this book from from Thor Magnusson Sonic writing probably 
+
+Alright, so he explains that there is there is a chapter
+
+I'm not sure where when. But there is there is a image that shows like he explaining interfaces and there is this he says the interface or the digital part of the instrument is the magic box, the black magic box, where you can you kind of not really know how what is the action and reaction what why is happening. And maybe that's that's what I would define digital instrument voting this it's like, what you not, you cannot really connect with an action. Physically. 
+
+
+think more and more like a think this is a definition for someone that's listening doesn't really know about what is digital instruments. But mainly, I would I would be more specify specifically if it would be for someone like you that is doing a research.
+
+No, it's like, Yeah, maybe. Maybe it can be more like about having an interface on our hardware. But yeah, that can also be a bit of a future so maybe maybe leaving a bit more general. That's fine.
+
+# What concepts do you consider a DMI to be made up from?
+
+What concept? For sure. A lot of scientific concepts. But yeah, concepts is such a big word word can mean so much things.
+
+Yeah, I would say a lot of physical concepts about, for example, tuning systems, but also a bit of mathematic. Like relating to things to each other calculating system synthesis. But also having fun with it. Like really, really taking all this technical knowledge and saying Oh, Okay, now what's the software? Let's Let's play Let's enjoy. So yeah, I would say a lot of science but also a lot of art. Just adding a bit more last question for the case of instruments design you kind of don't don't have too much connection with a social impacts like a big one more like a political message.
+
+Yeah, and I see that this is also one thing that is growing a bit in, in instrument making throughout all these crossovers nowadays. So people are relating instruments now with political messages. And this is maybe one thing this is changing about concepts and values. 
+
+
+

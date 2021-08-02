@@ -18,7 +18,7 @@ langugaes:
 
 # Why do you use your chosen programming language(s)?
 
-yeah, so I used max MSP because it was one of the first software that musicians used. You know, it started with the first version, which I can't remember exactly when it was it was a cracked copy from someone at the time. And so just to get back to your questions, do I do I use I do not, I do not have other people programme for me. But I did not write software from scratch. I use max MSP and I use that for creating interfacing the hardware to the music to the software. So people's idea of like writing software, yeah, I do write my own programmes, but they're all in max MSP, except in the case of like knitter, which I started using two years ago, no more six years ago, what connaitre also was not written by me, obviously, but Rebecca Sebring. And we did work together for like user interface and how to develop it for herself and for myself. So yeah, so I programmed myself but I did not write the software, what I call writing the software, I do not write objects, and I do not write C plus plus Java
+yeah, so I used max MSP because it was one of the first software that musicians used. You know, it started with the first version, which I can't remember exactly when it was it was a cracked copy from someone at the time. And so just to get back to your questions, do I do I use I do not, I do not have other people programme for me. But I did not write software from scratch. I use max MSP and I use that for creating interfacing the hardware to the music to the software. So people's idea of like writing software, yeah, I do write my own programmes, but they're all in max MSP, except in the case of like Wekinator, which I started using two years ago, no more six years ago, what connaitre also was not written by me, obviously, but Rebecca Fiebrink. And we did work together for like user interface and how to develop it for herself and for myself. So yeah, so I programmed myself but I did not write the software, what I call writing the software, I do not write objects, and I do not write C plus plus Java
 
 stuff.
 
@@ -56,11 +56,11 @@ and again, it's kind of like goes around max MSP as just a way of like interfaci
 
 How many eight in the 80s, I used, I had a friend Paul de merriness. Right,
 
-some kind of forth, a forth box that would do some a to ds. I could not build my own forth box, you know, because I don't know. Forth, and I don't even know if four still exist, actually. But anyway.
+some kind of forth, a forth box that would do some A to Ds. I could not build my own forth box, you know, because I don't know. Forth, and I don't even know if four still exist, actually. But anyway.
 
 That's so just to get back to you.
 
-I've always used other people's ad DS, or, you know, just kind of like adapted. I can't spend too much time as think rethinking
+I've always used other people's A to DS, or, you know, just kind of like adapted. I can't spend too much time as think rethinking
 
 everything.
 
@@ -110,7 +110,7 @@ okay
 
 yeah
 
-yeah, no, I think I think tools I think the machine learning mmm I have a lot of issues with tools that need to be improved, but I'm not sure that totally related to InDesign for instance, I have a big issues right now with citizen synthesis being available and things being way too compartmentalise between
+yeah, no, I think I think tools I think the machine learning mmm I have a lot of issues with tools that need to be improved, but I'm not sure that totally related to Design for instance, I have a big issues right now with citizen synthesis being available and things being way too compartmentalise between
 
 visual data, Sonic data, and I kind of wish I could just kind of be much more, you know, flexible with how I extract data
 
@@ -122,7 +122,7 @@ mapping, it's all kind of big bundles, you know, I don't have it so compartmenta
 
 Oh,
 
-no, I guess I'm just used to, I think, I think that the neural net thing is, is a great improvement for me, I can heal. I feel like I was react to what is there? And the news, it covers scavenger, you know, like, what Oh, is that I'm gonna do this, or there's this piece of metal, I'm going to do this. I don't really have that much forward thinking. I think as to if only I had this, I could do that. I think I'm much more just, yeah, like,
+no, I guess I'm just used to, I think, I think that the neural net thing is, is a great improvement for me, I can feel. I feel like I was react to what is there? And the news, it covers scavenger, you know, like, what Oh, is that I'm gonna do this, or there's this piece of metal, I'm going to do this. I don't really have that much forward thinking. I think as to if only I had this, I could do that. I think I'm much more just, yeah, like,
 
 kind of not even hacker, but kind of scavenger of like, what's out there? And what can I do with it? So I can't really think of anything.
 
@@ -178,7 +178,7 @@ is mostly we have a community, I guess, in California, of
 
 builders in California has a tradition of builders and their Silicon Valley and that so the things that I need is I need access to people who will give me ideas, you know,
 
-but as far as, for me, the aspects that are required for the design is just time and, and money. That's all I need. I need to you know, have the time to two, because I did not design. Again, like I said, I do not know what I'm going to do. If I knew what I was going to do. I could just maybe send you know, some person the plan and say here, Bill, me, dad, but and I guess I could do that once I have built the first prototype. But then once I finished with the first prototype, I'm most interested in how to develop it and how to use it. So.
+but as far as, for me, the aspects that are required for the design is just time and, and money. That's all I need. I need to you know, have the time to two, because I did not design. Again, like I said, I do not know what I'm going to do. If I knew what I was going to do. I could just maybe send you know, some person the plan and say here, build me that, but and I guess I could do that once I have built the first prototype. But then once I finished with the first prototype, I'm most interested in how to develop it and how to use it. So.
 
 So again, it's a very slow growth process. I'm not sure I'm answering your question correctly. But
 
@@ -192,7 +192,7 @@ yeah,
 
 I guess the challenge is, is is a?
 
-Again, I'm not sure man string I'm I think I'm taking things sideways for maybe a more formal
+Again, I'm not sure I'm I think I'm taking things sideways for maybe a more formal
 
 answer. But
 

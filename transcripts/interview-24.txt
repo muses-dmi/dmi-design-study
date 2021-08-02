@@ -28,7 +28,6 @@ langugaes:
 I've learned c/c++ at the university around the year 1996 and thankfully it's still the most widely used language in embedded systems. A few other languages required for smaller tasks (website design or various scripts and utilities related to the project) were easy enough to pick along the way.
 
 # Why do you use your chosen tools for instrument design?  and how did you come to use them?
-(You may consider both physical and software tools.)
 
 Software tools are usually supplied by chip manufacturer, in my case all necessary compilers and IDE were freely available from STMicroelectronics & Atollic, Espressif, or as a free open-source software from 3rd party (Eclipse). Physical tools that I use are very basic and mostly ordered from eBay: multimeter, oscilloscope, microscope, power source & soldering station with hot air. I do not invest in expensive tools until what I have proves to be insufficient or limiting.
 

@@ -71,8 +71,7 @@ like Adafruit and Sparkfun.
 
 # Why did you chose STM32 as a platform to build your instrument on?
 
-(copied-pasted from
-https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforum.mutable-instruments.net%2Ft%2Fwhy-stm32-chips%2F16005%2F2%3Fu%3Dpichenettes&amp;data=04%7C01%7CNathan.Renney%40uwe.ac.uk%7C5022db007cd34b3ca05908d8c13f04d5%7C07ef1208413c4b5e9cdd64ef305754f0%7C0%7C0%7C637471823697691183%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=Gtg4cBzqtSnFTcGj2%2Bj0BJ9ZDZSpQtN9fGAxkN56YHc%3D&amp;reserved=0)
+(copied-pasted from https://forum.mutable-instruments.net/t/why-stm32-chips/16005/2?u=pichenettes )
 
 Why not DSPs?
 

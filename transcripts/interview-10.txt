@@ -44,7 +44,7 @@ members of the team who were used to, you know, who are doing aerospace or, or o
 
 on the app side, because we're cross platform, we've been doing c++ and
 
-and also using juice more recently for that, so.
+and also using juce more recently for that, so.
 
 So that that was just sort of a default, but wasn't. Yeah. Does that make sense?
 
@@ -149,7 +149,7 @@ Sure. So we, for the instrument, one, we use microchip processors, and then we s
 
 for orba. And, and the switch to arm is really about going more,
 
-you know, more universal, and, and just more compatible. It we still kind of developed everything from the ground up on it, but it was it was a little more predictable in doing so. But But both of them, you know, were the it was really just timing. I mean, we started with the microchip stuff. In 2012, we we initially prototyped on Arduino, and then we switched over and then you know, back to arm for orbit. So is that is that the kind of thing you
+you know, more universal, and, and just more compatible. It we still kind of developed everything from the ground up on it, but it was it was a little more predictable in doing so. But But both of them, you know, were the it was really just timing. I mean, we started with the microchip stuff. In 2012, we we initially prototyped on Arduino, and then we switched over and then you know, back to arm for orba. So is that is that the kind of thing you
 
 # Are there any other tools (software or otherwise) that you feel contributes significantly to your process?
 
@@ -178,7 +178,7 @@ And, and I've seen a few things pop up that are going to make that easier, but w
 
 On the on the app side, I don't know of tools on the hardware side that are gonna make it too much easier. I mean, there's the
 
-there's the elk audio stuff, there's baileigh You know, there's a few of those but, but they still they're still difficult. You know, it's not it's not like a weekend Project For the uninitiated. So I think hardware is probably going to stay difficult if you want to do new,
+there's the elk audio stuff, there's bela You know, there's a few of those but, but they still they're still difficult. You know, it's not it's not like a weekend Project For the uninitiated. So I think hardware is probably going to stay difficult if you want to do new,
 
 you know, like this kind of new thing form factors, price points, all that if, if your goal is just to sort of make sounds from triggers, then yeah, I mean, get an Arduino or or Raspberry Pi and
 
@@ -190,7 +190,7 @@ that kind of learned skill. As far as I know, please tell me otherwise.
 
 # How do you approach the design of a new instrument?
 
-Yeah, I mentioned it a little earlier, but I'll pick up that thread, the sort of, you know, inspired by the human body kind of stuff, we, we really don't want to, well, what we do want to do is, is kind of toe the line between the tradition of instruments, because these gestures are pretty, pretty universal. I mean, humans have been doing them for 1000s of years, things like strumming, tapping, sliding, you know, but, but so many of them were based on based on physics of resonance. And so we're constantly trying to push toward more accessible ways of touching and interacting with instruments.
+Yeah, I mentioned it a little earlier, but I'll pick up that thread, the sort of, you know, inspired by the human body kind of stuff, we, we really don't want to, well, what we do want to do is, is to kind of toe the line between the tradition of instruments, because these gestures are pretty, pretty universal. I mean, humans have been doing them for 1000s of years, things like strumming, tapping, sliding, you know, but, but so many of them were based on based on physics of resonance. And so we're constantly trying to push toward more accessible ways of touching and interacting with instruments.
 
 And, and yet, that can go way too far into kind of like a squishy, you know, like, you can't tell what you're even doing, it just makes sound. And so if you abstract too much, then then you as the musician, or the audience doesn't even know where the sounds coming from. And so finding that that balance of intentionality, and ergonomics that you can trace, rather than just push a button or like move your hands around, and things happen, we're trying to kind of have a one to one relationship there. So the otherwise I'd say, we, we work with concepts, you know, orba was really about taking this concept of a handheld device, similar to a phone similar to a gaming controller,
 
@@ -220,7 +220,7 @@ going to break the experience. And that could be because of a user's familiarity
 
 you know,
 
-muscle memory. You know, I don't, I'm not a big proponent of musical scale.
+muscle memory. You know, I don't, I'm not a big proponent of musical skill.
 
 I think it's more about the, the our familiarity with certain technologies than any kind of, I don't know,
 
@@ -228,7 +228,7 @@ predisposition. But so we, we tend to ignore skill, or do our do our best to go 
 
 to have a musical intention and get there not just as quickly as possible, but as sort of thoroughly as possible, can my body do something that feels good, that makes a sound that feels good, and if those things match up with minimal friction, that's the best, that's the best feeling.
 
-And, and sometimes that's turning a knob, like on a mug. You know, the the filter knob feels great. But for most people, it's not that abstract. For most people, it's more of a direct and mechanical kind of thing. So yeah, we we, for orba. For instance, we
+And, and sometimes that's turning a knob, like on a moog. You know, the the filter knob feels great. But for most people, it's not that abstract. For most people, it's more of a direct and mechanical kind of thing. So yeah, we we, for orba. For instance, we
 
 we kind of we close our eyes, head out our hands and said, like what fits in the human hands? And what do your thumbs do? And like how do our thumbs work with touchscreens now? Like, we have crazy dexterity with our thumbs? How can we really reward that. And so we designed this custom capacitive touch sensor
 
@@ -272,8 +272,7 @@ He we, we restrict ourselves in both directions quite a bit. We don't want to ge
 Well, I haven't said MIDI yet somehow have I. So that would, that is definitely the biggest tool that has enabled this. I mean, I, I started, I started artiphys on 10 years ago, partly because GarageBand had hit the iPad. And I was living in Nashville, and seeing all my friends who had had worked in studios for years, you know, build their own home Studios on their MacBooks and then get iPads and be able to go anywhere and do field recordings and things. So it was like, and seeing that even the people who hadn't worked in studios were recording like songwriters, we're now recording demos on their phones and iPads and, and it just felt like this huge shift so that the mobile revolution was one thing but none of that would have been possible without MIDI tying all this stuff together. And that's, that's really the foundation that we've used this whole time is MIDI at this pretty universal musical language
 
 means that we can design new ways to translate human gestures into MIDI, and then allow for the 1000s of applications, you know, that people can do with that.
-
-mp has been has been helpful the past couple years, because our instruments are NP and and we get a lot of expression from that. But um, but yeah, it's still just middie
+MPE has been has been helpful the past couple years, because our instruments are MPE and and we get a lot of expression from that. But um, but yeah, it's still just MIDI
 
 > You mentioned Orba having minimal connections, is that then influenced by midi or does it have midi?
 

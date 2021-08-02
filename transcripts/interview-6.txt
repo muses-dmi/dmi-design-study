@@ -45,7 +45,7 @@ problems that are introduced just to to evolve in programming languages or progr
 
 That's one main concern.
 
-Not a big concern is performance. It's very, from the beginning, very important decision for me to decide
+Another big concern is performance. It's very, from the beginning, very important decision for me to decide
 
 which programming language will run on which target, if the target is resource constrained, like if it's an embedded platform, then it will go for programming languages that have a little less overhead or to provide like lower level access.
 
@@ -59,7 +59,7 @@ in my opinion, is to make it feel at home in the existing environment so that it
 
 Like, all those interaction paradigms, I think, that are part of their existing interaction model should just get out of the way.
 
-Another critical part there, and that's sort of a recent concern of mine is Africa, I'm very passionate about accessibility, which is a big
+Another critical part there, and that's sort of a recent concern of mine is , I'm very passionate about accessibility, which is a big
 
 issue with a lot of digital products in that people tend to focus on a subset of the population that is fully abled.
 
@@ -145,7 +145,7 @@ And even though it is by no means perfect, like none of the tools are, it is the
 
 I used to do a lot of work in the Java world. And there's this company JetBrains, that makes a whole bunch of IDs.
 
-And they they they created a C, A C ID and an objective c ID.
+And they they they created a C IDE and an objective c IDE.
 
 And I've been at keep trying them out.
 
@@ -175,9 +175,9 @@ But also in general, I use some of the DSP primitives that come with the metric 
 
 And it's a very low impact.
 
-extremely capable audio interface with onboard DSP processing that operate a little bit like Maximus p, where you can easily simulate and isolate things. So I can create simulators, simulations, environments through there that are very decoupled and then also they have
+extremely capable audio interface with onboard DSP processing that operate a little bit like Max MSP, where you can easily simulate and isolate things. So I can create simulators, simulations, environments through there that are very decoupled and then also they have
 
-Recording functionality that is directly tied to their driver. So I don't, obviously I use the AWS use sometimes when I have to test out how MIDI and audio in interoperates, and stuff like that, but
+Recording functionality that is directly tied to their driver. So I don't, obviously I use the DAWS use sometimes when I have to test out how MIDI and audio in interoperates, and stuff like that, but
 
 if it's really to analyse audio or to analyse signals,
 
@@ -245,7 +245,7 @@ But it's just due to, that actually comes from,
 
 like, I have very, very little history with embedded programming. It started when I was doing an instrument with Roger. And he had prototyped it with an Arduino to a and then sort of picked it up from there. And then just like, Okay, well, that's it. I've done quite a bit of xmos. So. But that is,
 
-I mean, it's just part of a project that Moog and I would never pick it. Like, it's just something that I had to deal with.
+I mean, it's just part of a project at Moog and I would never pick it. Like, it's just something that I had to deal with.
 
 I would not consciously choose for an X mos platform, if it's, if it has to do anything else than what they provide as existing functionality. Because it's,
 
@@ -297,7 +297,7 @@ That's such a loaded question.
 
 Because it really, it really depends on who you're designing with.
 
-Like I have, I have so many very different examples in mind, like my team in Moke, it is basically whole of Mogees designed with the instrument in a way, which is such a different approach than when I just like, hey, let's create an instrument with the Apple Watch. And that just code for a few weeks, and then it's there.
+Like I have, I have so many very different examples in mind, like my team in Moog, it is basically whole of Moog's designs  with the instrument in a way, which is such a different approach than when I just like, hey, let's create an instrument with the Apple Watch. And then just code for a few weeks, and then it's there.
 
 So
 
@@ -481,7 +481,7 @@ jitter is the most difficult thing to deal with. Because long latencies are anno
 
 in order for the most people to be able to deal with it, you want to have low latency, of course jitter is the killer, because the human brain can't innately handle time discontinuities. So even though you won't perceive it, there will be these tiny little fluctuations that make it impossible for you as a human being to grab on to it on on to what is happening in a way.
 
-Now, if you can reduce that shitter sufficiently, I think, well
+Now, if you can reduce that jitter sufficiently, I think, well
 
 I haven't looked it up recently. Everything
 

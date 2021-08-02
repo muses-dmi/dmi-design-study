@@ -129,7 +129,7 @@ Pretty much everything I've done in the last 40 years with with one notable smal
 
 That's That's sad.
 
-You know, it's not that everyone builds or duplicates the insurance that I build or have built, some do some Don't you know, but, but it is important to make sure that that so it did so it doesn't help if I choose a tool, which is obscure, weird, no one else is gonna be able to manipulate.
+You know, it's not that everyone builds or duplicates the instruments that I build or have built, some do some Don't you know, but, but it is important to make sure that that so it did so it doesn't help if I choose a tool, which is obscure, weird, no one else is gonna be able to manipulate.
 
 Like, that's less satisfying.
 
@@ -171,7 +171,7 @@ So, there are a lot of ancillary tools
 
 in, in digital engineering,
 
-that get used, and I think they're often Well, they're not under pressure, but there are some they don't seem, they're not directly involved in the direct pipeline, but they're like, like, I have a nice a Scylla scope. You know, you know, you go to buy your first nicest telescope, you're like, Oh, my God, like a cat could buy like the $300 dollar budget model. Or, I could buy the fourth trace one with the you know, digital with the logic and analysis thing. And you finally grit your teeth and pony up the $600.07 to $800, whatever the cost, and then you're like, Ah, it's a nice scope. Like having having a nice good tool like pays you back in spades. It pays you back so well, even though it's sort of this indirect thing.
+that get used, and I think they're often Well, they're not under pressure, but there are some they don't seem, they're not directly involved in the direct pipeline, but they're like, like, I have a nice a Oscilloscope. You know, you know, you go to buy your first nicest Oscilloscope, you're like, Oh, my God, like a cat could buy like the $300 dollar budget model. Or, I could buy the fourth trace one with the you know, digital with the logic and analysis thing. And you finally grit your teeth and pony up the $600 to $800, whatever the cost, and then you're like, Ah, it's a nice scope. Like having having a nice good tool like pays you back in spades. It pays you back so well, even though it's sort of this indirect thing.
 
 In software, there's so many things like this, believe it or not, like a good spreadsheet. I do a surprising amount of design work involving a spreadsheet You know, you're trying to do things like figure out
 
@@ -185,7 +185,7 @@ There are a lot of little tools having
 
 having your source code repositories and workflows set up.
 
-Like these little tools are all here's the thing about all these little tools like having the right set of screwdrivers at hand or having I noticed you have a lovely haco soldering iron. When I bought my haco soldering iron. That was another one like this whole scope. I was like, I know I've had this trusty other cheapo soldering iron for the last, you know, 40 years. That's worked fine. Okay, final drop 100 Why did I do this sooner, like
+Like these little tools are all here's the thing about all these little tools like having the right set of screwdrivers at hand or having I noticed you have a lovely hakko soldering iron. When I bought my hakko soldering iron. That was another one like this whole scope. I was like, I know I've had this trusty other cheapo soldering iron for the last, you know, 40 years. That's worked fine. Okay, final drop 100 Why did I do this sooner, like
 
 tiny tools at hand that don't get you out of I hesitate to use the hip term flow state are important. And they really, really are. And I find that those things, when you find them, you should latch on to them and make them part of your sort of ancillary constant toolkit. I'm
 
@@ -223,7 +223,7 @@ Great. And then like when engineering comes back and says, Oh, you know, those s
 
 It doesn't matter, you have a full time CAD guy who can sit there and go, that's one three quarters an inch, that one three quarters of an inch, you know, make sure I checked everything, double check everything twice. We don't run the simulation with a circuit board yet, blah, blah, blah.
 
-When you're a single person, that's like really suck ass. Like, I just don't have the light. It's not that I just don't have the time. I'm just not gonna be good doing it that way. And so, what I needed something was really that was procedural, I needed to be able to say, I don't know how wide This is yet, because like, that's one of the weird design constraints, but like when I make the case, do I have one of my cases laying around? Now there I've seen that I want to be in the garage because they're all over there. It's like this weird bamboo case that comes fitted together with like seven pieces. It's kind of crazy thing.
+When you're a single person, that's like really suck ass. Like, I just don't have the time. It's not that I just don't have the time. I'm just not gonna be good doing it that way. And so, what I needed something was really that was procedural, I needed to be able to say, I don't know how wide This is yet, because like, that's one of the weird design constraints, but like when I make the case, do I have one of my cases laying around? Now there I've seen that I want to be in the garage because they're all over there. It's like this weird bamboo case that comes fitted together with like seven pieces. It's kind of crazy thing.
 
 Like I was like, okay, like, Why don't how wide it is. But like, you know, the USB socket has to be this size and has to be set you know, is gonna be, you know, point two inches in from the left edge. Like I needed something that did that. I went and look high and low for this stuff. I came up with j s CAD, it was an interesting project is direct to use it.
 
@@ -257,7 +257,7 @@ yeah, I
 
 think the thing I mostly struggle with is physical layout.
 
-And that that happens on two structures. One, I mean, I've just talked extensively have like, I really haven't figured out what to do about cases and closures and shit like that, like that just really, really a hard problem for me, at the moment.
+And that that happens on two structures. One, I mean, I've just talked extensively have like, I really haven't figured out what to do about cases and enclosures and shit like that, like that just really, really a hard problem for me, at the moment.
 
 A little bit less. So with PCB layout, in so far as I know, I kind of mean that, like, I sort of get what to do there. And I'm not that great at it, but I can do it.
 
@@ -422,7 +422,7 @@ pencil and paper, it actually helps to be
 
 abstract and away from the device. And just think about it. And I pencil and paper is a huge, huge factor.
 
-Another one that's really, really hard to get, that can be a help. Is, is a willing set of years is, you know, sudden another musician who's willing who is willing to invest the effort it takes to think about an instrument which doesn't exist yet.
+Another one that's really, really hard to get, that can be a help. Is, is a willing set of ears is, you know, sudden another musician who's willing who is willing to invest the effort it takes to think about an instrument which doesn't exist yet.
 
 I often don't have that luxury. But I think that's the key thing. Is that, that that for that challenge? The tools aren't physical. I mean, it's it's it's a tool of abstraction and forcing yourself to be that way.
 

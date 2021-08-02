@@ -26,7 +26,7 @@ Pretty much yeah.
 
 > Is there any kind of interplay between the Python and c++?
 
-Also, like, I think I will mention that when we move on to the tools, but like, in Python, I can just quickly draw a window and expose a button and like change some parameters in real time, or plot curves and analyse them and quickly splayed in mean, like Jupyter Notebook or something. So it's so yeah, it's just way faster for me since like, I treat Python like people treat MATLAB.
+Also, like, I think I will mention that when we move on to the tools, but like, in Python, I can just quickly draw a window and expose a button and like change some parameters in real time, or plot curves and analyse them and quickly display in, like Jupyter Notebook or something. So it's so yeah, it's just way faster for me since like, I treat Python like people treat MATLAB.
 
 > when you move an idea between Python and c++, is that a seamless process for you? Or do you find that anything gets lost in that translation?
 
@@ -88,7 +88,7 @@ Think I'm gonna be equally vague. Okay, for It's said to me, it's like, physical
 
 # What concepts do you consider a DMI to be made up from?
 
-Yeah, so definitely, like an interface that enables like, putting ideas in right, so whatever the interface and it can be, like, something that lets you interact with the, or like something that lets you express your ideas directly, or maybe something like an interface that lets you set expectations or an interface that lets you parameterize it when the instrument does not let you be creative. The instrument itself is created for like a neural network, right? So I'd like you how you would like to be able to parameterize it play with it a little bit. So yes, so this user interface definitely. And then, so for me only like two elements are always present. So like this, the key and interface and then an output basically, and as I said, the output doesn't have to be audible it can be like a MIDI note, right? So like output that can be translated to something audible. So I think these are the key only two universal things that they find necessary to for something to be called an instrument and the rest is like a playground and can be anything 
+Yeah, so definitely, like an interface that enables like, putting ideas in right, so whatever the interface and it can be, like, something that lets you interact with the, or like something that lets you express your ideas directly, or maybe something like an interface that lets you set expectations or an interface that lets you parameterize it when the instrument does not let you be creative. Imagine the instrument itself is created for like a neural network, right? So I'd like you how you would like to be able to parameterize it play with it a little bit. So yes, so this user interface definitely. And then, so for me only like two elements are always present. So like this, the key and interface and then an output basically, and as I said, the output doesn't have to be audible it can be like a MIDI note, right? So like output that can be translated to something audible. So I think these are the key only two universal things that they find necessary to for something to be called an instrument and the rest is like a playground and can be anything 
 
 # Any other comments?
 
